@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\text\test\test_detection.cpp">
+      <Filter>opencv_text\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\text\test\test_detection_swt.cpp">
+      <Filter>opencv_text\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\text\test\test_main.cpp">
+      <Filter>opencv_text\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\text\test\test_precomp.hpp">
+      <Filter>opencv_text\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_text">
+      <UniqueIdentifier>{68679A88-A611-3DA9-84C2-F19B612BC387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_text\Include">
+      <UniqueIdentifier>{F24A065F-F5D4-306E-9FB5-DFBA3C8B86D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_text\Src">
+      <UniqueIdentifier>{513D74AD-88D8-3F33-9EB7-E024C3D79AC5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

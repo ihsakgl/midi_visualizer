@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_cudaobjdetect
+ PerfTest
+# Source files and their labels
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudaobjdetect/perf/perf_main.cpp
+ Extra
+ opencv_cudaobjdetect
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudaobjdetect/perf/perf_objdetect.cpp
+ Extra
+ opencv_cudaobjdetect
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudaobjdetect/perf/perf_precomp.hpp
+ Extra
+ opencv_cudaobjdetect
+ PerfTest

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaarithm\perf\perf_arithm.cpp">
+      <Filter>opencv_cudaarithm\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaarithm\perf\perf_core.cpp">
+      <Filter>opencv_cudaarithm\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaarithm\perf\perf_element_operations.cpp">
+      <Filter>opencv_cudaarithm\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaarithm\perf\perf_main.cpp">
+      <Filter>opencv_cudaarithm\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaarithm\perf\perf_reductions.cpp">
+      <Filter>opencv_cudaarithm\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaarithm\perf\perf_precomp.hpp">
+      <Filter>opencv_cudaarithm\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_cudaarithm">
+      <UniqueIdentifier>{D3B73619-01B5-3F99-8F20-0742F76A842D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudaarithm\Include">
+      <UniqueIdentifier>{EDE46FF6-610E-3833-A104-F2DC7E2883EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudaarithm\Src">
+      <UniqueIdentifier>{0F08098B-9EFE-37D7-A283-F4770B6E16FC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

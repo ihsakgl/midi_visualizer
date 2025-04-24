@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_cudawarping
+ PerfTest
+# Source files and their labels
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudawarping/perf/perf_main.cpp
+ Extra
+ opencv_cudawarping
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudawarping/perf/perf_warping.cpp
+ Extra
+ opencv_cudawarping
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudawarping/perf/perf_precomp.hpp
+ Extra
+ opencv_cudawarping
+ PerfTest

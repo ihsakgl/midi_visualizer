@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\tracking\test\test_aukf.cpp">
+      <Filter>opencv_tracking\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\tracking\test\test_main.cpp">
+      <Filter>opencv_tracking\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\tracking\test\test_trackerParametersIO.cpp">
+      <Filter>opencv_tracking\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\tracking\test\test_trackers.cpp">
+      <Filter>opencv_tracking\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\tracking\test\test_twist.cpp">
+      <Filter>opencv_tracking\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\tracking\test\test_ukf.cpp">
+      <Filter>opencv_tracking\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\tracking\test\test_precomp.hpp">
+      <Filter>opencv_tracking\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_tracking">
+      <UniqueIdentifier>{1EA09E7B-7F40-345B-BD40-F7DDFA31F9F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_tracking\Include">
+      <UniqueIdentifier>{F0A06BDE-6944-36B8-AC89-EE2BFFE1A113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_tracking\Src">
+      <UniqueIdentifier>{6D1D7E94-0EFB-3CEF-9060-99987ECF41B1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

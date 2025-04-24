@@ -1,0 +1,12 @@
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\perf\perf_caffe.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_dnn.dir\Release\perf_caffe.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\perf\perf_common.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_dnn.dir\Release\perf_common.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\perf\perf_convolution.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_dnn.dir\Release\perf_convolution.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\perf\perf_convolution1d.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_dnn.dir\Release\perf_convolution1d.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\perf\perf_convolution3d.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_dnn.dir\Release\perf_convolution3d.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\perf\perf_einsum.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_dnn.dir\Release\perf_einsum.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\perf\perf_gemm.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_dnn.dir\Release\perf_gemm.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\perf\perf_layer.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_dnn.dir\Release\perf_layer.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\perf\perf_main.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_dnn.dir\Release\perf_main.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\perf\perf_net.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_dnn.dir\Release\perf_net.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\perf\perf_recurrent.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_dnn.dir\Release\perf_recurrent.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\perf\perf_utils.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_dnn.dir\Release\perf_utils.obj

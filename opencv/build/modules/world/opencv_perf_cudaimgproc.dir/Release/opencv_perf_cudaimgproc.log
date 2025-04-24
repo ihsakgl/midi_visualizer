@@ -1,0 +1,13 @@
+﻿  perf_bilateral_filter.cpp
+  perf_blend.cpp
+  perf_canny.cpp
+  perf_color.cpp
+  perf_corners.cpp
+  perf_gftt.cpp
+  perf_histogram.cpp
+  perf_hough.cpp
+  perf_main.cpp
+  perf_match_template.cpp
+  perf_mean_shift.cpp
+  perf_moments.cpp
+  opencv_perf_cudaimgproc.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_cudaimgproc.exe

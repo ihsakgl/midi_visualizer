@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/signal/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_signal",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/signal/perf/perf_resample.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_signal",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/signal/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_signal",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_signal",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_signal"
+	}
+}

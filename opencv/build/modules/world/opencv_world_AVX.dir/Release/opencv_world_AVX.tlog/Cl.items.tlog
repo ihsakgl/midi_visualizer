@@ -1,0 +1,9 @@
+C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\mathfuncs_core.avx.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_world_AVX.dir\Release\mathfuncs_core.avx.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\norm.avx.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_world_AVX.dir\Release\norm.avx.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgproc\src\corner.avx.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_world_AVX.dir\Release\corner.avx.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\accum.avx.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_world_AVX.dir\Release\accum.avx.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\layers\layers_common.avx.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_world_AVX.dir\Release\layers_common.avx.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\layers\cpu_kernels\conv_block.avx.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_world_AVX.dir\Release\conv_block.avx.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\layers\cpu_kernels\conv_depthwise.avx.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_world_AVX.dir\Release\conv_depthwise.avx.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\layers\cpu_kernels\conv_winograd_f63.avx.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_world_AVX.dir\Release\conv_winograd_f63.avx.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\layers\cpu_kernels\fast_gemm_kernels.avx.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_world_AVX.dir\Release\fast_gemm_kernels.avx.obj

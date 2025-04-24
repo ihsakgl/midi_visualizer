@@ -1,0 +1,14 @@
+﻿  test_arithm.cpp
+  test_buffer_pool.cpp
+  test_core.cpp
+  test_element_operations.cpp
+  test_event.cpp
+  test_gpumat.cpp
+  test_main.cpp
+  test_opengl.cpp
+  test_reductions.cpp
+  test_stream.cpp
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaarithm\test\test_event.cpp(94,37): warning C4101: 'ex': unreferenced local variable
+     Creating library C:/Users/ihsan/Projects/Synthesia/opencv/build/bin/Release/opencv_test_cudaarithm.lib and object C:/Users/ihsan/Projects/Synthesia/opencv/build/bin/Release/opencv_test_cudaarithm.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  opencv_test_cudaarithm.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_cudaarithm.exe

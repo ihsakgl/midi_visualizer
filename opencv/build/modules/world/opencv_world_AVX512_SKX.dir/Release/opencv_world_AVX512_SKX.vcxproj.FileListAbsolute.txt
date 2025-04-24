@@ -1,0 +1,1 @@
+C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_world_AVX512_SKX.dir\Release\opencv_world_AVX512_SKX.lib

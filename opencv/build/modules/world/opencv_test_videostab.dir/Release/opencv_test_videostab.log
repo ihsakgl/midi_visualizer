@@ -1,0 +1,4 @@
+﻿  test_main.cpp
+  test_motion_estimation.cpp
+  test_stabilizer.cpp
+  opencv_test_videostab.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_videostab.exe

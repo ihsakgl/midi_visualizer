@@ -1,0 +1,10 @@
+﻿  average_hash.cpp
+  block_mean_hash.cpp
+  color_moment_hash.cpp
+  img_hash_base.cpp
+  marr_hildreth_hash.cpp
+  phash.cpp
+  radial_variance_hash.cpp
+  opencv_img_hash_main.cpp
+     Creating library C:/Users/ihsan/Projects/Synthesia/opencv/build/lib/Release/opencv_img_hash4120.lib and object C:/Users/ihsan/Projects/Synthesia/opencv/build/lib/Release/opencv_img_hash4120.exp
+  opencv_img_hash.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_img_hash4120.dll

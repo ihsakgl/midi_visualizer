@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\test\test_filters.cpp">
+      <Filter>opencv_cudafilters\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\test\test_main.cpp">
+      <Filter>opencv_cudafilters\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\test\test_precomp.hpp">
+      <Filter>opencv_cudafilters\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_cudafilters">
+      <UniqueIdentifier>{4FCD8304-2F02-30CB-A0A8-0FB2FAA2E712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudafilters\Include">
+      <UniqueIdentifier>{8B245E79-7B65-3DCD-A72F-FAA2780E856A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudafilters\Src">
+      <UniqueIdentifier>{24CD858A-554C-3C74-A43E-57D12DE4C742}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

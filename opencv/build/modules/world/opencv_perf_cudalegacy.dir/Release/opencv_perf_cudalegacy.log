@@ -1,0 +1,5 @@
+﻿  perf_bgsegm.cpp
+  perf_calib3d.cpp
+  perf_labeling.cpp
+  perf_main.cpp
+  opencv_perf_cudalegacy.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_cudalegacy.exe

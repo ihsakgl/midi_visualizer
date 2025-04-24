@@ -1,0 +1,14 @@
+﻿  test_ann.cpp
+  test_bayes.cpp
+  test_em.cpp
+  test_kmeans.cpp
+  test_knearest.cpp
+  test_lr.cpp
+  test_main.cpp
+  test_mltests.cpp
+  test_rtrees.cpp
+  test_save_load.cpp
+  test_svmsgd.cpp
+  test_svmtrainauto.cpp
+  test_utils.cpp
+  opencv_test_ml.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_ml.exe

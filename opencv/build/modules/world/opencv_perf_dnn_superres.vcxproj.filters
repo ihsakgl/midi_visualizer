@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\dnn_superres\perf\perf_dnn_superres.cpp">
+      <Filter>opencv_dnn_superres\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\dnn_superres\perf\perf_main.cpp">
+      <Filter>opencv_dnn_superres\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\dnn_superres\perf\perf_precomp.hpp">
+      <Filter>opencv_dnn_superres\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_dnn_superres">
+      <UniqueIdentifier>{00FCEAF3-D6F3-339C-9A5F-648139AE2962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn_superres\Include">
+      <UniqueIdentifier>{09D5B07D-DEDF-343D-BDFA-AA5E286F6B5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn_superres\Src">
+      <UniqueIdentifier>{D1FD00C7-4659-3661-BDD7-87DA629E3FD9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/rgbd/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rgbd",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/rgbd/perf/perf_tsdf.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rgbd",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/rgbd/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rgbd",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_rgbd",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_rgbd"
+	}
+}

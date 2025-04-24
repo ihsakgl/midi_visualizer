@@ -1,0 +1,25 @@
+# Target labels
+ Extra
+ opencv_stereo
+ AccuracyTest
+# Source files and their labels
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/stereo/test/test_block_matching.cpp
+ Extra
+ opencv_stereo
+ AccuracyTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/stereo/test/test_descriptors.cpp
+ Extra
+ opencv_stereo
+ AccuracyTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/stereo/test/test_main.cpp
+ Extra
+ opencv_stereo
+ AccuracyTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/stereo/test/test_qds_matching.cpp
+ Extra
+ opencv_stereo
+ AccuracyTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/stereo/test/test_precomp.hpp
+ Extra
+ opencv_stereo
+ AccuracyTest

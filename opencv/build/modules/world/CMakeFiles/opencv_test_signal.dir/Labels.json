@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/signal/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_signal",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/signal/test/test_signal.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_signal",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/signal/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_signal",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_signal",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_signal"
+	}
+}

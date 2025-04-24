@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "3rdparty/ippiw",
+		"source" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/iw"
+	}
+}

@@ -1,0 +1,16 @@
+﻿  jcapistd.c
+  jccolor.c
+  jcdiffct.c
+  jclossls.c
+  jcmainct.c
+  jcprepct.c
+  jcsample.c
+  jdapistd.c
+  jdcolor.c
+  jddiffct.c
+  jdlossls.c
+  jdmainct.c
+  jdpostct.c
+  jdsample.c
+  jutils.c
+  jpeg16-static.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.dir\Release\jpeg16-static.lib

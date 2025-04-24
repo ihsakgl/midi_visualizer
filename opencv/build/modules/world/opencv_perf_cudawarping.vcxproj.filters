@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudawarping\perf\perf_main.cpp">
+      <Filter>opencv_cudawarping\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudawarping\perf\perf_warping.cpp">
+      <Filter>opencv_cudawarping\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudawarping\perf\perf_precomp.hpp">
+      <Filter>opencv_cudawarping\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_cudawarping">
+      <UniqueIdentifier>{6DA1DF17-59A1-3E78-B031-E7BA11B13A1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudawarping\Include">
+      <UniqueIdentifier>{70730476-990C-336F-BD28-65197C455393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudawarping\Src">
+      <UniqueIdentifier>{08481962-5C21-3D53-937A-84D4577494EC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

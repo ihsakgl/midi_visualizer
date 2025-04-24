@@ -1,0 +1,7 @@
+﻿  perf_stitch.cpp
+  perf_warpers.cpp
+  perf_estimators.cpp
+  perf_main.cpp
+  perf_matchers.cpp
+  perf_stich.cpp
+  opencv_perf_stitching.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_stitching.exe

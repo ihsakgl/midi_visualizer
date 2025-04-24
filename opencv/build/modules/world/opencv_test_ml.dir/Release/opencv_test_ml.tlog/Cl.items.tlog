@@ -1,0 +1,13 @@
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ml\test\test_ann.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_ml.dir\Release\test_ann.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ml\test\test_bayes.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_ml.dir\Release\test_bayes.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ml\test\test_em.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_ml.dir\Release\test_em.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ml\test\test_kmeans.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_ml.dir\Release\test_kmeans.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ml\test\test_knearest.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_ml.dir\Release\test_knearest.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ml\test\test_lr.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_ml.dir\Release\test_lr.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ml\test\test_main.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_ml.dir\Release\test_main.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ml\test\test_mltests.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_ml.dir\Release\test_mltests.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ml\test\test_rtrees.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_ml.dir\Release\test_rtrees.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ml\test\test_save_load.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_ml.dir\Release\test_save_load.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ml\test\test_svmsgd.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_ml.dir\Release\test_svmsgd.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ml\test\test_svmtrainauto.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_ml.dir\Release\test_svmtrainauto.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ml\test\test_utils.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_ml.dir\Release\test_utils.obj

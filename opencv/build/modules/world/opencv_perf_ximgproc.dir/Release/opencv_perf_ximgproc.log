@@ -1,0 +1,19 @@
+﻿  perf_adaptive_manifold.cpp
+  perf_bilateral_texture_filter.cpp
+  perf_disparity_wls_filter.cpp
+  perf_domain_transform.cpp
+  perf_edgepreserving_filter.cpp
+  perf_fast_hough_transform.cpp
+  perf_fgs_filter.cpp
+  perf_find_ellipses.cpp
+  perf_guided_filter.cpp
+  perf_joint_bilateral_filter.cpp
+  perf_l0_smooth.cpp
+  perf_main.cpp
+  perf_radon_transform.cpp
+  perf_ridge_detection_filter.cpp
+  perf_rolling_guidance_filter.cpp
+  perf_run_length_morphology.cpp
+  perf_thining.cpp
+  perf_weighted_median_filter.cpp
+  opencv_perf_ximgproc.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_ximgproc.exe

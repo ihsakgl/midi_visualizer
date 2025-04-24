@@ -1,0 +1,14 @@
+﻿  test_animation.cpp
+  test_avif.cpp
+  test_common.cpp
+  test_exif.cpp
+  test_gif.cpp
+  test_grfmt.cpp
+  test_jpeg.cpp
+  test_jpegxl.cpp
+  test_main.cpp
+  test_png.cpp
+  test_read_write.cpp
+  test_tiff.cpp
+  test_webp.cpp
+  opencv_test_imgcodecs.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_imgcodecs.exe

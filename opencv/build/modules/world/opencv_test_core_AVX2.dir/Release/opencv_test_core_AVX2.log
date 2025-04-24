@@ -1,0 +1,3 @@
+﻿  test_intrin128.avx2.cpp
+  test_intrin256.avx2.cpp
+  opencv_test_core_AVX2.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_core_AVX2.dir\Release\opencv_test_core_AVX2.lib

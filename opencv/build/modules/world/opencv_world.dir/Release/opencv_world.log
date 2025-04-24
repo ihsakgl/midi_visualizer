@@ -1,0 +1,1938 @@
+﻿  Processing OpenCL kernels (core)
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/core/src/cuda/Release/cuda_compile_1_generated_gpu_mat.cu.obj
+  gpu_mat.cu
+  gpu_mat.cu
+  tmpxft_000033b0_00000000-10_gpu_mat.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/core/src/cuda/Release/cuda_compile_1_generated_gpu_mat_nd.cu.obj
+  gpu_mat_nd.cu
+  gpu_mat_nd.cu
+  tmpxft_0000296c_00000000-10_gpu_mat_nd.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_absdiff_mat.cu.obj
+  absdiff_mat.cu
+  absdiff_mat.cu
+  tmpxft_000030ac_00000000-10_absdiff_mat.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_absdiff_scalar.cu.obj
+  absdiff_scalar.cu
+  absdiff_scalar.cu
+  tmpxft_00005d68_00000000-10_absdiff_scalar.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_add_mat.cu.obj
+  add_mat.cu
+  add_mat.cu
+  tmpxft_00005f50_00000000-10_add_mat.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_add_scalar.cu.obj
+  add_scalar.cu
+  add_scalar.cu
+  tmpxft_00005288_00000000-10_add_scalar.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_add_weighted.cu.obj
+  add_weighted.cu
+  add_weighted.cu
+  tmpxft_00005c24_00000000-10_add_weighted.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_bitwise_mat.cu.obj
+  bitwise_mat.cu
+  bitwise_mat.cu
+  tmpxft_0000494c_00000000-10_bitwise_mat.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_bitwise_scalar.cu.obj
+  bitwise_scalar.cu
+  bitwise_scalar.cu
+  tmpxft_00004e8c_00000000-10_bitwise_scalar.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_cmp_mat.cu.obj
+  cmp_mat.cu
+  cmp_mat.cu
+  tmpxft_00004e54_00000000-10_cmp_mat.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_cmp_scalar.cu.obj
+  cmp_scalar.cu
+  cmp_scalar.cu
+  tmpxft_00005cdc_00000000-10_cmp_scalar.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_copy_make_border.cu.obj
+  copy_make_border.cu
+  copy_make_border.cu
+  tmpxft_00005008_00000000-10_copy_make_border.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_countnonzero.cu.obj
+  countnonzero.cu
+  countnonzero.cu
+  tmpxft_000059a8_00000000-10_countnonzero.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_div_mat.cu.obj
+  div_mat.cu
+  div_mat.cu
+  tmpxft_00005910_00000000-10_div_mat.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_div_scalar.cu.obj
+  div_scalar.cu
+  div_scalar.cu
+  tmpxft_00005e28_00000000-10_div_scalar.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_in_range.cu.obj
+  in_range.cu
+  in_range.cu
+  tmpxft_00000898_00000000-10_in_range.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_integral.cu.obj
+  integral.cu
+  integral.cu
+  tmpxft_00005be0_00000000-10_integral.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_lut.cu.obj
+  lut.cu
+  lut.cu
+  tmpxft_00005e64_00000000-10_lut.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_math.cu.obj
+  math.cu
+  math.cu
+  tmpxft_00005d08_00000000-10_math.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_minmax.cu.obj
+  minmax.cu
+  minmax.cu
+  tmpxft_00002f9c_00000000-10_minmax.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_minmax_mat.cu.obj
+  minmax_mat.cu
+  minmax_mat.cu
+  tmpxft_000050a4_00000000-10_minmax_mat.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_minmaxloc.cu.obj
+  minmaxloc.cu
+  minmaxloc.cu
+  tmpxft_00002f6c_00000000-10_minmaxloc.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_mul_mat.cu.obj
+  mul_mat.cu
+  mul_mat.cu
+  tmpxft_00005ffc_00000000-10_mul_mat.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_mul_scalar.cu.obj
+  mul_scalar.cu
+  mul_scalar.cu
+  tmpxft_000052c8_00000000-10_mul_scalar.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_mul_spectrums.cu.obj
+  mul_spectrums.cu
+  mul_spectrums.cu
+  tmpxft_000057ec_00000000-10_mul_spectrums.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_norm.cu.obj
+  norm.cu
+  norm.cu
+  tmpxft_0000593c_00000000-10_norm.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_normalize.cu.obj
+  normalize.cu
+  normalize.cu
+  tmpxft_00002d4c_00000000-10_normalize.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_polar_cart.cu.obj
+  polar_cart.cu
+  polar_cart.cu
+  tmpxft_00001da4_00000000-10_polar_cart.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_reduce.cu.obj
+  reduce.cu
+  reduce.cu
+  tmpxft_00003d78_00000000-10_reduce.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_split_merge.cu.obj
+  split_merge.cu
+  split_merge.cu
+  tmpxft_00004fa8_00000000-10_split_merge.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_sub_mat.cu.obj
+  sub_mat.cu
+  sub_mat.cu
+  tmpxft_00005d60_00000000-10_sub_mat.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_sub_scalar.cu.obj
+  sub_scalar.cu
+  sub_scalar.cu
+  tmpxft_0000297c_00000000-10_sub_scalar.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_sum.cu.obj
+  sum.cu
+  sum.cu
+  tmpxft_0000579c_00000000-10_sum.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_threshold.cu.obj
+  threshold.cu
+  threshold.cu
+  tmpxft_00001844_00000000-10_threshold.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaarithm/src/cuda/Release/cuda_compile_1_generated_transpose.cu.obj
+  transpose.cu
+  transpose.cu
+  tmpxft_00003ca4_00000000-10_transpose.compute_120.cudafe1.cpp
+  Processing OpenCL kernels (imgproc)
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_column_filter.16sc1.cu.obj
+  column_filter.16sc1.cu
+  column_filter.16sc1.cu
+  tmpxft_00004d8c_00000000-10_column_filter.16sc1.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_column_filter.16sc3.cu.obj
+  column_filter.16sc3.cu
+  column_filter.16sc3.cu
+  tmpxft_00003970_00000000-10_column_filter.16sc3.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_column_filter.16sc4.cu.obj
+  column_filter.16sc4.cu
+  column_filter.16sc4.cu
+  tmpxft_000056b8_00000000-10_column_filter.16sc4.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_column_filter.16uc1.cu.obj
+  column_filter.16uc1.cu
+  column_filter.16uc1.cu
+  tmpxft_000022c8_00000000-10_column_filter.16uc1.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_column_filter.16uc3.cu.obj
+  column_filter.16uc3.cu
+  column_filter.16uc3.cu
+  tmpxft_000040f0_00000000-10_column_filter.16uc3.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_column_filter.16uc4.cu.obj
+  column_filter.16uc4.cu
+  column_filter.16uc4.cu
+  tmpxft_00001930_00000000-10_column_filter.16uc4.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_column_filter.32fc1.cu.obj
+  column_filter.32fc1.cu
+  column_filter.32fc1.cu
+  tmpxft_000007cc_00000000-10_column_filter.32fc1.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_column_filter.32fc3.cu.obj
+  column_filter.32fc3.cu
+  column_filter.32fc3.cu
+  tmpxft_00004a5c_00000000-10_column_filter.32fc3.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_column_filter.32fc4.cu.obj
+  column_filter.32fc4.cu
+  column_filter.32fc4.cu
+  tmpxft_000054a4_00000000-10_column_filter.32fc4.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_column_filter.32sc1.cu.obj
+  column_filter.32sc1.cu
+  column_filter.32sc1.cu
+  tmpxft_00001dd8_00000000-10_column_filter.32sc1.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_column_filter.32sc3.cu.obj
+  column_filter.32sc3.cu
+  column_filter.32sc3.cu
+  tmpxft_00005fa4_00000000-10_column_filter.32sc3.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_column_filter.32sc4.cu.obj
+  column_filter.32sc4.cu
+  column_filter.32sc4.cu
+  tmpxft_000017d0_00000000-10_column_filter.32sc4.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_column_filter.8uc1.cu.obj
+  column_filter.8uc1.cu
+  column_filter.8uc1.cu
+  tmpxft_0000360c_00000000-10_column_filter.8uc1.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_column_filter.8uc3.cu.obj
+  column_filter.8uc3.cu
+  column_filter.8uc3.cu
+  tmpxft_000043f8_00000000-10_column_filter.8uc3.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_column_filter.8uc4.cu.obj
+  column_filter.8uc4.cu
+  column_filter.8uc4.cu
+  tmpxft_000050dc_00000000-10_column_filter.8uc4.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_filter2d.cu.obj
+  filter2d.cu
+  filter2d.cu
+  tmpxft_00004cf8_00000000-10_filter2d.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_median_filter.cu.obj
+  median_filter.cu
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_2d.cuh(413): warning #550-D: variable "dsts" was set but never used
+        SrcT* __restrict dsts[CH_NUM];
+                         ^
+            detected during:
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C_first_gpu_multi<CH_NUM,ThreadsDimY,MOV_SRC,SrcT,XYIdxT,XIdxT>(SrcT, uint16_t, XYIdxT, SrcT *, SrcT *, XYIdxT *, uint32_t, XIdxT *, int, XYIdxT, const SrcT *) [with CH_NUM=1, ThreadsDimY=16, MOV_SRC=false, SrcT=unsigned char, XYIdxT=uint32_t, XIdxT=uint16_t]" at line 876
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C<ValT, CH_NUM, MultiWaveletMatrixImpl, TH_NUM, WORD_SIZE>::construct(const ValT *, cudaStream_t, __nv_bool) [with ValT=unsigned char, CH_NUM=1, MultiWaveletMatrixImpl=cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<uint16_t, 512, 32, uint32_t>, TH_NUM=512, WORD_SIZE=32]" at line 382 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu<CH_NUM,T>(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, cudaStream_t) [with CH_NUM=1, T=unsigned char]" at line 400 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, int, cudaStream_t) [with T=unsigned char]" at line 410 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_2d.cuh(413): warning #550-D: variable "dsts" was set but never used
+        SrcT* __restrict dsts[CH_NUM];
+                         ^
+            detected during:
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C_first_gpu_multi<CH_NUM,ThreadsDimY,MOV_SRC,SrcT,XYIdxT,XIdxT>(SrcT, uint16_t, XYIdxT, SrcT *, SrcT *, XYIdxT *, uint32_t, XIdxT *, int, XYIdxT, const SrcT *) [with CH_NUM=1, ThreadsDimY=16, MOV_SRC=true, SrcT=unsigned char, XYIdxT=uint32_t, XIdxT=uint16_t]" at line 878
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C<ValT, CH_NUM, MultiWaveletMatrixImpl, TH_NUM, WORD_SIZE>::construct(const ValT *, cudaStream_t, __nv_bool) [with ValT=unsigned char, CH_NUM=1, MultiWaveletMatrixImpl=cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<uint16_t, 512, 32, uint32_t>, TH_NUM=512, WORD_SIZE=32]" at line 382 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu<CH_NUM,T>(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, cudaStream_t) [with CH_NUM=1, T=unsigned char]" at line 400 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, int, cudaStream_t) [with T=unsigned char]" at line 410 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+  
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_2d.cuh(413): warning #550-D: variable "dsts" was set but never used
+        SrcT* __restrict dsts[CH_NUM];
+                         ^
+            detected during:
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C_first_gpu_multi<CH_NUM,ThreadsDimY,MOV_SRC,SrcT,XYIdxT,XIdxT>(SrcT, uint16_t, XYIdxT, SrcT *, SrcT *, XYIdxT *, uint32_t, XIdxT *, int, XYIdxT, const SrcT *) [with CH_NUM=1, ThreadsDimY=16, MOV_SRC=false, SrcT=unsigned short, XYIdxT=uint32_t, XIdxT=uint16_t]" at line 876
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C<ValT, CH_NUM, MultiWaveletMatrixImpl, TH_NUM, WORD_SIZE>::construct(const ValT *, cudaStream_t, __nv_bool) [with ValT=unsigned short, CH_NUM=1, MultiWaveletMatrixImpl=cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<uint16_t, 512, 32, uint32_t>, TH_NUM=512, WORD_SIZE=32]" at line 382 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu<CH_NUM,T>(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, cudaStream_t) [with CH_NUM=1, T=unsigned short]" at line 400 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, int, cudaStream_t) [with T=unsigned short]" at line 411 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+  
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_2d.cuh(413): warning #550-D: variable "dsts" was set but never used
+        SrcT* __restrict dsts[CH_NUM];
+                         ^
+            detected during:
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C_first_gpu_multi<CH_NUM,ThreadsDimY,MOV_SRC,SrcT,XYIdxT,XIdxT>(SrcT, uint16_t, XYIdxT, SrcT *, SrcT *, XYIdxT *, uint32_t, XIdxT *, int, XYIdxT, const SrcT *) [with CH_NUM=1, ThreadsDimY=16, MOV_SRC=true, SrcT=unsigned short, XYIdxT=uint32_t, XIdxT=uint16_t]" at line 878
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C<ValT, CH_NUM, MultiWaveletMatrixImpl, TH_NUM, WORD_SIZE>::construct(const ValT *, cudaStream_t, __nv_bool) [with ValT=unsigned short, CH_NUM=1, MultiWaveletMatrixImpl=cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<uint16_t, 512, 32, uint32_t>, TH_NUM=512, WORD_SIZE=32]" at line 382 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu<CH_NUM,T>(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, cudaStream_t) [with CH_NUM=1, T=unsigned short]" at line 400 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, int, cudaStream_t) [with T=unsigned short]" at line 411 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+  
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_2d.cuh(413): warning #550-D: variable "dsts" was set but never used
+        SrcT* __restrict dsts[CH_NUM];
+                         ^
+            detected during:
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C_first_gpu_multi<CH_NUM,ThreadsDimY,MOV_SRC,SrcT,XYIdxT,XIdxT>(SrcT, uint16_t, XYIdxT, SrcT *, SrcT *, XYIdxT *, uint32_t, XIdxT *, int, XYIdxT, const SrcT *) [with CH_NUM=1, ThreadsDimY=16, MOV_SRC=false, SrcT=uint32_t, XYIdxT=uint32_t, XIdxT=uint16_t]" at line 876
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C<ValT, CH_NUM, MultiWaveletMatrixImpl, TH_NUM, WORD_SIZE>::construct(const ValT *, cudaStream_t, __nv_bool) [with ValT=uint32_t, CH_NUM=1, MultiWaveletMatrixImpl=cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<uint16_t, 512, 32, uint32_t>, TH_NUM=512, WORD_SIZE=32]" at line 382 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu<CH_NUM,T>(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, cudaStream_t) [with CH_NUM=1, T=float]" at line 400 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, int, cudaStream_t) [with T=float]" at line 412 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+  
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_2d.cuh(413): warning #550-D: variable "dsts" was set but never used
+        SrcT* __restrict dsts[CH_NUM];
+                         ^
+            detected during:
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C_first_gpu_multi<CH_NUM,ThreadsDimY,MOV_SRC,SrcT,XYIdxT,XIdxT>(SrcT, uint16_t, XYIdxT, SrcT *, SrcT *, XYIdxT *, uint32_t, XIdxT *, int, XYIdxT, const SrcT *) [with CH_NUM=1, ThreadsDimY=16, MOV_SRC=true, SrcT=uint32_t, XYIdxT=uint32_t, XIdxT=uint16_t]" at line 878
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C<ValT, CH_NUM, MultiWaveletMatrixImpl, TH_NUM, WORD_SIZE>::construct(const ValT *, cudaStream_t, __nv_bool) [with ValT=uint32_t, CH_NUM=1, MultiWaveletMatrixImpl=cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<uint16_t, 512, 32, uint32_t>, TH_NUM=512, WORD_SIZE=32]" at line 382 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu<CH_NUM,T>(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, cudaStream_t) [with CH_NUM=1, T=float]" at line 400 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, int, cudaStream_t) [with T=float]" at line 412 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+  
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_2d.cuh(413): warning #550-D: variable "dsts" was set but never used
+        SrcT* __restrict dsts[CH_NUM];
+                         ^
+            detected during:
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C_first_gpu_multi<CH_NUM,ThreadsDimY,MOV_SRC,SrcT,XYIdxT,XIdxT>(SrcT, uint16_t, XYIdxT, SrcT *, SrcT *, XYIdxT *, uint32_t, XIdxT *, int, XYIdxT, const SrcT *) [with CH_NUM=1, ThreadsDimY=16, MOV_SRC=false, SrcT=unsigned char, XYIdxT=uint32_t, XIdxT=uint16_t]" at line 876
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C<ValT, CH_NUM, MultiWaveletMatrixImpl, TH_NUM, WORD_SIZE>::construct(const ValT *, cudaStream_t, __nv_bool) [with ValT=unsigned char, CH_NUM=1, MultiWaveletMatrixImpl=cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<uint16_t, 512, 32, uint32_t>, TH_NUM=512, WORD_SIZE=32]" at line 382 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu<CH_NUM,T>(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, cudaStream_t) [with CH_NUM=1, T=unsigned char]" at line 400 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, int, cudaStream_t) [with T=unsigned char]" at line 410 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_2d.cuh(413): warning #550-D: variable "dsts" was set but never used
+        SrcT* __restrict dsts[CH_NUM];
+                         ^
+            detected during:
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C_first_gpu_multi<CH_NUM,ThreadsDimY,MOV_SRC,SrcT,XYIdxT,XIdxT>(SrcT, uint16_t, XYIdxT, SrcT *, SrcT *, XYIdxT *, uint32_t, XIdxT *, int, XYIdxT, const SrcT *) [with CH_NUM=1, ThreadsDimY=16, MOV_SRC=true, SrcT=unsigned char, XYIdxT=uint32_t, XIdxT=uint16_t]" at line 878
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C<ValT, CH_NUM, MultiWaveletMatrixImpl, TH_NUM, WORD_SIZE>::construct(const ValT *, cudaStream_t, __nv_bool) [with ValT=unsigned char, CH_NUM=1, MultiWaveletMatrixImpl=cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<uint16_t, 512, 32, uint32_t>, TH_NUM=512, WORD_SIZE=32]" at line 382 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu<CH_NUM,T>(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, cudaStream_t) [with CH_NUM=1, T=unsigned char]" at line 400 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, int, cudaStream_t) [with T=unsigned char]" at line 410 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+  
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_2d.cuh(413): warning #550-D: variable "dsts" was set but never used
+        SrcT* __restrict dsts[CH_NUM];
+                         ^
+            detected during:
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C_first_gpu_multi<CH_NUM,ThreadsDimY,MOV_SRC,SrcT,XYIdxT,XIdxT>(SrcT, uint16_t, XYIdxT, SrcT *, SrcT *, XYIdxT *, uint32_t, XIdxT *, int, XYIdxT, const SrcT *) [with CH_NUM=1, ThreadsDimY=16, MOV_SRC=false, SrcT=unsigned short, XYIdxT=uint32_t, XIdxT=uint16_t]" at line 876
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C<ValT, CH_NUM, MultiWaveletMatrixImpl, TH_NUM, WORD_SIZE>::construct(const ValT *, cudaStream_t, __nv_bool) [with ValT=unsigned short, CH_NUM=1, MultiWaveletMatrixImpl=cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<uint16_t, 512, 32, uint32_t>, TH_NUM=512, WORD_SIZE=32]" at line 382 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu<CH_NUM,T>(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, cudaStream_t) [with CH_NUM=1, T=unsigned short]" at line 400 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, int, cudaStream_t) [with T=unsigned short]" at line 411 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+  
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_2d.cuh(413): warning #550-D: variable "dsts" was set but never used
+        SrcT* __restrict dsts[CH_NUM];
+                         ^
+            detected during:
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C_first_gpu_multi<CH_NUM,ThreadsDimY,MOV_SRC,SrcT,XYIdxT,XIdxT>(SrcT, uint16_t, XYIdxT, SrcT *, SrcT *, XYIdxT *, uint32_t, XIdxT *, int, XYIdxT, const SrcT *) [with CH_NUM=1, ThreadsDimY=16, MOV_SRC=true, SrcT=unsigned short, XYIdxT=uint32_t, XIdxT=uint16_t]" at line 878
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C<ValT, CH_NUM, MultiWaveletMatrixImpl, TH_NUM, WORD_SIZE>::construct(const ValT *, cudaStream_t, __nv_bool) [with ValT=unsigned short, CH_NUM=1, MultiWaveletMatrixImpl=cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<uint16_t, 512, 32, uint32_t>, TH_NUM=512, WORD_SIZE=32]" at line 382 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu<CH_NUM,T>(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, cudaStream_t) [with CH_NUM=1, T=unsigned short]" at line 400 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, int, cudaStream_t) [with T=unsigned short]" at line 411 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+  
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_2d.cuh(413): warning #550-D: variable "dsts" was set but never used
+        SrcT* __restrict dsts[CH_NUM];
+                         ^
+            detected during:
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C_first_gpu_multi<CH_NUM,ThreadsDimY,MOV_SRC,SrcT,XYIdxT,XIdxT>(SrcT, uint16_t, XYIdxT, SrcT *, SrcT *, XYIdxT *, uint32_t, XIdxT *, int, XYIdxT, const SrcT *) [with CH_NUM=1, ThreadsDimY=16, MOV_SRC=false, SrcT=uint32_t, XYIdxT=uint32_t, XIdxT=uint16_t]" at line 876
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C<ValT, CH_NUM, MultiWaveletMatrixImpl, TH_NUM, WORD_SIZE>::construct(const ValT *, cudaStream_t, __nv_bool) [with ValT=uint32_t, CH_NUM=1, MultiWaveletMatrixImpl=cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<uint16_t, 512, 32, uint32_t>, TH_NUM=512, WORD_SIZE=32]" at line 382 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu<CH_NUM,T>(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, cudaStream_t) [with CH_NUM=1, T=float]" at line 400 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, int, cudaStream_t) [with T=float]" at line 412 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+  
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_2d.cuh(413): warning #550-D: variable "dsts" was set but never used
+        SrcT* __restrict dsts[CH_NUM];
+                         ^
+            detected during:
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C_first_gpu_multi<CH_NUM,ThreadsDimY,MOV_SRC,SrcT,XYIdxT,XIdxT>(SrcT, uint16_t, XYIdxT, SrcT *, SrcT *, XYIdxT *, uint32_t, XIdxT *, int, XYIdxT, const SrcT *) [with CH_NUM=1, ThreadsDimY=16, MOV_SRC=true, SrcT=uint32_t, XYIdxT=uint32_t, XIdxT=uint16_t]" at line 878
+              instantiation of "void cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C<ValT, CH_NUM, MultiWaveletMatrixImpl, TH_NUM, WORD_SIZE>::construct(const ValT *, cudaStream_t, __nv_bool) [with ValT=uint32_t, CH_NUM=1, MultiWaveletMatrixImpl=cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<uint16_t, 512, 32, uint32_t>, TH_NUM=512, WORD_SIZE=32]" at line 382 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu<CH_NUM,T>(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, cudaStream_t) [with CH_NUM=1, T=float]" at line 400 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+              instantiation of "void cv::cuda::device::medianFiltering_wavelet_matrix_gpu(cv::cuda::PtrStepSz<T>, cv::cuda::PtrStepSz<T>, int, int, cudaStream_t) [with T=float]" at line 412 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu
+  
+  median_filter.cu
+  tmpxft_00004f28_00000000-10_median_filter.compute_120.cudafe1.cpp
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_multi.cuh(505): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'uint64_t'
+  C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_multi.cuh(505): note: consider using '%lld' in the format string
+  C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_multi.cuh(505): note: consider using '%Id' in the format string
+  C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_multi.cuh(505): note: consider using '%I64d' in the format string
+  C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_multi.cuh(505): note: the template instantiation context (the oldest one first) is
+  C:\Users\ihsan\AppData\Local\Temp\tmpxft_00004f28_00000000-10_median_filter.compute_120.cudafe1.stub.c(20): note: see reference to class template instantiation 'cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<unsigned short,512,32,unsigned int>' being compiled
+  C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_multi.cuh(488): note: while compiling class template member function 'uint16_t cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<unsigned short,512,32,unsigned int>::get_block_pair_num(void) const'
+  C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_2d.cuh(797): note: see the first reference to 'cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<unsigned short,512,32,unsigned int>::get_block_pair_num' in 'cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C<unsigned int,4,cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<unsigned short,512,32,unsigned int>,512,32>::get_block_pair_num'
+  C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\wavelet_matrix_2d.cuh(816): note: see the first reference to 'cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C<unsigned int,4,cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<unsigned short,512,32,unsigned int>,512,32>::get_block_pair_num' in 'cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C<unsigned int,4,cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<unsigned short,512,32,unsigned int>,512,32>::construct'
+  C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu(382): note: see the first reference to 'cv::cuda::device::wavelet_matrix_median::WaveletMatrix2dCu5C<unsigned int,4,cv::cuda::device::wavelet_matrix_median::WaveletMatrixMultiCu4G<unsigned short,512,32,unsigned int>,512,32>::construct' in 'cv::cuda::device::medianFiltering_wavelet_matrix_gpu'
+  C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafilters\src\cuda\median_filter.cu(404): note: see the first reference to 'cv::cuda::device::medianFiltering_wavelet_matrix_gpu' in 'cv::cuda::device::medianFiltering_wavelet_matrix_gpu'
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_row_filter.16sc1.cu.obj
+  row_filter.16sc1.cu
+  row_filter.16sc1.cu
+  tmpxft_00001100_00000000-10_row_filter.16sc1.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_row_filter.16sc3.cu.obj
+  row_filter.16sc3.cu
+  row_filter.16sc3.cu
+  tmpxft_000049b4_00000000-10_row_filter.16sc3.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_row_filter.16sc4.cu.obj
+  row_filter.16sc4.cu
+  row_filter.16sc4.cu
+  tmpxft_00004964_00000000-10_row_filter.16sc4.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_row_filter.16uc1.cu.obj
+  row_filter.16uc1.cu
+  row_filter.16uc1.cu
+  tmpxft_00003e20_00000000-10_row_filter.16uc1.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_row_filter.16uc3.cu.obj
+  row_filter.16uc3.cu
+  row_filter.16uc3.cu
+  tmpxft_00004bdc_00000000-10_row_filter.16uc3.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_row_filter.16uc4.cu.obj
+  row_filter.16uc4.cu
+  row_filter.16uc4.cu
+  tmpxft_00004168_00000000-10_row_filter.16uc4.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_row_filter.32fc1.cu.obj
+  row_filter.32fc1.cu
+  row_filter.32fc1.cu
+  tmpxft_00002f80_00000000-10_row_filter.32fc1.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_row_filter.32fc3.cu.obj
+  row_filter.32fc3.cu
+  row_filter.32fc3.cu
+  tmpxft_000059bc_00000000-10_row_filter.32fc3.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_row_filter.32fc4.cu.obj
+  row_filter.32fc4.cu
+  row_filter.32fc4.cu
+  tmpxft_0000558c_00000000-10_row_filter.32fc4.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_row_filter.32sc1.cu.obj
+  row_filter.32sc1.cu
+  row_filter.32sc1.cu
+  tmpxft_000050c8_00000000-10_row_filter.32sc1.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_row_filter.32sc3.cu.obj
+  row_filter.32sc3.cu
+  row_filter.32sc3.cu
+  tmpxft_000047bc_00000000-10_row_filter.32sc3.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_row_filter.32sc4.cu.obj
+  row_filter.32sc4.cu
+  row_filter.32sc4.cu
+  tmpxft_000058fc_00000000-10_row_filter.32sc4.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_row_filter.8uc1.cu.obj
+  row_filter.8uc1.cu
+  row_filter.8uc1.cu
+  tmpxft_0000109c_00000000-10_row_filter.8uc1.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_row_filter.8uc3.cu.obj
+  row_filter.8uc3.cu
+  row_filter.8uc3.cu
+  tmpxft_00003818_00000000-10_row_filter.8uc3.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafilters/src/cuda/Release/cuda_compile_1_generated_row_filter.8uc4.cu.obj
+  row_filter.8uc4.cu
+  row_filter.8uc4.cu
+  tmpxft_00004c34_00000000-10_row_filter.8uc4.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_bilateral_filter.cu.obj
+  bilateral_filter.cu
+  bilateral_filter.cu
+  tmpxft_00005fcc_00000000-10_bilateral_filter.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_blend.cu.obj
+  blend.cu
+  blend.cu
+  tmpxft_00001174_00000000-10_blend.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_build_point_list.cu.obj
+  build_point_list.cu
+  build_point_list.cu
+  tmpxft_00001378_00000000-10_build_point_list.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_canny.cu.obj
+  canny.cu
+  canny.cu
+  tmpxft_00004710_00000000-10_canny.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_clahe.cu.obj
+  clahe.cu
+  clahe.cu
+  tmpxft_00002228_00000000-10_clahe.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_color.cu.obj
+  color.cu
+  color.cu
+  tmpxft_00005bc8_00000000-10_color.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_connectedcomponents.cu.obj
+  connectedcomponents.cu
+  connectedcomponents.cu
+  tmpxft_00005d38_00000000-10_connectedcomponents.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_corners.cu.obj
+  corners.cu
+  corners.cu
+  tmpxft_00000f40_00000000-10_corners.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_debayer.cu.obj
+  debayer.cu
+  debayer.cu
+  tmpxft_00002110_00000000-10_debayer.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_generalized_hough.cu.obj
+  generalized_hough.cu
+  generalized_hough.cu
+  tmpxft_00005c58_00000000-10_generalized_hough.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_gftt.cu.obj
+  gftt.cu
+  gftt.cu
+  tmpxft_00000188_00000000-10_gftt.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_hist.cu.obj
+  hist.cu
+  hist.cu
+  tmpxft_000022c8_00000000-10_hist.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_hough_circles.cu.obj
+  hough_circles.cu
+  hough_circles.cu
+  tmpxft_00003c5c_00000000-10_hough_circles.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_hough_lines.cu.obj
+  hough_lines.cu
+  hough_lines.cu
+  tmpxft_000048ac_00000000-10_hough_lines.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_hough_segments.cu.obj
+  hough_segments.cu
+  hough_segments.cu
+  tmpxft_0000359c_00000000-10_hough_segments.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_match_template.cu.obj
+  match_template.cu
+  match_template.cu
+  tmpxft_0000254c_00000000-10_match_template.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_mean_shift.cu.obj
+  mean_shift.cu
+  mean_shift.cu
+  tmpxft_00001954_00000000-10_mean_shift.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaimgproc/src/cuda/Release/cuda_compile_1_generated_moments.cu.obj
+  moments.cu
+  moments.cu
+  tmpxft_00004254_00000000-10_moments.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudawarping/src/cuda/Release/cuda_compile_1_generated_pyr_down.cu.obj
+  pyr_down.cu
+  pyr_down.cu
+  tmpxft_000007f0_00000000-10_pyr_down.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudawarping/src/cuda/Release/cuda_compile_1_generated_pyr_up.cu.obj
+  pyr_up.cu
+  pyr_up.cu
+  tmpxft_00004c18_00000000-10_pyr_up.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudawarping/src/cuda/Release/cuda_compile_1_generated_remap.cu.obj
+  remap.cu
+  remap.cu
+  tmpxft_00003a58_00000000-10_remap.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudawarping/src/cuda/Release/cuda_compile_1_generated_resize.cu.obj
+  resize.cu
+  resize.cu
+  tmpxft_00005f78_00000000-10_resize.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudawarping/src/cuda/Release/cuda_compile_1_generated_warp.cu.obj
+  warp.cu
+  warp.cu
+  tmpxft_000049b8_00000000-10_warp.compute_120.cudafe1.cpp
+  Processing OpenCL kernels (dnn)
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_activation_eltwise.cu.obj
+  activation_eltwise.cu
+  activation_eltwise.cu
+  tmpxft_0000490c_00000000-10_activation_eltwise.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_activations.cu.obj
+  activations.cu
+  activations.cu
+  tmpxft_00000698_00000000-10_activations.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_bias_activation.cu.obj
+  bias_activation.cu
+  bias_activation.cu
+  tmpxft_0000350c_00000000-10_bias_activation.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_bias_activation_eltwise.cu.obj
+  bias_activation_eltwise.cu
+  bias_activation_eltwise.cu
+  tmpxft_00004bc8_00000000-10_bias_activation_eltwise.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_bias_eltwise_activation.cu.obj
+  bias_eltwise_activation.cu
+  bias_eltwise_activation.cu
+  tmpxft_00005330_00000000-10_bias_eltwise_activation.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_concat.cu.obj
+  concat.cu
+  concat.cu
+  tmpxft_0000181c_00000000-10_concat.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_crop_and_resize.cu.obj
+  crop_and_resize.cu
+  crop_and_resize.cu
+  tmpxft_00002990_00000000-10_crop_and_resize.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_detection_output.cu.obj
+  detection_output.cu
+  detection_output.cu
+  tmpxft_00003bfc_00000000-10_detection_output.compute_120.cudafe1.cpp
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\src\cuda\detection_output.cu(707): warning C4805: '|': unsafe mix of type 'int' and type 'bool' in operation
+  C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\src\cuda\detection_output.cu(707): note: the template instantiation context (the oldest one first) is
+  C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\src\cuda\detection_output.cu(711): note: see reference to function template instantiation 'void cv::dnn::cuda4dnn::kernels::decode_bboxes<__half>(const cv::dnn::cuda4dnn::csl::Stream &,cv::dnn::cuda4dnn::csl::Span<__half>,cv::dnn::cuda4dnn::csl::Span<const __half>,cv::dnn::cuda4dnn::csl::Span<const __half>,size_t,bool,size_t,bool,bool,bool,bool,bool,float,float)' being compiled
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_eltwise_activation.cu.obj
+  eltwise_activation.cu
+  eltwise_activation.cu
+  tmpxft_0000268c_00000000-10_eltwise_activation.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_eltwise_ops.cu.obj
+  eltwise_ops.cu
+  eltwise_ops.cu
+  tmpxft_00001cb0_00000000-10_eltwise_ops.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_fill_copy.cu.obj
+  fill_copy.cu
+  fill_copy.cu
+  tmpxft_000040e4_00000000-10_fill_copy.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_fp_conversion.cu.obj
+  fp_conversion.cu
+  fp_conversion.cu
+  tmpxft_0000350c_00000000-10_fp_conversion.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_grid_nms.cu.obj
+  grid_nms.cu
+  grid_nms.cu
+  tmpxft_00003a54_00000000-10_grid_nms.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_max_unpooling.cu.obj
+  max_unpooling.cu
+  max_unpooling.cu
+  tmpxft_00002128_00000000-10_max_unpooling.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_mvn.cu.obj
+  mvn.cu
+  mvn.cu
+  tmpxft_00001144_00000000-10_mvn.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_normalize.cu.obj
+  normalize.cu
+  normalize.cu
+  tmpxft_000059e0_00000000-10_normalize.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_padding.cu.obj
+  padding.cu
+  padding.cu
+  tmpxft_00002c10_00000000-10_padding.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_permute.cu.obj
+  permute.cu
+  permute.cu
+  tmpxft_000049a8_00000000-10_permute.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_prior_box.cu.obj
+  prior_box.cu
+  prior_box.cu
+  tmpxft_00000c6c_00000000-10_prior_box.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_region.cu.obj
+  region.cu
+  region.cu
+  tmpxft_00005e4c_00000000-10_region.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_resize.cu.obj
+  resize.cu
+  resize.cu
+  tmpxft_000021dc_00000000-10_resize.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_roi_pooling.cu.obj
+  roi_pooling.cu
+  roi_pooling.cu
+  tmpxft_0000552c_00000000-10_roi_pooling.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_scale_shift.cu.obj
+  scale_shift.cu
+  scale_shift.cu
+  tmpxft_00002734_00000000-10_scale_shift.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_shortcut.cu.obj
+  shortcut.cu
+  shortcut.cu
+  tmpxft_00000978_00000000-10_shortcut.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/dnn/src/cuda/Release/cuda_compile_1_generated_slice.cu.obj
+  slice.cu
+  slice.cu
+  tmpxft_00004a3c_00000000-10_slice.compute_120.cudafe1.cpp
+  Processing OpenCL kernels (features2d)
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/hfs/src/cuda/Release/cuda_compile_1_generated_gslic_seg_engine_gpu.cu.obj
+  gslic_seg_engine_gpu.cu
+  gslic_seg_engine_gpu.cu
+  tmpxft_00005ee4_00000000-10_gslic_seg_engine_gpu.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/hfs/src/cuda/Release/cuda_compile_1_generated_magnitude.cu.obj
+  magnitude.cu
+  magnitude.cu
+  tmpxft_00003534_00000000-10_magnitude.compute_120.cudafe1.cpp
+  Processing OpenCL kernels (photo)
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/photo/src/cuda/Release/cuda_compile_1_generated_nlm.cu.obj
+  nlm.cu
+  nlm.cu
+  tmpxft_000034b8_00000000-10_nlm.compute_120.cudafe1.cpp
+  Processing OpenCL kernels (calib3d)
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudacodec/src/cuda/Release/cuda_compile_1_generated_ColorSpace.cu.obj
+  ColorSpace.cu
+  ColorSpace.cu
+  tmpxft_00005934_00000000-10_ColorSpace.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafeatures2d/src/cuda/Release/cuda_compile_1_generated_bf_knnmatch.cu.obj
+  bf_knnmatch.cu
+  bf_knnmatch.cu
+  tmpxft_00004f54_00000000-10_bf_knnmatch.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafeatures2d/src/cuda/Release/cuda_compile_1_generated_bf_match.cu.obj
+  bf_match.cu
+  bf_match.cu
+  tmpxft_0000395c_00000000-10_bf_match.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafeatures2d/src/cuda/Release/cuda_compile_1_generated_bf_radius_match.cu.obj
+  bf_radius_match.cu
+  bf_radius_match.cu
+  tmpxft_000059d4_00000000-10_bf_radius_match.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafeatures2d/src/cuda/Release/cuda_compile_1_generated_fast.cu.obj
+  fast.cu
+  fast.cu
+  tmpxft_00001b28_00000000-10_fast.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudafeatures2d/src/cuda/Release/cuda_compile_1_generated_orb.cu.obj
+  orb.cu
+  orb.cu
+  tmpxft_00000a40_00000000-10_orb.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudastereo/src/cuda/Release/cuda_compile_1_generated_disparity_bilateral_filter.cu.obj
+  disparity_bilateral_filter.cu
+  disparity_bilateral_filter.cu
+  tmpxft_00001614_00000000-10_disparity_bilateral_filter.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudastereo/src/cuda/Release/cuda_compile_1_generated_stereobm.cu.obj
+  stereobm.cu
+  stereobm.cu
+  tmpxft_0000485c_00000000-10_stereobm.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudastereo/src/cuda/Release/cuda_compile_1_generated_stereobp.cu.obj
+  stereobp.cu
+  stereobp.cu
+  tmpxft_00004774_00000000-10_stereobp.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudastereo/src/cuda/Release/cuda_compile_1_generated_stereocsbp.cu.obj
+  stereocsbp.cu
+  stereocsbp.cu
+  tmpxft_00003fa8_00000000-10_stereocsbp.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudastereo/src/cuda/Release/cuda_compile_1_generated_stereosgm.cu.obj
+  stereosgm.cu
+  stereosgm.cu
+  tmpxft_00003758_00000000-10_stereosgm.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudastereo/src/cuda/Release/cuda_compile_1_generated_util.cu.obj
+  util.cu
+  util.cu
+  tmpxft_00002f00_00000000-10_util.compute_120.cudafe1.cpp
+  Processing OpenCL kernels (objdetect)
+  Processing OpenCL kernels (rgbd)
+  Processing OpenCL kernels (video)
+  Processing OpenCL kernels (xfeatures2d)
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/xfeatures2d/src/cuda/Release/cuda_compile_1_generated_surf.cu.obj
+  surf.cu
+  surf.cu
+  tmpxft_000037e4_00000000-10_surf.compute_120.cudafe1.cpp
+  Processing OpenCL kernels (ximgproc)
+  Processing OpenCL kernels (bioinspired)
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudabgsegm/src/cuda/Release/cuda_compile_1_generated_mog.cu.obj
+  mog.cu
+  mog.cu
+  tmpxft_00005944_00000000-10_mog.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudabgsegm/src/cuda/Release/cuda_compile_1_generated_mog2.cu.obj
+  mog2.cu
+  mog2.cu
+  tmpxft_00005e90_00000000-10_mog2.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudalegacy/src/cuda/Release/cuda_compile_1_generated_NCV.cu.obj
+  NCV.cu
+  NCV.cu
+  tmpxft_00005480_00000000-10_NCV.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudalegacy/src/cuda/Release/cuda_compile_1_generated_NCVBroxOpticalFlow.cu.obj
+  NCVBroxOpticalFlow.cu
+  NCVBroxOpticalFlow.cu
+  tmpxft_00004cb8_00000000-10_NCVBroxOpticalFlow.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudalegacy/src/cuda/Release/cuda_compile_1_generated_NCVHaarObjectDetection.cu.obj
+  NCVHaarObjectDetection.cu
+  NCVHaarObjectDetection.cu
+  tmpxft_00005948_00000000-10_NCVHaarObjectDetection.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudalegacy/src/cuda/Release/cuda_compile_1_generated_NCVPyramid.cu.obj
+  NCVPyramid.cu
+  NCVPyramid.cu
+  tmpxft_00000ad4_00000000-10_NCVPyramid.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudalegacy/src/cuda/Release/cuda_compile_1_generated_NPP_staging.cu.obj
+  NPP_staging.cu
+  NPP_staging.cu
+  tmpxft_00005d28_00000000-10_NPP_staging.compute_120.cudafe1.cpp
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudev\include\opencv2\cudev\grid\detail/integral.hpp(150): warning C4459: declaration of 'NUM_SCAN_THREADS' hides global declaration
+  C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudalegacy\src\cuda\NPP_staging.cu(84): note: see declaration of 'NUM_SCAN_THREADS'
+  C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudev\include\opencv2\cudev\grid\detail/integral.hpp(150): note: the template instantiation context (the oldest one first) is
+  C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudev\include\opencv2\cudev\grid\detail/integral.hpp(611): note: see reference to function template instantiation 'void cv::cudev::integral_detail::horizontal_pass<cv::cudev::GlobPtr<unsigned char>,unsigned int>(const SrcPtr &,const cv::cudev::GlobPtr<unsigned int> &,int,int,cudaStream_t)' being compiled
+          with
+          [
+              SrcPtr=cv::cudev::GlobPtr<unsigned char>
+          ]
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudalegacy/src/cuda/Release/cuda_compile_1_generated_bm.cu.obj
+  bm.cu
+  bm.cu
+  tmpxft_00005760_00000000-10_bm.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudalegacy/src/cuda/Release/cuda_compile_1_generated_bm_fast.cu.obj
+  bm_fast.cu
+  bm_fast.cu
+  tmpxft_000052b8_00000000-10_bm_fast.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudalegacy/src/cuda/Release/cuda_compile_1_generated_calib3d.cu.obj
+  calib3d.cu
+  calib3d.cu
+  tmpxft_00002e94_00000000-10_calib3d.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudalegacy/src/cuda/Release/cuda_compile_1_generated_ccomponetns.cu.obj
+  ccomponetns.cu
+  ccomponetns.cu
+  tmpxft_00003240_00000000-10_ccomponetns.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudalegacy/src/cuda/Release/cuda_compile_1_generated_fgd.cu.obj
+  fgd.cu
+  fgd.cu
+  tmpxft_000015f0_00000000-10_fgd.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudalegacy/src/cuda/Release/cuda_compile_1_generated_gmg.cu.obj
+  gmg.cu
+  gmg.cu
+  tmpxft_00003a04_00000000-10_gmg.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudalegacy/src/cuda/Release/cuda_compile_1_generated_needle_map.cu.obj
+  needle_map.cu
+  needle_map.cu
+  tmpxft_000005e8_00000000-10_needle_map.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaobjdetect/src/cuda/Release/cuda_compile_1_generated_hog.cu.obj
+  hog.cu
+  hog.cu
+  tmpxft_00000d28_00000000-10_hog.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaobjdetect/src/cuda/Release/cuda_compile_1_generated_lbp.cu.obj
+  lbp.cu
+  lbp.cu
+  tmpxft_00001128_00000000-10_lbp.compute_120.cudafe1.cpp
+  Processing OpenCL kernels (optflow)
+  Processing OpenCL kernels (stitching)
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/stitching/src/cuda/Release/cuda_compile_1_generated_build_warp_maps.cu.obj
+  build_warp_maps.cu
+  build_warp_maps.cu
+  tmpxft_00005d9c_00000000-10_build_warp_maps.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/stitching/src/cuda/Release/cuda_compile_1_generated_multiband_blend.cu.obj
+  multiband_blend.cu
+  multiband_blend.cu
+  tmpxft_00001490_00000000-10_multiband_blend.compute_120.cudafe1.cpp
+  Processing OpenCL kernels (tracking)
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaoptflow/src/cuda/Release/cuda_compile_1_generated_farneback.cu.obj
+  farneback.cu
+  farneback.cu
+  tmpxft_00004974_00000000-10_farneback.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaoptflow/src/cuda/Release/cuda_compile_1_generated_nvidiaOpticalFlow.cu.obj
+  nvidiaOpticalFlow.cu
+  nvidiaOpticalFlow.cu
+  tmpxft_00004910_00000000-10_nvidiaOpticalFlow.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaoptflow/src/cuda/Release/cuda_compile_1_generated_pyrlk.cu.obj
+  pyrlk.cu
+  pyrlk.cu
+  tmpxft_000015e0_00000000-10_pyrlk.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/cudaoptflow/src/cuda/Release/cuda_compile_1_generated_tvl1flow.cu.obj
+  tvl1flow.cu
+  tvl1flow.cu
+  tmpxft_00001998_00000000-10_tvl1flow.compute_120.cudafe1.cpp
+  Processing OpenCL kernels (superres)
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/superres/src/cuda/Release/cuda_compile_1_generated_btv_l1_gpu.cu.obj
+  btv_l1_gpu.cu
+  btv_l1_gpu.cu
+  tmpxft_00001718_00000000-10_btv_l1_gpu.compute_120.cudafe1.cpp
+  Building NVCC (Device) object modules/world/CMakeFiles/cuda_compile_1.dir/__/__/__/opencv_contrib/modules/videostab/src/cuda/Release/cuda_compile_1_generated_global_motion.cu.obj
+  global_motion.cu
+C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include\thrust/system/detail/sequential/remove.h(90): warning #1215-D: class "thrust::THRUST_200700_860_1200_NS::unary_negate<thrust::THRUST_200700_860_1200_NS::identity<uchar>>" was declared deprecated
+      thrust::detail::wrapped_function<Predicate, bool> wrapped_pred{pred};
+                                                        ^
+  C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include\thrust/functional.h(1151): note #3287-D: because of a "deprecated" attribute
+    struct [[deprecated]] unary_negate
+             ^
+            detected during:
+              instantiation of "ForwardIterator thrust::THRUST_200700_860_1200_NS::system::detail::sequential::remove_if(thrust::THRUST_200700_860_1200_NS::system::detail::sequential::execution_policy<DerivedPolicy> &, ForwardIterator, ForwardIterator, InputIterator, Predicate) [with DerivedPolicy=thrust::THRUST_200700_860_1200_NS::detail::seq_t, ForwardIterator=thrust::THRUST_200700_860_1200_NS::zip_iterator<thrust::THRUST_200700_860_1200_NS::tuple<thrust::THRUST_200700_860_1200_NS::device_ptr<float2>, thrust::THRUST_200700_860_1200_NS::device_ptr<float2>>>, InputIterator=thrust::THRUST_200700_860_1200_NS::device_ptr<const uchar>, Predicate=thrust::THRUST_200700_860_1200_NS::unary_negate<thrust::THRUST_200700_860_1200_NS::identity<uchar>>]" at line 96 of C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include\thrust/detail/remove.inl
+              instantiation of "ForwardIterator thrust::THRUST_200700_860_1200_NS::remove_if(const thrust::THRUST_200700_860_1200_NS::detail::execution_policy_base<DerivedPolicy> &, ForwardIterator, ForwardIterator, InputIterator, Predicate) [with DerivedPolicy=thrust::THRUST_200700_860_1200_NS::detail::seq_t, ForwardIterator=thrust::THRUST_200700_860_1200_NS::zip_iterator<thrust::THRUST_200700_860_1200_NS::tuple<thrust::THRUST_200700_860_1200_NS::device_ptr<float2>, thrust::THRUST_200700_860_1200_NS::device_ptr<float2>>>, InputIterator=thrust::THRUST_200700_860_1200_NS::device_ptr<const uchar>, Predicate=thrust::THRUST_200700_860_1200_NS::unary_negate<thrust::THRUST_200700_860_1200_NS::identity<uchar>>]" at line 53 of C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include\thrust/system/cuda/detail/remove.h
+              instantiation of "InputIt thrust::THRUST_200700_860_1200_NS::cuda_cub::remove_if(thrust::THRUST_200700_860_1200_NS::cuda_cub::execution_policy<Derived> &, InputIt, InputIt, StencilIt, Predicate) [with Derived=thrust::THRUST_200700_860_1200_NS::cuda_cub::tag, InputIt=thrust::THRUST_200700_860_1200_NS::zip_iterator<thrust::THRUST_200700_860_1200_NS::tuple<thrust::THRUST_200700_860_1200_NS::device_ptr<float2>, thrust::THRUST_200700_860_1200_NS::device_ptr<float2>>>, StencilIt=thrust::THRUST_200700_860_1200_NS::device_ptr<const uchar>, Predicate=thrust::THRUST_200700_860_1200_NS::unary_negate<thrust::THRUST_200700_860_1200_NS::identity<uchar>>]" at line 96 of C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include\thrust/detail/remove.inl
+              instantiation of "ForwardIterator thrust::THRUST_200700_860_1200_NS::remove_if(const thrust::THRUST_200700_860_1200_NS::detail::execution_policy_base<DerivedPolicy> &, ForwardIterator, ForwardIterator, InputIterator, Predicate) [with DerivedPolicy=thrust::THRUST_200700_860_1200_NS::cuda_cub::tag, ForwardIterator=thrust::THRUST_200700_860_1200_NS::zip_iterator<thrust::THRUST_200700_860_1200_NS::tuple<thrust::THRUST_200700_860_1200_NS::device_ptr<float2>, thrust::THRUST_200700_860_1200_NS::device_ptr<float2>>>, InputIterator=thrust::THRUST_200700_860_1200_NS::device_ptr<const uchar>, Predicate=thrust::THRUST_200700_860_1200_NS::unary_negate<thrust::THRUST_200700_860_1200_NS::identity<uchar>>]" at line 167 of C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include\thrust/detail/remove.inl
+              instantiation of "ForwardIterator thrust::THRUST_200700_860_1200_NS::remove_if(ForwardIterator, ForwardIterator, InputIterator, Predicate) [with ForwardIterator=thrust::THRUST_200700_860_1200_NS::zip_iterator<thrust::THRUST_200700_860_1200_NS::tuple<thrust::THRUST_200700_860_1200_NS::device_ptr<float2>, thrust::THRUST_200700_860_1200_NS::device_ptr<float2>>>, InputIterator=thrust::THRUST_200700_860_1200_NS::device_ptr<const uchar>, Predicate=thrust::THRUST_200700_860_1200_NS::unary_negate<thrust::THRUST_200700_860_1200_NS::identity<uchar>>]" at line 61 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\videostab\src\cuda\global_motion.cu
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include\thrust/system/detail/sequential/remove.h(90): warning #1215-D: class "thrust::THRUST_200700_860_1200_NS::unary_negate<thrust::THRUST_200700_860_1200_NS::identity<uchar>>" was declared deprecated
+      thrust::detail::wrapped_function<Predicate, bool> wrapped_pred{pred};
+                                                        ^
+  C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include\thrust/functional.h(1151): note #3287-D: because of a "deprecated" attribute
+    struct [[deprecated]] unary_negate
+             ^
+            detected during:
+              instantiation of "ForwardIterator thrust::THRUST_200700_860_1200_NS::system::detail::sequential::remove_if(thrust::THRUST_200700_860_1200_NS::system::detail::sequential::execution_policy<DerivedPolicy> &, ForwardIterator, ForwardIterator, InputIterator, Predicate) [with DerivedPolicy=thrust::THRUST_200700_860_1200_NS::detail::seq_t, ForwardIterator=thrust::THRUST_200700_860_1200_NS::zip_iterator<thrust::THRUST_200700_860_1200_NS::tuple<thrust::THRUST_200700_860_1200_NS::device_ptr<float2>, thrust::THRUST_200700_860_1200_NS::device_ptr<float2>>>, InputIterator=thrust::THRUST_200700_860_1200_NS::device_ptr<const uchar>, Predicate=thrust::THRUST_200700_860_1200_NS::unary_negate<thrust::THRUST_200700_860_1200_NS::identity<uchar>>]" at line 96 of C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include\thrust/detail/remove.inl
+              instantiation of "ForwardIterator thrust::THRUST_200700_860_1200_NS::remove_if(const thrust::THRUST_200700_860_1200_NS::detail::execution_policy_base<DerivedPolicy> &, ForwardIterator, ForwardIterator, InputIterator, Predicate) [with DerivedPolicy=thrust::THRUST_200700_860_1200_NS::detail::seq_t, ForwardIterator=thrust::THRUST_200700_860_1200_NS::zip_iterator<thrust::THRUST_200700_860_1200_NS::tuple<thrust::THRUST_200700_860_1200_NS::device_ptr<float2>, thrust::THRUST_200700_860_1200_NS::device_ptr<float2>>>, InputIterator=thrust::THRUST_200700_860_1200_NS::device_ptr<const uchar>, Predicate=thrust::THRUST_200700_860_1200_NS::unary_negate<thrust::THRUST_200700_860_1200_NS::identity<uchar>>]" at line 53 of C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include\thrust/system/cuda/detail/remove.h
+              instantiation of "InputIt thrust::THRUST_200700_860_1200_NS::cuda_cub::remove_if(thrust::THRUST_200700_860_1200_NS::cuda_cub::execution_policy<Derived> &, InputIt, InputIt, StencilIt, Predicate) [with Derived=thrust::THRUST_200700_860_1200_NS::cuda_cub::tag, InputIt=thrust::THRUST_200700_860_1200_NS::zip_iterator<thrust::THRUST_200700_860_1200_NS::tuple<thrust::THRUST_200700_860_1200_NS::device_ptr<float2>, thrust::THRUST_200700_860_1200_NS::device_ptr<float2>>>, StencilIt=thrust::THRUST_200700_860_1200_NS::device_ptr<const uchar>, Predicate=thrust::THRUST_200700_860_1200_NS::unary_negate<thrust::THRUST_200700_860_1200_NS::identity<uchar>>]" at line 96 of C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include\thrust/detail/remove.inl
+              instantiation of "ForwardIterator thrust::THRUST_200700_860_1200_NS::remove_if(const thrust::THRUST_200700_860_1200_NS::detail::execution_policy_base<DerivedPolicy> &, ForwardIterator, ForwardIterator, InputIterator, Predicate) [with DerivedPolicy=thrust::THRUST_200700_860_1200_NS::cuda_cub::tag, ForwardIterator=thrust::THRUST_200700_860_1200_NS::zip_iterator<thrust::THRUST_200700_860_1200_NS::tuple<thrust::THRUST_200700_860_1200_NS::device_ptr<float2>, thrust::THRUST_200700_860_1200_NS::device_ptr<float2>>>, InputIterator=thrust::THRUST_200700_860_1200_NS::device_ptr<const uchar>, Predicate=thrust::THRUST_200700_860_1200_NS::unary_negate<thrust::THRUST_200700_860_1200_NS::identity<uchar>>]" at line 167 of C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include\thrust/detail/remove.inl
+              instantiation of "ForwardIterator thrust::THRUST_200700_860_1200_NS::remove_if(ForwardIterator, ForwardIterator, InputIterator, Predicate) [with ForwardIterator=thrust::THRUST_200700_860_1200_NS::zip_iterator<thrust::THRUST_200700_860_1200_NS::tuple<thrust::THRUST_200700_860_1200_NS::device_ptr<float2>, thrust::THRUST_200700_860_1200_NS::device_ptr<float2>>>, InputIterator=thrust::THRUST_200700_860_1200_NS::device_ptr<const uchar>, Predicate=thrust::THRUST_200700_860_1200_NS::unary_negate<thrust::THRUST_200700_860_1200_NS::identity<uchar>>]" at line 61 of C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\videostab\src\cuda\global_motion.cu
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  global_motion.cu
+  tmpxft_000035a0_00000000-10_global_motion.compute_120.cudafe1.cpp
+  stub.cpp
+  algorithm.cpp
+  arithm.dispatch.cpp
+  array.cpp
+  async.cpp
+  batch_distance.cpp
+  bindings_utils.cpp
+  buffer_area.cpp
+  channels.cpp
+  check.cpp
+  command_line_parser.cpp
+  conjugate_gradient.cpp
+  convert.dispatch.cpp
+  convert_c.cpp
+  convert_scale.dispatch.cpp
+  copy.cpp
+  count_non_zero.dispatch.cpp
+  cuda_gpu_mat.cpp
+  cuda_gpu_mat_nd.cpp
+  cuda_host_mem.cpp
+  cuda_info.cpp
+  cuda_stream.cpp
+  datastructs.cpp
+  directx.cpp
+  downhill_simplex.cpp
+  dxt.cpp
+  gl_core_3_1.cpp
+  glob.cpp
+  hal_internal.cpp
+  has_non_zero.dispatch.cpp
+  lapack.cpp
+  lda.cpp
+  logger.cpp
+  lpsolver.cpp
+  mathfuncs.cpp
+  mathfuncs_core.dispatch.cpp
+  matmul.dispatch.cpp
+  matrix.cpp
+  matrix_c.cpp
+  matrix_decomp.cpp
+  matrix_expressions.cpp
+  matrix_iterator.cpp
+  matrix_operations.cpp
+  matrix_sparse.cpp
+  matrix_transform.cpp
+  matrix_wrap.cpp
+  mean.dispatch.cpp
+  merge.dispatch.cpp
+  minmax.cpp
+  norm.dispatch.cpp
+  ocl.cpp
+  opencl_clblas.cpp
+  opencl_clfft.cpp
+  opencl_core.cpp
+  opengl.cpp
+  out.cpp
+  ovx.cpp
+  parallel_openmp.cpp
+  parallel_tbb.cpp
+  parallel_impl.cpp
+  pca.cpp
+  persistence.cpp
+  persistence_base64_encoding.cpp
+  persistence_json.cpp
+  persistence_types.cpp
+  persistence_xml.cpp
+  persistence_yml.cpp
+  rand.cpp
+  softfloat.cpp
+  split.dispatch.cpp
+  stat.dispatch.cpp
+  stat_c.cpp
+  stl.cpp
+  sum.dispatch.cpp
+  system.cpp
+  trace.cpp
+  types.cpp
+  umatrix.cpp
+  datafile.cpp
+  filesystem.cpp
+  logtagconfigparser.cpp
+  logtagmanager.cpp
+  samples.cpp
+  va_intel.cpp
+  opencl_kernels_core.cpp
+  core.cpp
+  element_operations.cpp
+  reductions.cpp
+  flann.cpp
+  miniflann.cpp
+  accum.cpp
+  accum.dispatch.cpp
+  approx.cpp
+  bilateral_filter.dispatch.cpp
+  box_filter.dispatch.cpp
+  clahe.cpp
+  color_hsv.dispatch.cpp
+  color_lab.cpp
+  color_rgb.dispatch.cpp
+  color_yuv.dispatch.cpp
+  colormap.cpp
+  contours.cpp
+  contours_approx.cpp
+  contours_common.cpp
+  contours_link.cpp
+  contours_new.cpp
+  convhull.cpp
+  corner.cpp
+  cornersubpix.cpp
+  demosaicing.cpp
+  deriv.cpp
+  distransform.cpp
+  drawing.cpp
+  emd.cpp
+  emd_new.cpp
+  featureselect.cpp
+  filter.dispatch.cpp
+  floodfill.cpp
+  gabor.cpp
+  geometry.cpp
+  grabcut.cpp
+  hershey_fonts.cpp
+  hough.cpp
+  imgwarp.cpp
+  intelligent_scissors.cpp
+  intersection.cpp
+  linefit.cpp
+  lsd.cpp
+  matchcontours.cpp
+  median_blur.dispatch.cpp
+  min_enclosing_triangle.cpp
+  morph.dispatch.cpp
+  phasecorr.cpp
+  rotcalipers.cpp
+  samplers.cpp
+  segmentation.cpp
+  shapedescr.cpp
+  smooth.dispatch.cpp
+  spatialgradient.cpp
+  stackblur.cpp
+  subdivision2d.cpp
+  sumpixels.dispatch.cpp
+  templmatch.cpp
+  thresh.cpp
+  opencl_kernels_imgproc.cpp
+  bimef.cpp
+  intensity_transform.cpp
+  ann_mlp.cpp
+  boost.cpp
+  data.cpp
+  em.cpp
+  gbt.cpp
+  inner_functions.cpp
+  kdtree.cpp
+  knearest.cpp
+  lr.cpp
+  nbayes.cpp
+  rtrees.cpp
+  svm.cpp
+  svmsgd.cpp
+  testset.cpp
+  tree.cpp
+  histogramphaseunwrapping.cpp
+  plot.cpp
+  qualitybrisque.cpp
+  qualitygmsd.cpp
+  qualitymse.cpp
+  qualityssim.cpp
+  map.cpp
+  mapaffine.cpp
+  mapper.cpp
+  mappergradaffine.cpp
+  mappergradeuclid.cpp
+  mappergradproj.cpp
+  mappergradshift.cpp
+  mappergradsimilar.cpp
+  mapperpyramid.cpp
+  mapprojec.cpp
+  mapshift.cpp
+  signal_resample.cpp
+  icp.cpp
+  pose_3d.cpp
+  ppf_helpers.cpp
+  ppf_match_3d.cpp
+  t_hash_int.cpp
+  filtering.cpp
+  bilateral_filter.cpp
+  corners.cpp
+  hough_circles.cpp
+  hough_lines.cpp
+  hough_segments.cpp
+  match_template.cpp
+  mean_shift.cpp
+  mssegmentation.cpp
+  remap.cpp
+  warp.cpp
+  opencv-caffe.pb.cc
+  opencv-onnx.pb.cc
+  attr_value.pb.cc
+  function.pb.cc
+  graph.pb.cc
+  op_def.pb.cc
+  tensor.pb.cc
+  tensor_shape.pb.cc
+  types.pb.cc
+  versions.pb.cc
+  caffe_importer.cpp
+  caffe_io.cpp
+  caffe_shrinker.cpp
+  darknet_importer.cpp
+  darknet_io.cpp
+  debug_utils.cpp
+  dnn.cpp
+  dnn_params.cpp
+  dnn_read.cpp
+  dnn_utils.cpp
+  graph_simplifier.cpp
+  halide_scheduler.cpp
+  ie_ngraph.cpp
+  init.cpp
+  layers_rvp052.cpp
+  quantization_utils.cpp
+  layer.cpp
+  layer_factory.cpp
+  accum_layer.cpp
+  arg_layer.cpp
+  attention_layer.cpp
+  blank_layer.cpp
+  concat_layer.cpp
+  const_layer.cpp
+  correlation_layer.cpp
+  conv_depthwise.cpp
+  conv_winograd_f63.cpp
+  conv_winograd_f63.dispatch.cpp
+  convolution.cpp
+  fast_gemm.cpp
+  fast_norm.cpp
+  softmax.cpp
+  crop_and_resize_layer.cpp
+  cumsum_layer.cpp
+  depth_space_ops_layer.cpp
+  detection_output_layer.cpp
+  einsum_layer.cpp
+  expand_layer.cpp
+  flatten_layer.cpp
+  flow_warp_layer.cpp
+  gather_elements_layer.cpp
+  gather_layer.cpp
+  gemm_layer.cpp
+  group_norm_layer.cpp
+  instance_norm_layer.cpp
+  layer_norm.cpp
+  layers_common.cpp
+  lrn_layer.cpp
+  matmul_layer.cpp
+  max_unpooling_layer.cpp
+  mvn_layer.cpp
+  nary_eltwise_layers.cpp
+  normalize_bbox_layer.cpp
+  not_implemented_layer.cpp
+  padding_layer.cpp
+  permute_layer.cpp
+  prior_box_layer.cpp
+  proposal_layer.cpp
+  recurrent_layers.cpp
+  reduce_layer.cpp
+  region_layer.cpp
+  reorg_layer.cpp
+  reshape_layer.cpp
+  resize_layer.cpp
+  scatterND_layer.cpp
+  scatter_layer.cpp
+  shuffle_channel_layer.cpp
+  slice_layer.cpp
+  split_layer.cpp
+  tile_layer.cpp
+  topk_layer.cpp
+  legacy_backend.cpp
+  model.cpp
+  net.cpp
+  net_cann.cpp
+  net_impl.cpp
+  net_impl_backend.cpp
+  net_impl_fuse.cpp
+  net_openvino.cpp
+  net_quantization.cpp
+  nms.cpp
+  math_functions.cpp
+  ocl4dnn_conv_spatial.cpp
+  ocl4dnn_inner_product.cpp
+  ocl4dnn_lrn.cpp
+  ocl4dnn_pool.cpp
+  ocl4dnn_softmax.cpp
+  onnx_graph_simplifier.cpp
+  onnx_importer.cpp
+  op_cann.cpp
+  op_cuda.cpp
+  op_halide.cpp
+  op_inf_engine.cpp
+  op_timvx.cpp
+  op_vkcom.cpp
+  op_webnn.cpp
+  registry.cpp
+  tf_graph_simplifier.cpp
+  tf_importer.cpp
+  tf_io.cpp
+  tflite_importer.cpp
+  THDiskFile.cpp
+  THFile.cpp
+  THGeneral.cpp
+  torch_importer.cpp
+  conv_1x1_fast_spv.cpp
+  conv_depthwise_3x3_spv.cpp
+  conv_depthwise_spv.cpp
+  conv_implicit_gemm_spv.cpp
+  gemm_spv.cpp
+  nary_eltwise_binary_forward_spv.cpp
+  spv_shader.cpp
+  buffer.cpp
+  command.cpp
+  context.cpp
+  fence.cpp
+  internal.cpp
+  op_base.cpp
+  op_conv.cpp
+  op_matmul.cpp
+  op_naryEltwise.cpp
+  pipeline.cpp
+  tensor.cpp
+  vk_functions.cpp
+  vk_loader.cpp
+  opencl_kernels_dnn.cpp
+  dnn_superres.cpp
+  affine_feature.cpp
+  agast.cpp
+  agast_score.cpp
+  akaze.cpp
+  bagofwords.cpp
+  blobdetector.cpp
+  brisk.cpp
+  dynamic.cpp
+  evaluation.cpp
+  fast_score.cpp
+  feature2d.cpp
+  kaze.cpp
+  AKAZEFeatures.cpp
+  KAZEFeatures.cpp
+  fed.cpp
+  nldiffusion_functions.cpp
+  keypoint.cpp
+  mser.cpp
+  sift.dispatch.cpp
+  opencl_kernels_features2d.cpp
+  fuzzy_F0_math.cpp
+  fuzzy_F1_math.cpp
+  fuzzy_image.cpp
+  hfs.cpp
+  hfs_core.cpp
+  magnitude.cpp
+  gslic_engine.cpp
+  loadsave.cpp
+  grfmt_avif.cpp
+  grfmt_base.cpp
+  grfmt_bmp.cpp
+  grfmt_exr.cpp
+  grfmt_gdal.cpp
+  grfmt_gdcm.cpp
+  grfmt_gif.cpp
+  grfmt_hdr.cpp
+  grfmt_jpeg.cpp
+  grfmt_jpeg2000.cpp
+  grfmt_jpeg2000_openjpeg.cpp
+  grfmt_jpegxl.cpp
+  grfmt_pam.cpp
+  grfmt_pfm.cpp
+  grfmt_png.cpp
+  grfmt_pxm.cpp
+  grfmt_spng.cpp
+  grfmt_sunras.cpp
+  grfmt_tiff.cpp
+  grfmt_webp.cpp
+  bitstrm.cpp
+  rgbe.cpp
+  exif.cpp
+  LSDDetector.cpp
+  binary_descriptor.cpp
+  binary_descriptor_matcher.cpp
+  calibrate.cpp
+  contrast_preserve.cpp
+  denoise_tvl1.cpp
+  denoising.cpp
+  denoising.cuda.cpp
+  hdr_common.cpp
+  inpaint.cpp
+  npr.cpp
+  seamless_cloning.cpp
+  seamless_cloning_impl.cpp
+  opencl_kernels_photo.cpp
+  CmFile.cpp
+  CmShow.cpp
+  FilterTIG.cpp
+  ValStructVec.cpp
+  objectnessBING.cpp
+  motionSaliency.cpp
+  motionSaliencyBinWangApr2014.cpp
+  objectness.cpp
+  saliency.cpp
+  staticSaliency.cpp
+  staticSaliencyFineGrained.cpp
+  staticSaliencySpectralResidual.cpp
+  erfilter.cpp
+  ocr_beamsearch_decoder.cpp
+  ocr_hmm_decoder.cpp
+  ocr_holistic.cpp
+  ocr_tesseract.cpp
+  text_detectorCNN.cpp
+  text_detector_swt.cpp
+  videoio_registry.cpp
+  videoio_c.cpp
+  cap.cpp
+  cap_images.cpp
+  cap_mjpeg_encoder.cpp
+  cap_mjpeg_decoder.cpp
+  backend_static.cpp
+  container_avi.cpp
+  cap_dshow.cpp
+  cap_msmf.cpp
+  cap_obsensor_capture.cpp
+  obsensor_uvc_stream_channel.cpp
+  obsensor_stream_channel_msmf.cpp
+  bm3d_image_denoising.cpp
+  dct_image_denoising.cpp
+  grayworld_white_balance.cpp
+  learning_based_color_balance.cpp
+  oilpainting.cpp
+  simple_color_balance.cpp
+  ap3p.cpp
+  calibinit.cpp
+  calibration.cpp
+  calibration_base.cpp
+  calibration_handeye.cpp
+  checkchessboard.cpp
+  chessboard.cpp
+  circlesgrid.cpp
+  compat_ptsetreg.cpp
+  dls.cpp
+  epnp.cpp
+  fisheye.cpp
+  five-point.cpp
+  fundam.cpp
+  homography_decomp.cpp
+  ippe.cpp
+  levmarq.cpp
+  p3p.cpp
+  polynom_solver.cpp
+  ptsetreg.cpp
+  quadsubpix.cpp
+  rho.cpp
+  solvepnp.cpp
+  sqpnp.cpp
+  stereo_geom.cpp
+  stereosgbm.cpp
+  triangulate.cpp
+  undistort.dispatch.cpp
+  upnp.cpp
+  bundle.cpp
+  degeneracy.cpp
+  dls_solver.cpp
+  essential_solver.cpp
+  estimator.cpp
+  fundamental_solver.cpp
+  gamma_values.cpp
+  homography_solver.cpp
+  local_optimization.cpp
+  pnp_solver.cpp
+  quality.cpp
+  ransac_solvers.cpp
+  sampler.cpp
+  termination.cpp
+  opencl_kernels_calib3d.cpp
+  NvEncoder.cpp
+  NvEncoderCuda.cpp
+  cuvid_video_source.cpp
+  ffmpeg_video_source.cpp
+  frame_queue.cpp
+  nvidia_surface_format_to_color_converter.cpp
+  thread.cpp
+  video_decoder.cpp
+  video_parser.cpp
+  video_reader.cpp
+  video_source.cpp
+  video_writer.cpp
+  brute_force_matcher.cpp
+  feature2d_async.cpp
+  disparity_bilateral_filter.cpp
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudacodec\src\video_decoder.cpp(161,23): warning C4806: '|=': unsafe operation: no value of type 'bool' promoted to type 'cudaVideoCodec_enum' can equal the given constant
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudacodec\src\video_decoder.cpp(161,23): warning C4806: '|': unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+  stereobp.cpp
+  stereocsbp.cpp
+  stereosgm.cpp
+  ar_hmdb.cpp
+  ar_sports.cpp
+  dataset.cpp
+  fr_adience.cpp
+  fr_lfw.cpp
+  gr_chalearn.cpp
+  gr_skig.cpp
+  hpe_humaneva.cpp
+  hpe_parse.cpp
+  ir_affine.cpp
+  ir_robot.cpp
+  is_bsds.cpp
+  is_weizmann.cpp
+  msm_epfl.cpp
+  msm_middlebury.cpp
+  or_imagenet.cpp
+  or_mnist.cpp
+  or_pascal.cpp
+  or_sun.cpp
+  pd_caltech.cpp
+  pd_inria.cpp
+  slam_kitti.cpp
+  slam_tumindoor.cpp
+  sr_bsds.cpp
+  sr_div2k.cpp
+  sr_general100.cpp
+  tinyxml2.cpp
+  tr_chars.cpp
+  tr_icdar.cpp
+  tr_svt.cpp
+  track_alov.cpp
+  track_vot.cpp
+  window.cpp
+  roiSelector.cpp
+  window_w32.cpp
+  bound_min.cpp
+  ccm.cpp
+  charts.cpp
+  checker_detector.cpp
+  checker_model.cpp
+  colorspace.cpp
+  debug.cpp
+  distance.cpp
+  graph_cluster.cpp
+  io.cpp
+  linearize.cpp
+  mcc.cpp
+  operations.cpp
+  wiener_filter.cpp
+  apriltag_quad_thresh.cpp
+  zmaxheap.cpp
+  aruco_board.cpp
+  aruco_detector.cpp
+  aruco_dictionary.cpp
+  aruco_utils.cpp
+  charuco_detector.cpp
+  barcode.cpp
+  abs_decoder.cpp
+  ean13_decoder.cpp
+  ean8_decoder.cpp
+  upcean_decoder.cpp
+  bardetect.cpp
+  cascadedetect.cpp
+  cascadedetect_convert.cpp
+  detection_based_tracker.cpp
+  face_detect.cpp
+  face_recognize.cpp
+  graphical_code_detector.cpp
+  qrcode.cpp
+  qrcode_encoder.cpp
+  opencl_kernels_objdetect.cpp
+  rapid.cpp
+  colored_kinfu.cpp
+  colored_tsdf.cpp
+  depth_cleaner.cpp
+  depth_registration.cpp
+  depth_to_3d.cpp
+  dqb.cpp
+  dynafu.cpp
+  dynafu_tsdf.cpp
+  fast_icp.cpp
+  hash_tsdf.cpp
+  kinfu.cpp
+  kinfu_frame.cpp
+  large_kinfu.cpp
+  linemod.cpp
+  nonrigid_icp.cpp
+  normal.cpp
+  odometry.cpp
+  plane.cpp
+  pose_graph.cpp
+  tsdf.cpp
+  tsdf_functions.cpp
+  volume.cpp
+  warpfield.cpp
+  opencl_kernels_rgbd.cpp
+  aff_trans.cpp
+  emdL1.cpp
+  haus_dis.cpp
+  hist_cost.cpp
+  sc_dis.cpp
+  tps_trans.cpp
+  graycodepattern.cpp
+  sinusoidalpattern.cpp
+  bgfg_KNN.cpp
+  bgfg_gaussmix2.cpp
+  camshift.cpp
+  dis_flow.cpp
+  ecc.cpp
+  kalman.cpp
+  lkpyramid.cpp
+  optflowgf.cpp
+  optical_flow_io.cpp
+  tracker_feature.cpp
+  tracker_feature_set.cpp
+  tracker_mil_model.cpp
+  tracker_mil_state.cpp
+  tracker_model.cpp
+  tracker_sampler.cpp
+  tracker_sampler_algorithm.cpp
+  tracker_state_estimator.cpp
+  tracking_feature.cpp
+  tracking_online_mil.cpp
+  tracker_dasiamrpn.cpp
+  tracker_goturn.cpp
+  tracker_mil.cpp
+  tracker_nano.cpp
+  tracker_vit.cpp
+  variational_refinement.cpp
+  opencl_kernels_video.cpp
+  binarizermgr.cpp
+  decodermgr.cpp
+  ssd_detector.cpp
+  imgsource.cpp
+  wechat_qrcode.cpp
+  binarizer.cpp
+  binarybitmap.cpp
+  adaptive_threshold_mean_binarizer.cpp
+  fast_window_binarizer.cpp
+  global_histogram_binarizer.cpp
+  simple_adaptive_binarizer.cpp
+  bitarray.cpp
+  bitmatrix.cpp
+  bitsource.cpp
+  bytematrix.cpp
+  characterseteci.cpp
+  decoder_result.cpp
+  detector_result.cpp
+  greyscale_luminance_source.cpp
+  greyscale_rotated_luminance_source.cpp
+  grid_sampler.cpp
+  imagecut.cpp
+  perspective_transform.cpp
+  genericgf.cpp
+  genericgfpoly.cpp
+  reed_solomon_decoder.cpp
+  str.cpp
+  stringutils.cpp
+  unicomblock.cpp
+  errorhandler.cpp
+  luminance_source.cpp
+  bitmatrixparser.cpp
+  datablock.cpp
+  datamask.cpp
+  decoded_bit_stream_parser.cpp
+  decoder.cpp
+  mode.cpp
+  alignment_pattern.cpp
+  alignment_pattern_finder.cpp
+  detector.cpp
+  finder_pattern.cpp
+  finder_pattern_finder.cpp
+  finder_pattern_info.cpp
+  pattern_result.cpp
+  error_correction_level.cpp
+  format_information.cpp
+  qrcode_reader.cpp
+  version.cpp
+  reader.cpp
+  result.cpp
+  resultpoint.cpp
+  affine_feature2d.cpp
+  beblid.cpp
+  brief.cpp
+  daisy.cpp
+  ellipticKeyPoint.cpp
+  freak.cpp
+  gms.cpp
+  harris_lapace_detector.cpp
+  latch.cpp
+  Match.cpp
+  Point.cpp
+  PointPair.cpp
+  lucid.cpp
+  msd.cpp
+  pct_signatures.cpp
+  grayscale_bitmap.cpp
+  pct_clusterizer.cpp
+  pct_sampler.cpp
+  pct_signatures_sqfd.cpp
+  stardetector.cpp
+  surf.cpp
+  surf.cuda.cpp
+  surf.ocl.cpp
+  tbmr.cpp
+  xfeatures2d_init.cpp
+  opencl_kernels_xfeatures2d.cpp
+  adaptive_manifold_filter_n.cpp
+  anisodiff.cpp
+  bilateral_texture_filter.cpp
+  brightedges.cpp
+  deriche_filter.cpp
+  disparity_filters.cpp
+  domain_transform.cpp
+  dtfilter_cpu.cpp
+  edge_drawing.cpp
+  edgeaware_filters_common.cpp
+  edgeboxes.cpp
+  edgepreserving_filter.cpp
+  estimated_covariance.cpp
+  fast_hough_transform.cpp
+  fast_line_detector.cpp
+  fbs_filter.cpp
+  fgs_filter.cpp
+  find_ellipses.cpp
+  fourier_descriptors.cpp
+  graphsegmentation.cpp
+  guided_filter.cpp
+  joint_bilateral_filter.cpp
+  l0_smooth.cpp
+  lsc.cpp
+  niblack_thresholding.cpp
+  paillou_filter.cpp
+  peilin.cpp
+  quaternion.cpp
+  radon_transform.cpp
+  ridgedetectionfilter.cpp
+  rolling_guidance_filter.cpp
+  run_length_morphology.cpp
+  scansegment.cpp
+  seeds.cpp
+  selectivesearchsegmentation.cpp
+  sparse_match_interpolators.cpp
+  structured_edge_detection.cpp
+  thinning.cpp
+  weighted_median_filter.cpp
+  opencl_kernels_ximgproc.cpp
+  feature_evaluator.cpp
+  lbpfeatures.cpp
+  waldboost.cpp
+  wbdetector.cpp
+  aruco.cpp
+  aruco_calib.cpp
+  charuco.cpp
+  bgfg_gaussmix.cpp
+  bgfg_gmg.cpp
+  bgfg_gsoc.cpp
+  bgfg_subcnt.cpp
+  synthetic_seq.cpp
+  basicretinafilter.cpp
+  imagelogpolprojection.cpp
+  magnoretinafilter.cpp
+  parvoretinafilter.cpp
+  retina.cpp
+  retina_ocl.cpp
+  retinacolor.cpp
+  retinafasttonemapping.cpp
+  retinafilter.cpp
+  transientareassegmentationmodule.cpp
+  opencl_kernels_bioinspired.cpp
+  ccalib.cpp
+  multicalib.cpp
+  omnidir.cpp
+  randpattern.cpp
+  mog.cpp
+  mog2.cpp
+  NCV.cpp
+  bm.cpp
+  bm_fast.cpp
+  calib3d.cpp
+  fgd.cpp
+  gmg.cpp
+  graphcuts.cpp
+  image_pyramid.cpp
+  interpolate_frames.cpp
+  needle_map.cpp
+  cascadeclassifier.cpp
+  core_detect.cpp
+  dpm_cascade.cpp
+  dpm_cascade_detector.cpp
+  dpm_convolution.cpp
+  dpm_feature.cpp
+  dpm_model.cpp
+  dpm_nms.cpp
+  bif.cpp
+  eigen_faces.cpp
+  face_alignment.cpp
+  face_basic.cpp
+  facemark.cpp
+  facemarkAAM.cpp
+  facemarkLBF.cpp
+  facerec.cpp
+  fisher_faces.cpp
+  getlandmarks.cpp
+  lbph_faces.cpp
+  mace.cpp
+  predict_collector.cpp
+  regtree.cpp
+  trainFacemark.cpp
+  grunarg.cpp
+  gorigin.cpp
+  gmat.cpp
+  garray.cpp
+  gopaque.cpp
+  gscalar.cpp
+  gframe.cpp
+  gkernel.cpp
+  gbackend.cpp
+  gcommon.cpp
+  gproto.cpp
+  gnode.cpp
+  gcall.cpp
+  gcomputation.cpp
+  operators.cpp
+  kernels_core.cpp
+  kernels_imgproc.cpp
+  kernels_video.cpp
+  kernels_nnparsers.cpp
+  kernels_ot.cpp
+  kernels_streaming.cpp
+  kernels_stereo.cpp
+  render.cpp
+  render_ocv.cpp
+  ginfer.cpp
+  media.cpp
+  rmat.cpp
+  gmodel.cpp
+  gmodelbuilder.cpp
+  gislandmodel.cpp
+  gcompiler.cpp
+  gcompiled.cpp
+  gstreaming.cpp
+  helpers.cpp
+  dump_dot.cpp
+  islands.cpp
+  meta.cpp
+  kernels.cpp
+  exec.cpp
+  transformations.cpp
+  pattern_matching.cpp
+  perform_substitution.cpp
+  streaming.cpp
+  intrin.cpp
+  gabstractexecutor.cpp
+  gabstractstreamingexecutor.cpp
+  gexecutor.cpp
+  gtbbexecutor.cpp
+  gthreadedexecutor.cpp
+  gstreamingexecutor.cpp
+  gasync.cpp
+  thread_pool.cpp
+  gcpubackend.cpp
+  gcpukernel.cpp
+  gcpuimgproc.cpp
+  gcpustereo.cpp
+  gcpuvideo.cpp
+  gcpucore.cpp
+  gcpuot.cpp
+  gnnparsers.cpp
+  gfluidbuffer.cpp
+  gfluidbackend.cpp
+  gfluidimgproc.cpp
+  gfluidimgproc_func.dispatch.cpp
+  gfluidcore.cpp
+  gfluidcore_func.dispatch.cpp
+  goak.cpp
+  goakbackend.cpp
+  goak_memory_adapters.cpp
+  goclbackend.cpp
+  goclkernel.cpp
+  goclimgproc.cpp
+  goclcore.cpp
+  giebackend.cpp
+  giewrapper.cpp
+  govbackend.cpp
+  gonnxbackend.cpp
+  dml_ep.cpp
+  coreml_ep.cpp
+  grenderocv.cpp
+  ft_render.cpp
+  gplaidmlcore.cpp
+  gplaidmlbackend.cpp
+  gmetabackend.cpp
+  gcompoundbackend.cpp
+  gcompoundkernel.cpp
+  s11n.cpp
+  serialization.cpp
+  gstreamingbackend.cpp
+  bindings_ie.cpp
+  bindings_onnx.cpp
+  bindings_ov.cpp
+  gpythonbackend.cpp
+  queue_source.cpp
+  source.cpp
+  source_priv.cpp
+  file_data_provider.cpp
+  cfg_params.cpp
+  cfg_params_parser.cpp
+  default.cpp
+  data_provider_interface_exception.cpp
+  base_frame_adapter.cpp
+  cpu_frame_adapter.cpp
+  dx11_frame_adapter.cpp
+  surface.cpp
+  surface_pool.cpp
+  shared_lock.cpp
+  accel_policy_cpu.cpp
+  accel_policy_dx11.cpp
+  accel_policy_va_api.cpp
+  dx11_alloc_resource.cpp
+  engine_session.cpp
+  processing_engine_base.cpp
+  decode_engine_legacy.cpp
+  decode_session.cpp
+  transcode_engine_legacy.cpp
+  transcode_session.cpp
+  preproc_engine.cpp
+  preproc_session.cpp
+  preproc_dispatcher.cpp
+  preproc_engine_interface.cpp
+  async_mfp_demux_data_provider.cpp
+  data_provider_dispatcher.cpp
+  cfg_param_device_selector.cpp
+  device_selector_interface.cpp
+  gstreamer_pipeline_facade.cpp
+  gstreamerpipeline.cpp
+  gstreamersource.cpp
+  gstreamer_buffer_utils.cpp
+  gstreamer_media_adapter.cpp
+  gstreamerenv.cpp
+  itt.cpp
+  kalman_filter_no_opencv.cpp
+  hungarian_wrap.cpp
+  objects_associator.cpp
+  rgb_histogram.cpp
+  object_tracker.cpp
+  short_term_imageless_tracker.cpp
+  tracklet.cpp
+  zero_term_imageless_tracker.cpp
+  deepflow.cpp
+  interfaces.cpp
+  motempl.cpp
+  pcaflow.cpp
+  geo_interpolation.cpp
+  rlof_localflow.cpp
+  rlofflow.cpp
+  simpleflow.cpp
+  sparse_matching_gpc.cpp
+  sparsetodenseflow.cpp
+  opencl_kernels_optflow.cpp
+  autocalib.cpp
+  blenders.cpp
+  camera.cpp
+  exposure_compensate.cpp
+  motion_estimators.cpp
+  seam_finders.cpp
+  stitcher.cpp
+  timelapsers.cpp
+  warpers.cpp
+  warpers_cuda.cpp
+  opencl_kernels_stitching.cpp
+  augmented_unscented_kalman.cpp
+  feature.cpp
+  featureColorName.cpp
+  gtrUtils.cpp
+  kuhn_munkres.cpp
+  mosseTracker.cpp
+  multiTracker.cpp
+  multiTracker_alt.cpp
+  onlineBoosting.cpp
+  tldDataset.cpp
+  tldDetector.cpp
+  tldEnsembleClassifier.cpp
+  tldModel.cpp
+  tldTracker.cpp
+  tldUtils.cpp
+  trackerBoosting.cpp
+  trackerBoostingModel.cpp
+  trackerCSRT.cpp
+  trackerCSRTScaleEstimation.cpp
+  trackerCSRTSegmentation.cpp
+  trackerCSRTUtils.cpp
+  trackerFeature.cpp
+  trackerFeatureSet.cpp
+  trackerKCF.cpp
+  trackerMIL_legacy.cpp
+  trackerMedianFlow.cpp
+  trackerSampler.cpp
+  trackerSamplerAlgorithm.cpp
+  trackerStateEstimator.cpp
+  tracking_by_matching.cpp
+  tracking_utils.cpp
+  twist.cpp
+  unscented_kalman.cpp
+  opencl_kernels_tracking.cpp
+  brox.cpp
+  farneback.cpp
+  nvidiaOpticalFlow.cpp
+  pyrlk.cpp
+  descriptor.cpp
+  quasi_dense_stereo.cpp
+  stereo_binary_bm.cpp
+  stereo_binary_sgbm.cpp
+  btv_l1.cpp
+  btv_l1_cuda.cpp
+  input_array_utility.cpp
+  super_resolution.cpp
+  opencl_kernels_superres.cpp
+  deblurring.cpp
+  fast_marching.cpp
+  global_motion.cpp
+  log.cpp
+  motion_stabilizing.cpp
+  outlier_rejection.cpp
+  stabilizer.cpp
+  wobble_suppression.cpp
+  world_init.cpp
+  alloc.cpp
+  arithm.cpp
+  kmeans.cpp
+  lut.cpp
+  parallel.cpp
+  parallel.cpp
+  tables.cpp
+  arithm.cpp
+  lut.cpp
+  blend.cpp
+  canny.cpp
+  color.cpp
+  connectedcomponents.cpp
+  generalized_hough.cpp
+  histogram.cpp
+  main.cpp
+  moments.cpp
+  pyramids.cpp
+  resize.cpp
+  tables.cpp
+  utils.cpp
+  blend.cpp
+  canny.cpp
+  color.cpp
+  connectedcomponents.cpp
+  generalized_hough.cpp
+  gftt.cpp
+  histogram.cpp
+  moments.cpp
+  pyramids.cpp
+  resize.cpp
+  backend.cpp
+  batch_norm_layer.cpp
+  convolution_layer.cpp
+  elementwise_layers.cpp
+  eltwise_layer.cpp
+  fully_connected_layer.cpp
+  pooling_layer.cpp
+  scale_layer.cpp
+  softmax_layer.cpp
+  batch_norm_layer.cpp
+  convolution_layer.cpp
+  elementwise_layers.cpp
+  eltwise_layer.cpp
+  fully_connected_layer.cpp
+  pooling_layer.cpp
+  scale_layer.cpp
+  softmax_layer.cpp
+  common.cpp
+  draw.cpp
+  fast.cpp
+  gftt.cpp
+  main.cpp
+  matchers.cpp
+  orb.cpp
+  merge.cpp
+  slic.cpp
+  utils.cpp
+  draw.cpp
+  align.cpp
+  merge.cpp
+  tonemap.cpp
+  backend_plugin.cpp
+  inpainting.cpp
+  tonemap.cpp
+  main.cpp
+  stereobm.cpp
+  utils.cpp
+  fast.cpp
+  orb.cpp
+  stereobm.cpp
+  util.cpp
+  util.cpp
+  backend.cpp
+  color.cpp
+  common.cpp
+  utils.cpp
+  hybrid_binarizer.cpp
+  super_scale.cpp
+  utils.cpp
+  hog.cpp
+  main.cpp
+  histogram.cpp
+  utils.cpp
+  tracker.cpp
+  align.cpp
+  super_scale.cpp
+  hybrid_binarizer.cpp
+  kmeans.cpp
+  boostdesc.cpp
+  fast.cpp
+  logos.cpp
+  Logos.cpp
+  vgg.cpp
+  slic.cpp
+  hog.cpp
+  utils.cpp
+  tracker.cpp
+  tvl1flow.cpp
+  matchers.cpp
+  util.cpp
+  tracker.cpp
+  tvl1flow.cpp
+  frame_source.cpp
+  optical_flow.cpp
+  frame_source.cpp
+  inpainting.cpp
+  optical_flow.cpp
+     Creating library C:/Users/ihsan/Projects/Synthesia/opencv/build/lib/Release/opencv_world4120.lib and object C:/Users/ihsan/Projects/Synthesia/opencv/build/lib/Release/opencv_world4120.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  opencv_world.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_world4120.dll

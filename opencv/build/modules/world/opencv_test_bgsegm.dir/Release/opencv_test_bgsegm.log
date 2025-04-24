@@ -1,0 +1,4 @@
+﻿  test_backgroundsubtractor_gbh.cpp
+  test_backgroundsubtractor_lsbp.cpp
+  test_main.cpp
+  opencv_test_bgsegm.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_bgsegm.exe

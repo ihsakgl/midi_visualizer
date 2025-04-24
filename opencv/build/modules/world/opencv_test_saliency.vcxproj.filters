@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\saliency\test\test_main.cpp">
+      <Filter>opencv_saliency\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\saliency\test\test_static_saliency_spectral_residual.cpp">
+      <Filter>opencv_saliency\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\saliency\test\test_precomp.hpp">
+      <Filter>opencv_saliency\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_saliency">
+      <UniqueIdentifier>{19338951-98EB-3AAD-A86B-33A62FBB2670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_saliency\Include">
+      <UniqueIdentifier>{62EBEBDA-FED8-3155-9684-C8BA6340519A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_saliency\Src">
+      <UniqueIdentifier>{ED8F33BB-85DE-3594-96F6-2E975D9051C0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

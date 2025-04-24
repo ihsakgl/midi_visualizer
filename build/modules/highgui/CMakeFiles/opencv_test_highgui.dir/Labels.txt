@@ -1,0 +1,20 @@
+# Target labels
+ Main
+ opencv_highgui
+ AccuracyTest
+# Source files and their labels
+C:/Users/ihsan/Projects/Synthesia/build/modules/highgui/CMakeFiles/opencv_test_highgui.dir/cmake_pch.cxx
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/highgui/test/test_gui.cpp
+ Main
+ opencv_highgui
+ AccuracyTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/highgui/test/test_main.cpp
+ Main
+ opencv_highgui
+ AccuracyTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/highgui/test/test_precomp.hpp
+ Main
+ opencv_highgui
+ AccuracyTest
+C:/Users/ihsan/Projects/Synthesia/build/modules/highgui/CMakeFiles/opencv_test_highgui.dir/Debug/cmake_pch.hxx
+C:/Users/ihsan/Projects/Synthesia/build/modules/highgui/CMakeFiles/opencv_test_highgui.dir/Release/cmake_pch.hxx

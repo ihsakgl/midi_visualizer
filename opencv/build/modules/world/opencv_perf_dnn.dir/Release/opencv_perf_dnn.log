@@ -1,0 +1,13 @@
+﻿  perf_caffe.cpp
+  perf_common.cpp
+  perf_convolution.cpp
+  perf_convolution1d.cpp
+  perf_convolution3d.cpp
+  perf_einsum.cpp
+  perf_gemm.cpp
+  perf_layer.cpp
+  perf_main.cpp
+  perf_net.cpp
+  perf_recurrent.cpp
+  perf_utils.cpp
+  opencv_perf_dnn.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_dnn.exe

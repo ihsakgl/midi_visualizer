@@ -1,0 +1,14 @@
+﻿  test_bilateral_filter.cpp
+  test_blend.cpp
+  test_canny.cpp
+  test_color.cpp
+  test_connectedcomponents.cpp
+  test_corners.cpp
+  test_gftt.cpp
+  test_histogram.cpp
+  test_hough.cpp
+  test_main.cpp
+  test_match_template.cpp
+  test_mean_shift.cpp
+  test_moments.cpp
+  opencv_test_cudaimgproc.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_cudaimgproc.exe

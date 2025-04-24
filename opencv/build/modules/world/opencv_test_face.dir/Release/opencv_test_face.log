@@ -1,0 +1,9 @@
+﻿  test_bif.cpp
+  test_face_align.cpp
+  test_facemark.cpp
+  test_facemark_aam.cpp
+  test_facemark_lbf.cpp
+  test_loadsave.cpp
+  test_mace.cpp
+  test_main.cpp
+  opencv_test_face.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_face.exe

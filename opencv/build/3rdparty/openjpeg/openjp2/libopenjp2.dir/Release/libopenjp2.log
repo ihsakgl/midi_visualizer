@@ -1,0 +1,23 @@
+﻿  thread.c
+  bio.c
+  cio.c
+  dwt.c
+  event.c
+  ht_dec.c
+  image.c
+  invert.c
+  j2k.c
+  jp2.c
+  mct.c
+  mqc.c
+  openjpeg.c
+  opj_clock.c
+  pi.c
+  t1.c
+  t2.c
+  tcd.c
+  tgt.c
+  function_list.c
+  opj_malloc.c
+  sparse_array.c
+  libopenjp2.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\3rdparty\lib\Release\libopenjp2.lib

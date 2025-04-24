@@ -1,17 +1,4 @@
 import mido
-import os
-
-
-
-def convert_midi_to_mid(file_path):
-    if file_path.endswith(".midi"):
-
-        new_file_path = file_path.replace(".midi", ".mid")
-        os.rename(file_path, new_file_path)
-        print(f"File renamed to {new_file_path}")
-        return new_file_path
-    else:
-        print("The file is not a .midi file")
 
 def load_midi_file(file_path):
     
@@ -68,18 +55,19 @@ def parse_midi(midi_file):
                 active_notes[msg.note] = {
                     'note': msg.note,
                     'velocity': msg.velocity,
-                    'start_time': current_time + 1, # offset for initializing pygame
+                    'start_time': current_time, # offset for initializing pygame
                     'track': midi_file.tracks.index(track)
                 }
             elif msg.type == 'note_off' or (msg.type == 'note_on' and msg.velocity == 0):
                 if msg.note in active_notes:
                     note_data = active_notes[msg.note]
                     active_notes.pop(msg.note)
-                    note_data['end_time'] = current_time + 1 # offset for initializing pygame
+                    note_data['end_time'] = current_time # offset for initializing pygame
                     note_data['duration'] = note_data['end_time'] - note_data['start_time']
-                    note_data['color'] = (0, 0, 155) if note_data['track'] == 0 else (0, 0, 155)
+                    
 
                     notes.append(note_data)
+    
 
     # Sort notes by start time
     notes = sorted(notes, key=lambda x: x['start_time'])

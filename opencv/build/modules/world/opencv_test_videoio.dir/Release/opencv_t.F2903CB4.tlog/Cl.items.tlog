@@ -1,0 +1,14 @@
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\test\test_audio.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_videoio.dir\Release\test_audio.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\test\test_camera.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_videoio.dir\Release\test_camera.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\test\test_container_avi.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_videoio.dir\Release\test_container_avi.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\test\test_dynamic.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_videoio.dir\Release\test_dynamic.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\test\test_ffmpeg.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_videoio.dir\Release\test_ffmpeg.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\test\test_gstreamer.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_videoio.dir\Release\test_gstreamer.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\test\test_images.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_videoio.dir\Release\test_images.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\test\test_main.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_videoio.dir\Release\test_main.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\test\test_mfx.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_videoio.dir\Release\test_mfx.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\test\test_microphone.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_videoio.dir\Release\test_microphone.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\test\test_orientation.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_videoio.dir\Release\test_orientation.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\test\test_plugins.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_videoio.dir\Release\test_plugins.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\test\test_v4l2.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_videoio.dir\Release\test_v4l2.obj
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\test\test_video_io.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_videoio.dir\Release\test_video_io.obj

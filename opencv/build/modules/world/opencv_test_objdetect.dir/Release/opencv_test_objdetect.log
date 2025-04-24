@@ -1,0 +1,13 @@
+﻿  test_hogdetector.cpp
+  test_aruco_tutorial.cpp
+  test_aruco_utils.cpp
+  test_arucodetection.cpp
+  test_barcode.cpp
+  test_boarddetection.cpp
+  test_cascadeandhog.cpp
+  test_charucodetection.cpp
+  test_face.cpp
+  test_main.cpp
+  test_qrcode.cpp
+  test_qrcode_encode.cpp
+  opencv_test_objdetect.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_objdetect.exe

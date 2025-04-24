@@ -1,0 +1,28 @@
+# Target labels
+ Main
+ opencv_videoio
+ PerfTest
+# Source files and their labels
+C:/Users/ihsan/Projects/Synthesia/build/modules/videoio/CMakeFiles/opencv_perf_videoio.dir/cmake_pch.cxx
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/videoio/perf/perf_input.cpp
+ Main
+ opencv_videoio
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/videoio/perf/perf_main.cpp
+ Main
+ opencv_videoio
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/videoio/perf/perf_output.cpp
+ Main
+ opencv_videoio
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/videoio/perf/perf_camera.impl.hpp
+ Main
+ opencv_videoio
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/videoio/perf/perf_precomp.hpp
+ Main
+ opencv_videoio
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/build/modules/videoio/CMakeFiles/opencv_perf_videoio.dir/Debug/cmake_pch.hxx
+C:/Users/ihsan/Projects/Synthesia/build/modules/videoio/CMakeFiles/opencv_perf_videoio.dir/Release/cmake_pch.hxx

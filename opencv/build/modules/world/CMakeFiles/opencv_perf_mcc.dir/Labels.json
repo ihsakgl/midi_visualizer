@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/mcc/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_mcc",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/mcc/perf/perf_mcc.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_mcc",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/mcc/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_mcc",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_mcc",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_mcc"
+	}
+}

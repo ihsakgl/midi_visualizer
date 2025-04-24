@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_adaptive_manifold.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_adaptive_manifold_ref_impl.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_anisodiff.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_bilateral_texture_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_deriche_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_disparity_wls_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_domain_transform.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_edgeboxes.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_edgepreserving_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_fast_hough_transform.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_fbs_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_fgs_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_find_ellipses.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_fld.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_fourier_descriptors.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_guided_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_joint_bilateral_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_l0_smooth.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_main.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_matchcolortemplate.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_niblack_threshold.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_radon_transform.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_ridge_detection_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_rolling_guidance_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_run_length_morphology.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_scansegment.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_slic.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_sparse_match_interpolator.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_structured_edge_detection.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_thinning.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_weighted_median_filter.cpp">
+      <Filter>opencv_ximgproc\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\ximgproc\test\test_precomp.hpp">
+      <Filter>opencv_ximgproc\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_ximgproc">
+      <UniqueIdentifier>{672F48B8-C98F-3D29-8AAD-2F0A0923A845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ximgproc\Include">
+      <UniqueIdentifier>{D5BDB3CA-5D39-3389-BAA4-4ADC465C0B78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ximgproc\Src">
+      <UniqueIdentifier>{EB398DF8-6EA7-303C-A8E4-3D0E439BC4BC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

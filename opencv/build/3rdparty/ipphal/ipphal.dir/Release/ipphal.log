@@ -1,0 +1,6 @@
+﻿  mean_ipp.cpp
+  minmax_ipp.cpp
+  norm_ipp.cpp
+  cart_polar_ipp.cpp
+  transforms_ipp.cpp
+  ipphal.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\3rdparty\lib\Release\ipphal.lib

@@ -1,0 +1,69 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/build/modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/cmake_pch.cxx"
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/imgcodecs/perf/perf_decode_encode.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/imgcodecs/perf/perf_jpeg.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/imgcodecs/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/imgcodecs/perf/perf_png.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/imgcodecs/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/build/modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/Debug/cmake_pch.hxx"
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/build/modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/Release/cmake_pch.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_imgcodecs",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_imgcodecs"
+	}
+}

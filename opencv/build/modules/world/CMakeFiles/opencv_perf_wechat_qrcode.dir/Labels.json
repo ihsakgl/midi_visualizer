@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/wechat_qrcode/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_wechat_qrcode",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/wechat_qrcode/perf/perf_wechat_qrcode_pipeline.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_wechat_qrcode",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/wechat_qrcode/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_wechat_qrcode",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_wechat_qrcode",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_wechat_qrcode"
+	}
+}

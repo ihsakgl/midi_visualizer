@@ -1,0 +1,5 @@
+﻿  test_features2d.cpp
+  test_main.cpp
+     Creating library C:/Users/ihsan/Projects/Synthesia/opencv/build/bin/Release/opencv_test_cudafeatures2d.lib and object C:/Users/ihsan/Projects/Synthesia/opencv/build/bin/Release/opencv_test_cudafeatures2d.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  opencv_test_cudafeatures2d.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_cudafeatures2d.exe

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudastereo\perf\perf_main.cpp">
+      <Filter>opencv_cudastereo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudastereo\perf\perf_stereo.cpp">
+      <Filter>opencv_cudastereo\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudastereo\perf\perf_precomp.hpp">
+      <Filter>opencv_cudastereo\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_cudastereo">
+      <UniqueIdentifier>{DF063660-66B6-3D78-8D4A-1E6F1EB2CE13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudastereo\Include">
+      <UniqueIdentifier>{44B27A7E-0E9F-397D-8F0C-3CD981B49B46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudastereo\Src">
+      <UniqueIdentifier>{BD8A3DB5-CA6B-33E2-924A-8AF4A3BAFCD9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

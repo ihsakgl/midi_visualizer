@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\quality\test\test_brisque.cpp">
+      <Filter>opencv_quality\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\quality\test\test_gmsd.cpp">
+      <Filter>opencv_quality\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\quality\test\test_main.cpp">
+      <Filter>opencv_quality\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\quality\test\test_mse.cpp">
+      <Filter>opencv_quality\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\quality\test\test_psnr.cpp">
+      <Filter>opencv_quality\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\quality\test\test_ssim.cpp">
+      <Filter>opencv_quality\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\quality\test\test_precomp.hpp">
+      <Filter>opencv_quality\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_quality">
+      <UniqueIdentifier>{BBB62507-13A8-386E-954C-343499FD52F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_quality\Include">
+      <UniqueIdentifier>{8262824E-B441-3FB5-B0B8-C65D40DF9086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_quality\Src">
+      <UniqueIdentifier>{B2FC6394-36DC-34E7-96AC-F63425677555}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

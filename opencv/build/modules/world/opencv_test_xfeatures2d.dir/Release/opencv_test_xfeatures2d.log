@@ -1,0 +1,10 @@
+﻿  test_detectors.cpp
+  test_features2d.cpp
+  test_gms_matcher.cpp
+  test_keypoints.cpp
+  test_logos_matcher.cpp
+  test_main.cpp
+  test_rotation_and_scale_invariance.cpp
+  test_surf.cuda.cpp
+  test_surf.ocl.cpp
+  opencv_test_xfeatures2d.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_xfeatures2d.exe

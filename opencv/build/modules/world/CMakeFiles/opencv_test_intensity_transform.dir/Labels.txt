@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_intensity_transform
+ AccuracyTest
+# Source files and their labels
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/intensity_transform/test/test_intensity_transform.cpp
+ Extra
+ opencv_intensity_transform
+ AccuracyTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/intensity_transform/test/test_main.cpp
+ Extra
+ opencv_intensity_transform
+ AccuracyTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/intensity_transform/test/test_precomp.hpp
+ Extra
+ opencv_intensity_transform
+ AccuracyTest

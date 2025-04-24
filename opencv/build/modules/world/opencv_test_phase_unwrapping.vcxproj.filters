@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\phase_unwrapping\test\test_main.cpp">
+      <Filter>opencv_phase_unwrapping\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\phase_unwrapping\test\test_unwrapping.cpp">
+      <Filter>opencv_phase_unwrapping\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\phase_unwrapping\test\test_precomp.hpp">
+      <Filter>opencv_phase_unwrapping\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_phase_unwrapping">
+      <UniqueIdentifier>{CC131933-D302-3F23-94D0-05C37C0EB463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_phase_unwrapping\Include">
+      <UniqueIdentifier>{C8EDE5C9-810B-3296-B8A3-69BB4C68485B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_phase_unwrapping\Src">
+      <UniqueIdentifier>{81EF959A-269D-3A35-A49C-2B56522D7A68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xphoto\test\dct_image_denoising.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xphoto\test\simple_color_balance.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xphoto\test\test_denoise_bm3d.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xphoto\test\test_grayworld.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xphoto\test\test_hdr.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xphoto\test\test_inpainting.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xphoto\test\test_learning_based_color_balance.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xphoto\test\test_main.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xphoto\test\test_oil_painting.cpp">
+      <Filter>opencv_xphoto\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xphoto\test\test_precomp.hpp">
+      <Filter>opencv_xphoto\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_xphoto">
+      <UniqueIdentifier>{72BCE365-E34E-3F45-A3B1-7A7235A4C9C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_xphoto\Include">
+      <UniqueIdentifier>{63435501-0DE4-3691-9721-2B598788C050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_xphoto\Src">
+      <UniqueIdentifier>{A179E373-6776-3E5A-9512-8F1F8D65802A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

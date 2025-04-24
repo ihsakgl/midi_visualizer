@@ -1,0 +1,15 @@
+﻿  test_audio.cpp
+  test_camera.cpp
+  test_container_avi.cpp
+  test_dynamic.cpp
+  test_ffmpeg.cpp
+  test_gstreamer.cpp
+  test_images.cpp
+  test_main.cpp
+  test_mfx.cpp
+  test_microphone.cpp
+  test_orientation.cpp
+  test_plugins.cpp
+  test_v4l2.cpp
+  test_video_io.cpp
+  opencv_test_videoio.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_videoio.exe

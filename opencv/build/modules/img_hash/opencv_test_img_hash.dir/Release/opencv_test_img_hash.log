@@ -1,0 +1,7 @@
+﻿  test_average_hash.cpp
+  test_block_mean_hash.cpp
+  test_main.cpp
+  test_marr_hildreth_hash.cpp
+  test_phash.cpp
+  test_radial_variance_hash.cpp
+  opencv_test_img_hash.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_img_hash.exe

@@ -1,0 +1,5 @@
+﻿  perf_decode_encode.cpp
+  perf_jpeg.cpp
+  perf_main.cpp
+  perf_png.cpp
+  opencv_perf_imgcodecs.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_imgcodecs.exe

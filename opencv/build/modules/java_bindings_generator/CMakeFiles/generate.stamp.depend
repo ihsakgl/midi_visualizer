@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/misc/java/src/java/core+Core.jcode.in
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/java/common.cmake
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/java/generator/CMakeLists.txt
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java.in
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java.in

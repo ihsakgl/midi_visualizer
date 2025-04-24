@@ -1,0 +1,5 @@
+﻿  perf_descriptors.cpp
+  perf_detection.cpp
+  perf_main.cpp
+  perf_matching.cpp
+  opencv_perf_line_descriptor.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_line_descriptor.exe

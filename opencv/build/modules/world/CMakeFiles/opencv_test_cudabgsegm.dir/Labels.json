@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudabgsegm/test/test_bgsegm.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudabgsegm",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudabgsegm/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudabgsegm",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudabgsegm/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudabgsegm",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_cudabgsegm",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_cudabgsegm"
+	}
+}

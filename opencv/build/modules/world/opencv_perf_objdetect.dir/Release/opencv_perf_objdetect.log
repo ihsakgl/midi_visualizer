@@ -1,0 +1,7 @@
+﻿  perf_cascades.cpp
+  perf_hogdetect.cpp
+  perf_aruco.cpp
+  perf_barcode.cpp
+  perf_main.cpp
+  perf_qrcode_pipeline.cpp
+  opencv_perf_objdetect.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_objdetect.exe

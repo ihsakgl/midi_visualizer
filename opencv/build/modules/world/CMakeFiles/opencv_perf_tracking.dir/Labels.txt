@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_tracking
+ PerfTest
+# Source files and their labels
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/tracking/perf/perf_main.cpp
+ Extra
+ opencv_tracking
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/tracking/perf/perf_trackers.cpp
+ Extra
+ opencv_tracking
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/tracking/perf/perf_precomp.hpp
+ Extra
+ opencv_tracking
+ PerfTest

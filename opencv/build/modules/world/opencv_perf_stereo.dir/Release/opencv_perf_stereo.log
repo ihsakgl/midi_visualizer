@@ -1,0 +1,4 @@
+﻿  perf_bm.cpp
+  perf_descriptor.cpp
+  perf_main.cpp
+  opencv_perf_stereo.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_stereo.exe

@@ -1,0 +1,5 @@
+﻿  test_faps.cpp
+  test_getProjPixel.cpp
+  test_main.cpp
+  test_plane.cpp
+  opencv_test_structured_light.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_structured_light.exe

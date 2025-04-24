@@ -1,0 +1,19 @@
+﻿  TestCompact.cpp
+  TestDrawRects.cpp
+  TestHaarCascadeApplication.cpp
+  TestHaarCascadeLoader.cpp
+  TestHypothesesFilter.cpp
+  TestHypothesesGrow.cpp
+  TestIntegralImage.cpp
+  TestIntegralImageSquared.cpp
+  TestRectStdDev.cpp
+  TestResize.cpp
+  TestTranspose.cpp
+  main_nvidia.cpp
+  test_calib3d.cpp
+  test_labeling.cpp
+  test_main.cpp
+  test_nvidia.cpp
+     Creating library C:/Users/ihsan/Projects/Synthesia/opencv/build/bin/Release/opencv_test_cudalegacy.lib and object C:/Users/ihsan/Projects/Synthesia/opencv/build/bin/Release/opencv_test_cudalegacy.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  opencv_test_cudalegacy.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_cudalegacy.exe

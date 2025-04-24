@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudacodec/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudacodec",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudacodec/test/test_video.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudacodec",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudacodec/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudacodec",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_cudacodec",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_cudacodec"
+	}
+}

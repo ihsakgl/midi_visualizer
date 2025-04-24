@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudalegacy\perf\perf_bgsegm.cpp">
+      <Filter>opencv_cudalegacy\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudalegacy\perf\perf_calib3d.cpp">
+      <Filter>opencv_cudalegacy\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudalegacy\perf\perf_labeling.cpp">
+      <Filter>opencv_cudalegacy\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudalegacy\perf\perf_main.cpp">
+      <Filter>opencv_cudalegacy\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudalegacy\perf\perf_precomp.hpp">
+      <Filter>opencv_cudalegacy\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_cudalegacy">
+      <UniqueIdentifier>{9856D468-178D-3992-A01A-AFCF126F75C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudalegacy\Include">
+      <UniqueIdentifier>{F511D236-D038-355A-B6F9-1A19EB2AC242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudalegacy\Src">
+      <UniqueIdentifier>{922A9941-780E-3529-940E-AC2318B56293}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

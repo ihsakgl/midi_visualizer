@@ -1,0 +1,11 @@
+﻿  perf_beblid.cpp
+  perf_daisy.cpp
+  perf_latch.cpp
+  perf_main.cpp
+  perf_msd.cpp
+  perf_surf.cpp
+  perf_surf.cuda.cpp
+  perf_surf.ocl.cpp
+  perf_teblid.cpp
+  perf_vgg.cpp
+  opencv_perf_xfeatures2d.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_xfeatures2d.exe

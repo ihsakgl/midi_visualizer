@@ -1,0 +1,3 @@
+﻿  perf_main.cpp
+  perf_objdetect.cpp
+  opencv_perf_cudaobjdetect.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_cudaobjdetect.exe

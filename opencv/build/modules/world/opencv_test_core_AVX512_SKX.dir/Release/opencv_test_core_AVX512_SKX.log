@@ -1,0 +1,4 @@
+﻿  test_intrin128.avx512_skx.cpp
+  test_intrin256.avx512_skx.cpp
+  test_intrin512.avx512_skx.cpp
+  opencv_test_core_AVX512_SKX.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_core_AVX512_SKX.dir\Release\opencv_test_core_AVX512_SKX.lib

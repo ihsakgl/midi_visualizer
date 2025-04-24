@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\stereo\perf\perf_bm.cpp">
+      <Filter>opencv_stereo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\stereo\perf\perf_descriptor.cpp">
+      <Filter>opencv_stereo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\stereo\perf\perf_main.cpp">
+      <Filter>opencv_stereo\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\stereo\perf\perf_precomp.hpp">
+      <Filter>opencv_stereo\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_stereo">
+      <UniqueIdentifier>{63D54CDF-AB2B-3D3E-84A7-0689D151327F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stereo\Include">
+      <UniqueIdentifier>{B7A265FF-CC3B-3A00-BF8C-710578B6E189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stereo\Src">
+      <UniqueIdentifier>{FE5A4AE7-D491-3E39-B250-8DAB586C34A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

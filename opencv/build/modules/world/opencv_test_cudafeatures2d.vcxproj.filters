@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafeatures2d\test\test_features2d.cpp">
+      <Filter>opencv_cudafeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafeatures2d\test\test_main.cpp">
+      <Filter>opencv_cudafeatures2d\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudafeatures2d\test\test_precomp.hpp">
+      <Filter>opencv_cudafeatures2d\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_cudafeatures2d">
+      <UniqueIdentifier>{4416969B-5DBB-3004-A723-125CDF3D5EB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudafeatures2d\Include">
+      <UniqueIdentifier>{87F71093-13F8-3A82-90EB-14A790BA185B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudafeatures2d\Src">
+      <UniqueIdentifier>{5C7317F4-04FA-3E67-9A5F-F2D145B31158}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

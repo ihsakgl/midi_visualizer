@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_beblid.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_daisy.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_latch.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_main.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_msd.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_surf.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_surf.cuda.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_surf.ocl.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_teblid.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_vgg.cpp">
+      <Filter>opencv_xfeatures2d\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\xfeatures2d\perf\perf_precomp.hpp">
+      <Filter>opencv_xfeatures2d\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_xfeatures2d">
+      <UniqueIdentifier>{DE492479-1125-35E8-9E4C-7B50BE7315E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_xfeatures2d\Include">
+      <UniqueIdentifier>{5DAAABFB-74C4-3D4B-BB06-7A26682CBDA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_xfeatures2d\Src">
+      <UniqueIdentifier>{E99A48E1-6C95-375F-AABA-36EBF30EAD14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

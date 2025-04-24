@@ -1,0 +1,3 @@
+﻿  perf_bgsegm.cpp
+  perf_main.cpp
+  opencv_perf_cudabgsegm.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_cudabgsegm.exe

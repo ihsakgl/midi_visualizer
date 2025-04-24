@@ -1,0 +1,15 @@
+﻿  perf_bgfg_knn.cpp
+  perf_bgfg_mog2.cpp
+  perf_dis_optflow.cpp
+  perf_motempl.cpp
+  perf_optflow_farneback.cpp
+  perf_optflow_pyrlk.cpp
+  perf_disflow.cpp
+  perf_ecc.cpp
+  perf_main.cpp
+  perf_optflowpyrlk.cpp
+  perf_trackers.cpp
+  perf_variational_refinement.cpp
+  perf_bgfg_knn.cpp
+  perf_bgfg_mog2.cpp
+  opencv_perf_video.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_video.exe

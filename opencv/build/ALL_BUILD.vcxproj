@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{56D7913C-60B2-3938-9583-594D44FF2CB8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\ipphal\include;C:\Users\ihsan\Projects\Synthesia\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\ihsan\Projects\Synthesia\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\ihsan\Projects\Synthesia\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\ipphal\include;C:\Users\ihsan\Projects\Synthesia\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\ihsan\Projects\Synthesia\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\ihsan\Projects\Synthesia\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\3rdparty\ipphal\ipphal.vcxproj">
+      <Project>{DA0AFBD2-E492-3024-BCBA-AD21E157CA82}</Project>
+      <Name>ipphal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\3rdparty\libjpeg-turbo\jpeg12-static.vcxproj">
+      <Project>{9F400734-6FBC-34A9-AB2C-2D90476E0917}</Project>
+      <Name>jpeg12-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\3rdparty\libjpeg-turbo\jpeg16-static.vcxproj">
+      <Project>{B144D7D6-2D24-3228-9DE4-F5FDAD53192E}</Project>
+      <Name>jpeg16-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\3rdparty\libjpeg-turbo\libjpeg-turbo.vcxproj">
+      <Project>{CE291D6B-E430-30B4-AD6E-FCC1E2668A5D}</Project>
+      <Name>libjpeg-turbo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\3rdparty\openjpeg\openjp2\libopenjp2.vcxproj">
+      <Project>{351AA0AE-4DB4-328C-A049-71128B12B2CB}</Project>
+      <Name>libopenjp2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\apps\annotation\opencv_annotation.vcxproj">
+      <Project>{9F0EAA9C-1E2D-3590-935F-37B77016A877}</Project>
+      <Name>opencv_annotation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\opencv_dnn_plugins.vcxproj">
+      <Project>{25A1AC03-805E-349C-BBBF-11EFECE56DAB}</Project>
+      <Name>opencv_dnn_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\opencv_highgui_plugins.vcxproj">
+      <Project>{DEB0469F-3731-3789-8C5A-38574638033F}</Project>
+      <Name>opencv_highgui_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\img_hash\opencv_img_hash.vcxproj">
+      <Project>{50DA3565-7FC2-3026-BF52-139BBA43295F}</Project>
+      <Name>opencv_img_hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\apps\interactive-calibration\opencv_interactive-calibration.vcxproj">
+      <Project>{52161720-275A-33C6-8167-6EE5C6E5566A}</Project>
+      <Name>opencv_interactive-calibration</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\apps\model-diagnostics\opencv_model_diagnostics.vcxproj">
+      <Project>{660827CA-91E4-3334-998C-71870B41865F}</Project>
+      <Name>opencv_model_diagnostics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_bioinspired.vcxproj">
+      <Project>{244BC724-7B8D-3C38-9844-718B2B409F4D}</Project>
+      <Name>opencv_perf_bioinspired</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_calib3d.vcxproj">
+      <Project>{335AC776-D5B9-3A96-9646-8F568EA779F9}</Project>
+      <Name>opencv_perf_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_core.vcxproj">
+      <Project>{734821C3-50FB-3A5C-8396-F4B4D7EDA8A6}</Project>
+      <Name>opencv_perf_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_cudaarithm.vcxproj">
+      <Project>{23F3FD00-FE9A-303F-90B3-B58D94233A29}</Project>
+      <Name>opencv_perf_cudaarithm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_cudabgsegm.vcxproj">
+      <Project>{A0259B18-BB22-3553-A2DD-D54EBAACB37A}</Project>
+      <Name>opencv_perf_cudabgsegm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_cudacodec.vcxproj">
+      <Project>{2B33AC53-2224-3DBA-B25F-99CC1E48731E}</Project>
+      <Name>opencv_perf_cudacodec</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_cudafeatures2d.vcxproj">
+      <Project>{D995DB97-AF32-3727-8A55-B05DB1685836}</Project>
+      <Name>opencv_perf_cudafeatures2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_cudafilters.vcxproj">
+      <Project>{55946031-9933-3A6B-924E-4768D4FE09EC}</Project>
+      <Name>opencv_perf_cudafilters</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_cudaimgproc.vcxproj">
+      <Project>{F8404D3B-D966-36E0-AB74-006E7546E28B}</Project>
+      <Name>opencv_perf_cudaimgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_cudalegacy.vcxproj">
+      <Project>{4B3C5330-F6ED-3814-9A67-4A165B1B3DD6}</Project>
+      <Name>opencv_perf_cudalegacy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_cudaobjdetect.vcxproj">
+      <Project>{4C546B51-7044-36B5-998D-631F67E733D9}</Project>
+      <Name>opencv_perf_cudaobjdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_cudaoptflow.vcxproj">
+      <Project>{3B780EC2-0BF9-3E47-A89D-B714F43B1F53}</Project>
+      <Name>opencv_perf_cudaoptflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_cudastereo.vcxproj">
+      <Project>{6023E4B0-500B-334E-968F-3C8E881A5AF3}</Project>
+      <Name>opencv_perf_cudastereo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_cudawarping.vcxproj">
+      <Project>{51BEEBB3-A603-3CAA-BC99-3B3F80847FD9}</Project>
+      <Name>opencv_perf_cudawarping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_dnn.vcxproj">
+      <Project>{D728F542-DEBA-3CF3-AD7E-BC4B0A777264}</Project>
+      <Name>opencv_perf_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_dnn_superres.vcxproj">
+      <Project>{2139C3B0-BCF6-397C-AEA6-BD3662D3A157}</Project>
+      <Name>opencv_perf_dnn_superres</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_features2d.vcxproj">
+      <Project>{1E46EA79-3B02-3E85-98DA-6CD6D6DD6663}</Project>
+      <Name>opencv_perf_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_gapi.vcxproj">
+      <Project>{BA0E6281-FE63-383B-817C-846D19D99CCF}</Project>
+      <Name>opencv_perf_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_imgcodecs.vcxproj">
+      <Project>{BDD97053-56C1-317F-8386-207194E7562D}</Project>
+      <Name>opencv_perf_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_imgproc.vcxproj">
+      <Project>{5463F6C4-5801-3986-BA3F-F868F5A96292}</Project>
+      <Name>opencv_perf_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_line_descriptor.vcxproj">
+      <Project>{392619EC-C1E0-3F6D-86F1-D13D99BED121}</Project>
+      <Name>opencv_perf_line_descriptor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_mcc.vcxproj">
+      <Project>{C03B9A51-30F9-3C4E-8E12-2526654FC3A2}</Project>
+      <Name>opencv_perf_mcc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_objdetect.vcxproj">
+      <Project>{022D5046-BC9B-32F4-AE04-B581DAD33736}</Project>
+      <Name>opencv_perf_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_optflow.vcxproj">
+      <Project>{C4E5D53C-4587-3B4F-9E0E-6CCE1954C6F6}</Project>
+      <Name>opencv_perf_optflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_photo.vcxproj">
+      <Project>{5F309F31-4E1F-36CD-9952-AE9F833DE60D}</Project>
+      <Name>opencv_perf_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_reg.vcxproj">
+      <Project>{E2FAD3A5-2DD5-3F81-B6CA-CF6A312FBD66}</Project>
+      <Name>opencv_perf_reg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_rgbd.vcxproj">
+      <Project>{BB6D9487-5991-3E9E-9CE4-43FE6451BA73}</Project>
+      <Name>opencv_perf_rgbd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_signal.vcxproj">
+      <Project>{DE8DD64B-BC08-3D3E-8D07-36E0E638E136}</Project>
+      <Name>opencv_perf_signal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_stereo.vcxproj">
+      <Project>{C87C1D7E-81BC-3836-B240-F92F77BC96DC}</Project>
+      <Name>opencv_perf_stereo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_stitching.vcxproj">
+      <Project>{46729F36-8BCF-38C2-980D-137573BB5014}</Project>
+      <Name>opencv_perf_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_superres.vcxproj">
+      <Project>{33506B21-6DBF-3AC4-B91B-12F7235E7EEE}</Project>
+      <Name>opencv_perf_superres</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_tracking.vcxproj">
+      <Project>{715488C4-866B-348C-B037-18D16E5D6C43}</Project>
+      <Name>opencv_perf_tracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_video.vcxproj">
+      <Project>{6F386499-6A4E-3978-A3D0-76740B74E0D1}</Project>
+      <Name>opencv_perf_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_videoio.vcxproj">
+      <Project>{3D1B10E9-1073-3890-B3E3-A4B62B1BC756}</Project>
+      <Name>opencv_perf_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_wechat_qrcode.vcxproj">
+      <Project>{AB6AD5E2-B682-37AE-BE73-9EA6F48DBD26}</Project>
+      <Name>opencv_perf_wechat_qrcode</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_xfeatures2d.vcxproj">
+      <Project>{814426DD-39F9-385B-A447-7E186FD9AAEA}</Project>
+      <Name>opencv_perf_xfeatures2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_ximgproc.vcxproj">
+      <Project>{B0A6A464-C074-3AD2-A34D-AAEB0FDFD107}</Project>
+      <Name>opencv_perf_ximgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_perf_xphoto.vcxproj">
+      <Project>{1683E34E-CFEB-3B57-80DA-F36BA5D08D41}</Project>
+      <Name>opencv_perf_xphoto</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\python3\opencv_python3.vcxproj">
+      <Project>{6A7EC1CC-C395-33D8-BC0C-9976D8450587}</Project>
+      <Name>opencv_python3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_bgsegm.vcxproj">
+      <Project>{CB2C85B9-86E3-3298-BA68-AEE444E7CE30}</Project>
+      <Name>opencv_test_bgsegm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_bioinspired.vcxproj">
+      <Project>{627AE624-B52C-37C3-B537-E09158CFC5D8}</Project>
+      <Name>opencv_test_bioinspired</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_calib3d.vcxproj">
+      <Project>{AA0C04FE-18F3-3C57-B662-8B60FF95DE39}</Project>
+      <Name>opencv_test_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_core.vcxproj">
+      <Project>{A2456C8F-2E86-3266-89F8-7045A2D1FD58}</Project>
+      <Name>opencv_test_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_core_AVX.vcxproj">
+      <Project>{D5FEC5BD-8C02-32B6-AAD8-4529F2123038}</Project>
+      <Name>opencv_test_core_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_core_AVX2.vcxproj">
+      <Project>{1E3D3C2D-E511-385A-8F1B-BC86D1EC9AFC}</Project>
+      <Name>opencv_test_core_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_core_AVX512_SKX.vcxproj">
+      <Project>{03664171-D7CD-3AB8-AC1C-8D60512102D4}</Project>
+      <Name>opencv_test_core_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_core_FP16.vcxproj">
+      <Project>{C2751E82-AC3D-379C-8891-D6C2DF6578A1}</Project>
+      <Name>opencv_test_core_FP16</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_core_SSE2.vcxproj">
+      <Project>{BB1FA079-45A6-303E-8C40-14C184F10187}</Project>
+      <Name>opencv_test_core_SSE2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_core_SSE3.vcxproj">
+      <Project>{FDCF88ED-609A-3A89-859A-61F21D8CBC9E}</Project>
+      <Name>opencv_test_core_SSE3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_core_SSE4_1.vcxproj">
+      <Project>{F81B94F0-19F4-34FE-8A02-AD123301CF04}</Project>
+      <Name>opencv_test_core_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_core_SSE4_2.vcxproj">
+      <Project>{EFA07BC7-94E4-391B-B324-23D22CE7C969}</Project>
+      <Name>opencv_test_core_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_cudaarithm.vcxproj">
+      <Project>{257CFC2C-A910-33A4-836C-07652B8A9DAC}</Project>
+      <Name>opencv_test_cudaarithm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_cudabgsegm.vcxproj">
+      <Project>{BE8E56F2-252B-3194-ACA9-CCF80F5321C1}</Project>
+      <Name>opencv_test_cudabgsegm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_cudacodec.vcxproj">
+      <Project>{66F9F758-D383-38E3-9E35-B58EEA5E6524}</Project>
+      <Name>opencv_test_cudacodec</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_cudafeatures2d.vcxproj">
+      <Project>{C74DD788-2E4F-3696-AA2D-2741064FF0BD}</Project>
+      <Name>opencv_test_cudafeatures2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_cudafilters.vcxproj">
+      <Project>{4815A35F-A19B-3F42-8F84-6C8740E5ADB8}</Project>
+      <Name>opencv_test_cudafilters</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_cudaimgproc.vcxproj">
+      <Project>{373B6769-815E-33DE-8C1B-FE1DC866B8F5}</Project>
+      <Name>opencv_test_cudaimgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_cudalegacy.vcxproj">
+      <Project>{9D64FDFD-FB13-364E-9071-613BE47E49F5}</Project>
+      <Name>opencv_test_cudalegacy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_cudaobjdetect.vcxproj">
+      <Project>{3F12E587-36B7-3CE6-BE9B-FEC3878B1D69}</Project>
+      <Name>opencv_test_cudaobjdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_cudaoptflow.vcxproj">
+      <Project>{1FFE70C5-55E4-39D1-B7CC-8211F7FA71FA}</Project>
+      <Name>opencv_test_cudaoptflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_cudastereo.vcxproj">
+      <Project>{748E2DFF-108A-3041-83A6-73C6048B0010}</Project>
+      <Name>opencv_test_cudastereo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_cudawarping.vcxproj">
+      <Project>{1BA7DF33-C41B-37B3-B309-B6C2FFBB6EE2}</Project>
+      <Name>opencv_test_cudawarping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_dnn.vcxproj">
+      <Project>{181BE1FA-F745-3094-9292-F6EA58D8C9C1}</Project>
+      <Name>opencv_test_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_dnn_superres.vcxproj">
+      <Project>{D53E04BB-40BE-3498-889E-617D01528E6D}</Project>
+      <Name>opencv_test_dnn_superres</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_face.vcxproj">
+      <Project>{F3BA7B7B-6BC0-3E28-8198-FC6632738485}</Project>
+      <Name>opencv_test_face</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_features2d.vcxproj">
+      <Project>{41483532-B567-341D-88B5-82A13272B73B}</Project>
+      <Name>opencv_test_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_flann.vcxproj">
+      <Project>{6952171A-67C7-3682-AED2-85E411B36E89}</Project>
+      <Name>opencv_test_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_fuzzy.vcxproj">
+      <Project>{FCF2923A-96B9-31AE-984F-96E2DFC1DC41}</Project>
+      <Name>opencv_test_fuzzy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_gapi.vcxproj">
+      <Project>{52A8C06F-21A6-3200-BC84-9EB11BB96749}</Project>
+      <Name>opencv_test_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_highgui.vcxproj">
+      <Project>{1251153C-F8CE-3670-81D3-1B1528331097}</Project>
+      <Name>opencv_test_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\img_hash\opencv_test_img_hash.vcxproj">
+      <Project>{4DB44E61-9FBC-379B-AC5C-2351AB0632C5}</Project>
+      <Name>opencv_test_img_hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_imgcodecs.vcxproj">
+      <Project>{1217CEDD-4E49-35C9-8391-BE4539BA92B5}</Project>
+      <Name>opencv_test_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_imgproc.vcxproj">
+      <Project>{FAE94355-FEEF-3529-85FD-AA6796C49F37}</Project>
+      <Name>opencv_test_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_intensity_transform.vcxproj">
+      <Project>{BEC17259-692B-33D0-98E6-497D5DB37DE0}</Project>
+      <Name>opencv_test_intensity_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_line_descriptor.vcxproj">
+      <Project>{33313BB0-91EE-3200-9FAB-F76581570F39}</Project>
+      <Name>opencv_test_line_descriptor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_mcc.vcxproj">
+      <Project>{33092D52-A197-3E42-A906-502CF6DD8604}</Project>
+      <Name>opencv_test_mcc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_ml.vcxproj">
+      <Project>{82A72CBA-1CFF-343C-B0EC-C4CF7B28CB40}</Project>
+      <Name>opencv_test_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_objdetect.vcxproj">
+      <Project>{4616F1F9-45C6-33B2-936F-0CD47D1AB7FB}</Project>
+      <Name>opencv_test_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_optflow.vcxproj">
+      <Project>{52074835-5364-371C-8E3F-556BA9D0B842}</Project>
+      <Name>opencv_test_optflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_phase_unwrapping.vcxproj">
+      <Project>{A7F8F5A4-7802-3FB0-A5A7-52A018875F4B}</Project>
+      <Name>opencv_test_phase_unwrapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_photo.vcxproj">
+      <Project>{784AFCFF-FD54-3E44-8750-F1E555EB5BE1}</Project>
+      <Name>opencv_test_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_quality.vcxproj">
+      <Project>{C208131D-F494-30D8-B706-C147C4EC954F}</Project>
+      <Name>opencv_test_quality</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_rapid.vcxproj">
+      <Project>{C0916E16-F07A-37E7-A213-D5763B5C0AF9}</Project>
+      <Name>opencv_test_rapid</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_reg.vcxproj">
+      <Project>{EE9AB803-5B33-3356-9C5D-A50B7A4A3384}</Project>
+      <Name>opencv_test_reg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_rgbd.vcxproj">
+      <Project>{2F650F75-1318-3B1A-993C-02E086323070}</Project>
+      <Name>opencv_test_rgbd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_saliency.vcxproj">
+      <Project>{0A148DD3-A24B-3528-B842-7CEACB40E464}</Project>
+      <Name>opencv_test_saliency</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_shape.vcxproj">
+      <Project>{F177D637-2DD2-35DC-89AF-27075F65E538}</Project>
+      <Name>opencv_test_shape</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_signal.vcxproj">
+      <Project>{16F683E8-B897-32A7-80CC-ABE38A4742C2}</Project>
+      <Name>opencv_test_signal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_stereo.vcxproj">
+      <Project>{B90AB6F8-0B43-3717-B5F5-495386D2FB00}</Project>
+      <Name>opencv_test_stereo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_stitching.vcxproj">
+      <Project>{D32BBBB2-65B6-3A9B-9F5B-1381142C49FB}</Project>
+      <Name>opencv_test_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_structured_light.vcxproj">
+      <Project>{E96B14BF-AB6E-3F34-A89D-39195A9F2C21}</Project>
+      <Name>opencv_test_structured_light</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_superres.vcxproj">
+      <Project>{80AABA51-1F3A-3F56-AD25-046A4BCE49E3}</Project>
+      <Name>opencv_test_superres</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_text.vcxproj">
+      <Project>{D969DAEF-2677-3349-BE77-F598DAA99D3C}</Project>
+      <Name>opencv_test_text</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_tracking.vcxproj">
+      <Project>{FBC41496-5A24-3068-BFEB-0A21F4E7CD6A}</Project>
+      <Name>opencv_test_tracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_video.vcxproj">
+      <Project>{B3588DB5-B80F-3006-9197-51CC5D570238}</Project>
+      <Name>opencv_test_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_videoio.vcxproj">
+      <Project>{F2903CB4-721F-3BDD-8CF9-33055A9B07C9}</Project>
+      <Name>opencv_test_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_videostab.vcxproj">
+      <Project>{C5B561AE-42B5-30A3-BCFD-A8871FCDDB6B}</Project>
+      <Name>opencv_test_videostab</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_wechat_qrcode.vcxproj">
+      <Project>{1A7BB15C-A94F-3EEE-96E7-379495ABBD30}</Project>
+      <Name>opencv_test_wechat_qrcode</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_xfeatures2d.vcxproj">
+      <Project>{5A1B60AE-1252-303D-8EC2-D318690CC795}</Project>
+      <Name>opencv_test_xfeatures2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_ximgproc.vcxproj">
+      <Project>{F133F9B0-1820-31FF-BD62-E1D3FC88FFA9}</Project>
+      <Name>opencv_test_ximgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_test_xphoto.vcxproj">
+      <Project>{F1D4AE35-D588-3FD6-9B4B-76C5F432DB11}</Project>
+      <Name>opencv_test_xphoto</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\ts\opencv_ts.vcxproj">
+      <Project>{51C52E6F-4841-3D41-944D-67DCD2FA1EEA}</Project>
+      <Name>opencv_ts</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\apps\version\opencv_version.vcxproj">
+      <Project>{E54EFD06-3EEC-3206-B663-FEE754F87044}</Project>
+      <Name>opencv_version</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\apps\version\opencv_version_win32.vcxproj">
+      <Project>{868B34E3-03AC-3A61-8062-5218BF9E1909}</Project>
+      <Name>opencv_version_win32</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\.firstpass\videoio\opencv_videoio_plugins.vcxproj">
+      <Project>{89A84C87-2DB3-333C-A0DC-244B498A08FF}</Project>
+      <Name>opencv_videoio_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\apps\visualisation\opencv_visualisation.vcxproj">
+      <Project>{1FDB8588-B50F-3055-88EB-74DAB9EADC0F}</Project>
+      <Name>opencv_visualisation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\tools\waldboost_detector\opencv_waldboost_detector.vcxproj">
+      <Project>{DC2A2892-CFAF-383C-97A6-833A91376739}</Project>
+      <Name>opencv_waldboost_detector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_world.vcxproj">
+      <Project>{B335ED73-30BB-3A3C-83A2-8C0A68ED7D99}</Project>
+      <Name>opencv_world</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_world_AVX.vcxproj">
+      <Project>{8BCC76D2-0E2E-3218-90CE-CE7924C9EB4D}</Project>
+      <Name>opencv_world_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_world_AVX2.vcxproj">
+      <Project>{B85BFA03-C2CE-3F24-8570-5C8EB57B6537}</Project>
+      <Name>opencv_world_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_world_AVX512_SKX.vcxproj">
+      <Project>{B315185C-F589-3588-9291-5DFF72F4EC38}</Project>
+      <Name>opencv_world_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_world_SSE4_1.vcxproj">
+      <Project>{2C57FE53-9005-3AC1-948D-AC800A04BBB3}</Project>
+      <Name>opencv_world_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\modules\world\opencv_world_SSE4_2.vcxproj">
+      <Project>{426B44AA-0BCB-3F29-B073-6B0DBDD7C9AF}</Project>
+      <Name>opencv_world_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

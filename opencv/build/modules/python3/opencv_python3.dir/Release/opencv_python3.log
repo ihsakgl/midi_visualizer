@@ -1,0 +1,7 @@
+﻿  cv2.cpp
+  cv2_util.cpp
+  cv2_numpy.cpp
+  cv2_convert.cpp
+  cv2_highgui.cpp
+     Creating library C:/Users/ihsan/Projects/Synthesia/opencv/build/lib/Release/opencv_python3.lib and object C:/Users/ihsan/Projects/Synthesia/opencv/build/lib/Release/opencv_python3.exp
+  opencv_python3.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\lib\python3\Release\cv2.cp312-win_amd64.pyd

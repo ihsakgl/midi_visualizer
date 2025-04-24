@@ -1,0 +1,12 @@
+﻿  test_tsdf.cpp
+  test_colored_kinfu.cpp
+  test_dynafu.cpp
+  test_kinfu.cpp
+  test_main.cpp
+  test_normal.cpp
+  test_odometry.cpp
+  test_pose_graph.cpp
+  test_registration.cpp
+  test_utils.cpp
+  test_tsdf.cpp
+  opencv_test_rgbd.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_rgbd.exe

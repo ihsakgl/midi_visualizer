@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_cudabgsegm
+ PerfTest
+# Source files and their labels
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudabgsegm/perf/perf_bgsegm.cpp
+ Extra
+ opencv_cudabgsegm
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudabgsegm/perf/perf_main.cpp
+ Extra
+ opencv_cudabgsegm
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudabgsegm/perf/perf_precomp.hpp
+ Extra
+ opencv_cudabgsegm
+ PerfTest

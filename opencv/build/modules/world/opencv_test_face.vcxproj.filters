@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\face\test\test_bif.cpp">
+      <Filter>opencv_face\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\face\test\test_face_align.cpp">
+      <Filter>opencv_face\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\face\test\test_facemark.cpp">
+      <Filter>opencv_face\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\face\test\test_facemark_aam.cpp">
+      <Filter>opencv_face\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\face\test\test_facemark_lbf.cpp">
+      <Filter>opencv_face\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\face\test\test_loadsave.cpp">
+      <Filter>opencv_face\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\face\test\test_mace.cpp">
+      <Filter>opencv_face\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\face\test\test_main.cpp">
+      <Filter>opencv_face\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\face\test\test_precomp.hpp">
+      <Filter>opencv_face\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_face">
+      <UniqueIdentifier>{D6C94393-86B5-38D4-B028-2B20BE58FC15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_face\Include">
+      <UniqueIdentifier>{F02F0E64-E25C-3515-9AFC-5E33A7379E82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_face\Src">
+      <UniqueIdentifier>{E6C5AFAE-799F-375B-98D5-EF96F831D71F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+﻿  cuda_perf.cpp
+  cuda_test.cpp
+  ocl_perf.cpp
+  ocl_test.cpp
+  ts.cpp
+  ts_arrtest.cpp
+  ts_func.cpp
+  ts_gtest.cpp
+  ts_perf.cpp
+  ts_tags.cpp
+  opencv_ts.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\lib\Release\opencv_ts4120.lib

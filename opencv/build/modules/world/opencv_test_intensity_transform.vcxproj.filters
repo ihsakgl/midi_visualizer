@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\intensity_transform\test\test_intensity_transform.cpp">
+      <Filter>opencv_intensity_transform\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\intensity_transform\test\test_main.cpp">
+      <Filter>opencv_intensity_transform\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\intensity_transform\test\test_precomp.hpp">
+      <Filter>opencv_intensity_transform\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_intensity_transform">
+      <UniqueIdentifier>{DD5344E2-BAC2-354E-A24A-57E7C564A99C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_intensity_transform\Include">
+      <UniqueIdentifier>{9E80414D-1DAA-3F26-B19B-15F8C2A43A0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_intensity_transform\Src">
+      <UniqueIdentifier>{01585D8B-A206-38AF-B540-1E125EB26674}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

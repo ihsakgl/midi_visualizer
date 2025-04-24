@@ -1,0 +1,7 @@
+﻿  test_brisque.cpp
+  test_gmsd.cpp
+  test_main.cpp
+  test_mse.cpp
+  test_psnr.cpp
+  test_ssim.cpp
+  opencv_test_quality.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_quality.exe

@@ -1,0 +1,51 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudastereo/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudastereo/test/test_sgm_funcs.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudastereo/test/test_stereo.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudastereo/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_cudastereo",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_cudastereo"
+	}
+}

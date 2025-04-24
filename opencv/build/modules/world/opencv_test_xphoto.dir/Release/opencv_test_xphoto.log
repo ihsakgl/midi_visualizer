@@ -1,0 +1,10 @@
+﻿  dct_image_denoising.cpp
+  simple_color_balance.cpp
+  test_denoise_bm3d.cpp
+  test_grayworld.cpp
+  test_hdr.cpp
+  test_inpainting.cpp
+  test_learning_based_color_balance.cpp
+  test_main.cpp
+  test_oil_painting.cpp
+  opencv_test_xphoto.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_xphoto.exe

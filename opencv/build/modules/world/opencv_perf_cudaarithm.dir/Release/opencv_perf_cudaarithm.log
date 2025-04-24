@@ -1,0 +1,6 @@
+﻿  perf_arithm.cpp
+  perf_core.cpp
+  perf_element_operations.cpp
+  perf_main.cpp
+  perf_reductions.cpp
+  opencv_perf_cudaarithm.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_cudaarithm.exe

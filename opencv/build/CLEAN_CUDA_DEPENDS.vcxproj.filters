@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\CMakeFiles\594c5475da672db3e10e06a63fc76994\CLEAN_CUDA_DEPENDS.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ihsan\Projects\Synthesia\opencv\build\CMakeFiles\CLEAN_CUDA_DEPENDS" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1CDCB295-63B1-38AC-87ED-725D185DB4F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

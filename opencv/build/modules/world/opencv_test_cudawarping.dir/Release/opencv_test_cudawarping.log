@@ -1,0 +1,7 @@
+﻿  test_main.cpp
+  test_pyramids.cpp
+  test_remap.cpp
+  test_resize.cpp
+  test_warp_affine.cpp
+  test_warp_perspective.cpp
+  opencv_test_cudawarping.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_cudawarping.exe

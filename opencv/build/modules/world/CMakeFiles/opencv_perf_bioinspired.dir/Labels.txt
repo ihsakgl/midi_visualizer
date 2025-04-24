@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_bioinspired
+ PerfTest
+# Source files and their labels
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/bioinspired/perf/opencl/perf_retina.ocl.cpp
+ Extra
+ opencv_bioinspired
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/bioinspired/perf/perf_main.cpp
+ Extra
+ opencv_bioinspired
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/bioinspired/perf/perf_precomp.hpp
+ Extra
+ opencv_bioinspired
+ PerfTest

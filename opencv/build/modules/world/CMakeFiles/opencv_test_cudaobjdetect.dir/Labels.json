@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudaobjdetect/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaobjdetect",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudaobjdetect/test/test_objdetect.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaobjdetect",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudaobjdetect/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaobjdetect",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_cudaobjdetect",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_cudaobjdetect"
+	}
+}

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\line_descriptor\test\test_descriptors_regression.cpp">
+      <Filter>opencv_line_descriptor\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\line_descriptor\test\test_detector_regression.cpp">
+      <Filter>opencv_line_descriptor\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\line_descriptor\test\test_main.cpp">
+      <Filter>opencv_line_descriptor\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\line_descriptor\test\test_matcher_regression.cpp">
+      <Filter>opencv_line_descriptor\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\line_descriptor\test\test_precomp.hpp">
+      <Filter>opencv_line_descriptor\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_line_descriptor">
+      <UniqueIdentifier>{C9BF0B9A-80C0-39FE-85FD-705AF3813426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_line_descriptor\Include">
+      <UniqueIdentifier>{F6230B46-7370-37C4-AFE2-9422A663A567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_line_descriptor\Src">
+      <UniqueIdentifier>{BBFC3B36-FC4B-3ED4-9366-38D4FCCE14B8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

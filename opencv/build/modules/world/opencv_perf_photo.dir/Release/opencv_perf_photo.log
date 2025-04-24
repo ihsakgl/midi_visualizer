@@ -1,0 +1,6 @@
+﻿  perf_denoising.cpp
+  perf_cuda.cpp
+  perf_hdr.cpp
+  perf_inpaint.cpp
+  perf_main.cpp
+  opencv_perf_photo.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_photo.exe

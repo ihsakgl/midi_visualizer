@@ -1,0 +1,17 @@
+﻿  gapi_core_perf_tests.cpp
+  gapi_imgproc_perf_tests.cpp
+  gapi_render_perf_tests.cpp
+  gapi_video_perf_tests.cpp
+  gapi_core_perf_tests_cpu.cpp
+  gapi_core_perf_tests_fluid.cpp
+  gapi_imgproc_perf_tests_cpu.cpp
+  gapi_imgproc_perf_tests_fluid.cpp
+  gapi_video_perf_tests_cpu.cpp
+  gapi_core_perf_tests_gpu.cpp
+  gapi_imgproc_perf_tests_gpu.cpp
+  gapi_compiler_perf_tests.cpp
+  perf_bench.cpp
+  perf_main.cpp
+  gapi_render_perf_tests_ocv.cpp
+  gapi_streaming_source_perf_tests.cpp
+  opencv_perf_gapi.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_gapi.exe

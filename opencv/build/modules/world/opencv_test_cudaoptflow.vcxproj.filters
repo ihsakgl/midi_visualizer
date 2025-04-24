@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaoptflow\test\test_main.cpp">
+      <Filter>opencv_cudaoptflow\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaoptflow\test\test_optflow.cpp">
+      <Filter>opencv_cudaoptflow\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaoptflow\test\test_precomp.hpp">
+      <Filter>opencv_cudaoptflow\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_cudaoptflow">
+      <UniqueIdentifier>{DE890214-0690-35A6-B3F9-B82957D30905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudaoptflow\Include">
+      <UniqueIdentifier>{B1437B82-9A63-3A3E-BBC7-693ACB3BAA61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudaoptflow\Src">
+      <UniqueIdentifier>{24A5E997-6513-3588-9397-D2AD4FEAFDCB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+﻿  perf_stereobm.cpp
+  perf_affine2d.cpp
+  perf_cicrlesGrid.cpp
+  perf_main.cpp
+  perf_pnp.cpp
+  perf_stereosgbm.cpp
+  perf_undistort.cpp
+  opencv_perf_calib3d.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_perf_calib3d.exe

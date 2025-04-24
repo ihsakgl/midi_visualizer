@@ -1,0 +1,11 @@
+﻿  test_denoising.cpp
+  test_cloning.cpp
+  test_decolor.cpp
+  test_denoise_tvl1.cpp
+  test_denoising.cuda.cpp
+  test_hdr.cpp
+  test_inpaint.cpp
+  test_main.cpp
+  test_npr.cpp
+  test_denoising.cpp
+  opencv_test_photo.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_photo.exe

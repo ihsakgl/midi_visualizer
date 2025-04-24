@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_cudafilters
+ PerfTest
+# Source files and their labels
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudafilters/perf/perf_filters.cpp
+ Extra
+ opencv_cudafilters
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudafilters/perf/perf_main.cpp
+ Extra
+ opencv_cudafilters
+ PerfTest
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv_contrib/modules/cudafilters/perf/perf_precomp.hpp
+ Extra
+ opencv_cudafilters
+ PerfTest

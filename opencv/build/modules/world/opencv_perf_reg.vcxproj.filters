@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\reg\perf\perf_main.cpp">
+      <Filter>opencv_reg\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\reg\perf\perf_reg.cpp">
+      <Filter>opencv_reg\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\reg\perf\perf_precomp.hpp">
+      <Filter>opencv_reg\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_reg">
+      <UniqueIdentifier>{8F09A6C0-D163-33F2-8C8C-61177753C8EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_reg\Include">
+      <UniqueIdentifier>{BF4A0EB5-BB45-3188-B49D-4A29DC7621D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_reg\Src">
+      <UniqueIdentifier>{114B67E8-5C37-358F-A98F-B2C0A52F7ACC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

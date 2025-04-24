@@ -1,0 +1,18 @@
+^C:\USERS\IHSAN\PROJECTS\SYNTHESIA\OPENCV\BUILD\CMAKEFILES\D18EB06B0ADE8D3C6D9DD0BD6C6DF8D4\PYOPENCV_GENERATED_ENUMS.H.RULE
+setlocal
+C:\Users\ihsan\AppData\Local\Programs\Python\Python312\python.exe C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/python/src2/gen2.py C:/Users/ihsan/Projects/Synthesia/opencv/build/modules/python_bindings_generator C:/Users/ihsan/Projects/Synthesia/opencv/build/modules/python_bindings_generator/headers.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IHSAN\PROJECTS\SYNTHESIA\OPENCV\BUILD\CMAKEFILES\F8EFB90BC707FC45D510F8C113D86016\GEN_OPENCV_PYTHON_SOURCE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

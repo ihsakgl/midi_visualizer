@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaimgproc\perf\perf_bilateral_filter.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaimgproc\perf\perf_blend.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaimgproc\perf\perf_canny.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaimgproc\perf\perf_color.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaimgproc\perf\perf_corners.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaimgproc\perf\perf_gftt.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaimgproc\perf\perf_histogram.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaimgproc\perf\perf_hough.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaimgproc\perf\perf_main.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaimgproc\perf\perf_match_template.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaimgproc\perf\perf_mean_shift.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaimgproc\perf\perf_moments.cpp">
+      <Filter>opencv_cudaimgproc\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudaimgproc\perf\perf_precomp.hpp">
+      <Filter>opencv_cudaimgproc\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_cudaimgproc">
+      <UniqueIdentifier>{FDE35D31-8396-335D-84C2-598431C11D3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudaimgproc\Include">
+      <UniqueIdentifier>{1B98E77D-8138-3A93-BD1F-D59330CB300B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_cudaimgproc\Src">
+      <UniqueIdentifier>{30F7AE23-5CE8-3505-9BCF-1118262D88F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

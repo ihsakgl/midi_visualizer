@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\rgbd\perf\perf_main.cpp">
+      <Filter>opencv_rgbd\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\rgbd\perf\perf_tsdf.cpp">
+      <Filter>opencv_rgbd\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\rgbd\perf\perf_precomp.hpp">
+      <Filter>opencv_rgbd\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_rgbd">
+      <UniqueIdentifier>{723FEC82-7825-378B-969F-4981E9D0A1F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_rgbd\Include">
+      <UniqueIdentifier>{38955919-FC58-3BE3-87F3-5E97D58DC56C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_rgbd\Src">
+      <UniqueIdentifier>{9C9AD3CB-D3F6-39C1-84A0-8956E6BB157C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

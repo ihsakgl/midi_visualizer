@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\signal\perf\perf_main.cpp">
+      <Filter>opencv_signal\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\signal\perf\perf_resample.cpp">
+      <Filter>opencv_signal\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\signal\perf\perf_precomp.hpp">
+      <Filter>opencv_signal\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_signal">
+      <UniqueIdentifier>{FE27C621-2000-3ED0-BA58-C5873A392B26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_signal\Include">
+      <UniqueIdentifier>{FBD431A6-5DB5-305F-BBB0-F847017658E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_signal\Src">
+      <UniqueIdentifier>{C10175D6-0845-3E7D-8CEB-F1484345E09B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

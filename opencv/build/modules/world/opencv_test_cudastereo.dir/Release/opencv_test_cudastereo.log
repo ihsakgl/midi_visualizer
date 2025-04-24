@@ -1,0 +1,4 @@
+﻿  test_main.cpp
+  test_sgm_funcs.cpp
+  test_stereo.cpp
+  opencv_test_cudastereo.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_cudastereo.exe

@@ -1,0 +1,7 @@
+﻿  calibController.cpp
+  calibPipeline.cpp
+  frameProcessor.cpp
+  main.cpp
+  parametersController.cpp
+  rotationConverters.cpp
+  opencv_interactive-calibration.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_interactive-calibration.exe

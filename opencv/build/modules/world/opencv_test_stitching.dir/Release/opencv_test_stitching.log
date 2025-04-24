@@ -1,0 +1,10 @@
+﻿  test_warpers.cpp
+  test_blenders.cpp
+  test_blenders.cuda.cpp
+  test_exposure_compensate.cpp
+  test_main.cpp
+  test_matchers.cpp
+  test_reprojection.cpp
+  test_stitcher.cpp
+  test_wave_correction.cpp
+  opencv_test_stitching.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_stitching.exe

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\mcc\perf\perf_main.cpp">
+      <Filter>opencv_mcc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\mcc\perf\perf_mcc.cpp">
+      <Filter>opencv_mcc\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\mcc\perf\perf_precomp.hpp">
+      <Filter>opencv_mcc\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_mcc">
+      <UniqueIdentifier>{3E25A752-6B93-3FF8-9BFC-2A341BDDBEF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_mcc\Include">
+      <UniqueIdentifier>{FAFB5716-87E9-3DD1-AD7D-43E2ECC2A586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_mcc\Src">
+      <UniqueIdentifier>{861E870B-FE86-38AA-B51F-11CE96EE761D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

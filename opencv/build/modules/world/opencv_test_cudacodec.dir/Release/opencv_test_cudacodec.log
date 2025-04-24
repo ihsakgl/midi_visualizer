@@ -1,0 +1,4 @@
+﻿  test_main.cpp
+  test_video.cpp
+C:\Users\ihsan\Projects\Synthesia\opencv\opencv_contrib\modules\cudacodec\test\test_video.cpp(1326,1): warning C4010: single-line comment contains line-continuation character
+  opencv_test_cudacodec.vcxproj -> C:\Users\ihsan\Projects\Synthesia\opencv\build\bin\Release\opencv_test_cudacodec.exe
