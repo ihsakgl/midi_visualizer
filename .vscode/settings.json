@@ -1,7 +1,8 @@
 {
     "cmake.sourceDirectory": "C:/Users/ihsan/Projects/Synthesia/opencv/opencv",
     "python.analysis.extraPaths": [
-        "C:\\Users\\ihsan\\Projects\\Synthesia\\opencv\\build\\python_loader\\cv2\\python-3.12"
+        "C:\\Users\\ihsan\\Projects\\Synthesia\\opencv\\build\\python_loader\\cv2\\python-3.12",
+        
        
         
     ],

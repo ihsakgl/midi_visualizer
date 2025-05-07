@@ -7,6 +7,7 @@ from utils import resize_objects
 from UI import Button, InputBox
 
 
+
 def main():
     # Initialize
     pygame.init()
@@ -49,7 +50,7 @@ def main():
     video_file_path = "assets/video test stuff/PXL_20250322_212655211.mp4"
     video = Video(video_file_path, screen, visualizer_rect)
     frame_count = 0
-    
+
 
 
     # Main loop
@@ -185,7 +186,7 @@ def main():
        
 
     pygame.quit()
-    video.video_capture.release()
+
   
 
 if __name__ == "__main__":

@@ -1,0 +1,15 @@
+C:/Users/ihsan/Projects/Synthesia/VPF_build/CMakeFiles/INSTALL.dir
+C:/Users/ihsan/Projects/Synthesia/VPF_build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ihsan/Projects/Synthesia/VPF_build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/ihsan/Projects/Synthesia/VPF_build/src/CMakeFiles/INSTALL.dir
+C:/Users/ihsan/Projects/Synthesia/VPF_build/src/CMakeFiles/ALL_BUILD.dir
+C:/Users/ihsan/Projects/Synthesia/VPF_build/src/PyNvCodec/CMakeFiles/_PyNvCodec.dir
+C:/Users/ihsan/Projects/Synthesia/VPF_build/src/PyNvCodec/CMakeFiles/INSTALL.dir
+C:/Users/ihsan/Projects/Synthesia/VPF_build/_deps/pybind11-build/CMakeFiles/INSTALL.dir
+C:/Users/ihsan/Projects/Synthesia/VPF_build/_deps/pybind11-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ihsan/Projects/Synthesia/VPF_build/src/TC/CMakeFiles/TC.dir
+C:/Users/ihsan/Projects/Synthesia/VPF_build/src/TC/CMakeFiles/INSTALL.dir
+C:/Users/ihsan/Projects/Synthesia/VPF_build/src/TC/CMakeFiles/ALL_BUILD.dir
+C:/Users/ihsan/Projects/Synthesia/VPF_build/src/TC/TC_CORE/CMakeFiles/TC_CORE.dir
+C:/Users/ihsan/Projects/Synthesia/VPF_build/src/TC/TC_CORE/CMakeFiles/INSTALL.dir
+C:/Users/ihsan/Projects/Synthesia/VPF_build/src/TC/TC_CORE/CMakeFiles/ALL_BUILD.dir

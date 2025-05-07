@@ -1,3 +1,5 @@
+
+
 def resize_objects(obj, old_width, old_height, new_width, new_height, new_visualizer_rect, old_visualizer_rect, is_visualizer_element: bool):
     # Calculate scale factors
     visualizer_scale_x = new_visualizer_rect.width / old_visualizer_rect.width
@@ -37,5 +39,8 @@ def resize_objects(obj, old_width, old_height, new_width, new_height, new_visual
 
     if hasattr(obj, "x_offset"):
         obj.x_offset *= scale_x
+    if hasattr(obj, "crop_top"):
+        obj.crop_top *= scale_y
+        obj.crop_top = int(obj.crop_top)
     
 

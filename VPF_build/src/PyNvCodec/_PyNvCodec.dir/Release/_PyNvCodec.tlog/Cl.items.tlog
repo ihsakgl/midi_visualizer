@@ -1,0 +1,13 @@
+C:\Users\ihsan\Projects\Synthesia\VideoProcessingFramework\src\PyNvCodec\src\PyBufferUploader.cpp;C:\Users\ihsan\Projects\Synthesia\VPF_build\src\PyNvCodec\_PyNvCodec.dir\Release\PyBufferUploader.obj
+C:\Users\ihsan\Projects\Synthesia\VideoProcessingFramework\src\PyNvCodec\src\PyCudaBufferDownloader.cpp;C:\Users\ihsan\Projects\Synthesia\VPF_build\src\PyNvCodec\_PyNvCodec.dir\Release\PyCudaBufferDownloader.obj
+C:\Users\ihsan\Projects\Synthesia\VideoProcessingFramework\src\PyNvCodec\src\PyFFMpegDecoder.cpp;C:\Users\ihsan\Projects\Synthesia\VPF_build\src\PyNvCodec\_PyNvCodec.dir\Release\PyFFMpegDecoder.obj
+C:\Users\ihsan\Projects\Synthesia\VideoProcessingFramework\src\PyNvCodec\src\PyFFMpegDemuxer.cpp;C:\Users\ihsan\Projects\Synthesia\VPF_build\src\PyNvCodec\_PyNvCodec.dir\Release\PyFFMpegDemuxer.obj
+C:\Users\ihsan\Projects\Synthesia\VideoProcessingFramework\src\PyNvCodec\src\PyFrameUploader.cpp;C:\Users\ihsan\Projects\Synthesia\VPF_build\src\PyNvCodec\_PyNvCodec.dir\Release\PyFrameUploader.obj
+C:\Users\ihsan\Projects\Synthesia\VideoProcessingFramework\src\PyNvCodec\src\PyNvCodec.cpp;C:\Users\ihsan\Projects\Synthesia\VPF_build\src\PyNvCodec\_PyNvCodec.dir\Release\PyNvCodec.obj
+C:\Users\ihsan\Projects\Synthesia\VideoProcessingFramework\src\PyNvCodec\src\PyNvDecoder.cpp;C:\Users\ihsan\Projects\Synthesia\VPF_build\src\PyNvCodec\_PyNvCodec.dir\Release\PyNvDecoder.obj
+C:\Users\ihsan\Projects\Synthesia\VideoProcessingFramework\src\PyNvCodec\src\PyNvEncoder.cpp;C:\Users\ihsan\Projects\Synthesia\VPF_build\src\PyNvCodec\_PyNvCodec.dir\Release\PyNvEncoder.obj
+C:\Users\ihsan\Projects\Synthesia\VideoProcessingFramework\src\PyNvCodec\src\PySurface.cpp;C:\Users\ihsan\Projects\Synthesia\VPF_build\src\PyNvCodec\_PyNvCodec.dir\Release\PySurface.obj
+C:\Users\ihsan\Projects\Synthesia\VideoProcessingFramework\src\PyNvCodec\src\PySurfaceConverter.cpp;C:\Users\ihsan\Projects\Synthesia\VPF_build\src\PyNvCodec\_PyNvCodec.dir\Release\PySurfaceConverter.obj
+C:\Users\ihsan\Projects\Synthesia\VideoProcessingFramework\src\PyNvCodec\src\PySurfaceDownloader.cpp;C:\Users\ihsan\Projects\Synthesia\VPF_build\src\PyNvCodec\_PyNvCodec.dir\Release\PySurfaceDownloader.obj
+C:\Users\ihsan\Projects\Synthesia\VideoProcessingFramework\src\PyNvCodec\src\PySurfaceRemaper.cpp;C:\Users\ihsan\Projects\Synthesia\VPF_build\src\PyNvCodec\_PyNvCodec.dir\Release\PySurfaceRemaper.obj
+C:\Users\ihsan\Projects\Synthesia\VideoProcessingFramework\src\PyNvCodec\src\PySurfaceResizer.cpp;C:\Users\ihsan\Projects\Synthesia\VPF_build\src\PyNvCodec\_PyNvCodec.dir\Release\PySurfaceResizer.obj

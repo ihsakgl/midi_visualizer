@@ -1,0 +1,46 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"modules/video/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "opencv_perf_video::@08df6c0062966df3c8f9"
+		},
+		{
+			"id" : "opencv_video::@08df6c0062966df3c8f9"
+		},
+		{
+			"id" : "opencv_test_video::@08df6c0062966df3c8f9"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakeTargets"
+	},
+	"id" : "ALL_BUILD::@08df6c0062966df3c8f9",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "modules/video",
+		"source" : "modules/video"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
