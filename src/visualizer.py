@@ -64,9 +64,9 @@ class PianoKey:
         elif self.index in black_key_indices:
             pygame.draw.rect(self.screen, self.color, (self.x_position + 5, self.y_position, self.width * 0.8, self.height * 0.6))
 
-        if (self.index - 3) % 12 == 0:
+        # if (self.index - 3) % 12 == 0:
         
-            pygame.draw.line(self.screen, "white", (self.x_position, self.y_position), (self.x_position, self.visualizer_rect.y), 1)
+        #     pygame.draw.line(self.screen, "white", (self.x_position, self.y_position), (self.x_position, self.visualizer_rect.y), 1)
     
 
 class Piano:

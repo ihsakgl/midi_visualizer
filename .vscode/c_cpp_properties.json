@@ -1,25 +1,47 @@
 {
     "configurations": [
-      {
-        "name": "Win32",
-        "includePath": [
-          "${workspaceFolder}/**",
-          "C:/libs/FFmpeg/include",
-          "C:/libs/FFmpeg/include/libavutil",
-          "C:/libs/FFmpeg/include/libavformat",
-          "C:/libs/FFmpeg/include/libavcodec",
-          "C:/libs/FFmpeg/include/libswscale",
-          "C:/libs/FFmpeg/include/libavfilter",
-          "C:/libs/FFmpeg/include/libswresample"
-        ],
-        "defines": [],
-        "windowsSdkVersion": "10.0.22000.0",
-        "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe",
-        "cStandard": "c11",
-        "cppStandard": "c++17",
-        "intelliSenseMode": "windows-msvc-x64"
-      }
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/libs/FFmpeg/include",
+                "C:/libs/FFmpeg/include/libavutil",
+                "C:/libs/FFmpeg/include/libavformat",
+                "C:/libs/FFmpeg/include/libavcodec",
+                "C:/libs/FFmpeg/include/libswscale",
+                "C:/libs/FFmpeg/include/libavfilter",
+                "C:/libs/FFmpeg/include/libswresample",
+                "${workspaceFolder}/VideoProcessingFramework/src/PyNvCodec/inc",
+                "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include",
+                "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include",
+                "C:/Users/ihsan/AppData/Local/Programs/Python/Python312/include",
+                "C:/Users/ihsan/AppData/Local/Programs/Python/Python312/libs",
+                "C:/Users/ihsan/Projects/Synthesia/venv/Lib/site-packages/pybind11"
+            ],
+            "defines": [],
+            "windowsSdkVersion": "10.0.22000.0",
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        },
+        {
+            "name": "abcd",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
     ],
     "version": 4
-  }
-  
+}

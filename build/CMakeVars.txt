@@ -2662,38 +2662,38 @@ TIFF_VERSION_LINES=#define TIFF_VERSION_CLASSIC 42;#define TIFF_VERSION_BIG 43
 TIFF_VERSION_STRING=4.6.0
 TRY_OUT=Change Dir: 'C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_958f2.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e9acd.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
 MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-Build started 29.04.2025 20:41:59.
+Build started 7.05.2025 18:39:54.
 
-Project "C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\CMakeTmp\cmTC_958f2.vcxproj" on node 1 (default targets).
+Project "C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\CMakeTmp\cmTC_e9acd.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_958f2.dir\Release\".
+  Creating directory "cmTC_e9acd.dir\Release\".
   Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
   Creating directory "C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\CMakeTmp\Release\".
-  Creating directory "cmTC_958f2.dir\Release\cmTC_958f2.tlog\".
+  Creating directory "cmTC_e9acd.dir\Release\cmTC_e9acd.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_958f2.dir\Release\cmTC_958f2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
-  Touching "cmTC_958f2.dir\Release\cmTC_958f2.tlog\unsuccessfulbuild".
+  Creating "cmTC_e9acd.dir\Release\cmTC_e9acd.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Touching "cmTC_e9acd.dir\Release\cmTC_e9acd.tlog\unsuccessfulbuild".
 ClCompile:
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /W1 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_958f2.dir\Release\\" /Fd"cmTC_958f2.dir\Release\vc143.pdb" /external:W1 /Gd /TP /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /errorReport:queue  /bigobj C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\directml.cpp
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /W1 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9acd.dir\Release\\" /Fd"cmTC_e9acd.dir\Release\vc143.pdb" /external:W1 /Gd /TP /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /errorReport:queue  /bigobj C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\directml.cpp
   x64 i├ğin Microsoft (R) C/C++ ─░yile┼ştirmeli Derleyicisi S├╝r├╝m 19.43.34810
   Telif Hakk─▒ (C) Microsoft Corporation. T├╝m haklar─▒ sakl─▒d─▒r.
-  cl /c /W1 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_958f2.dir\Release\\" /Fd"cmTC_958f2.dir\Release\vc143.pdb" /external:W1 /Gd /TP /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /errorReport:queue  /bigobj C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\directml.cpp
+  cl /c /W1 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9acd.dir\Release\\" /Fd"cmTC_e9acd.dir\Release\vc143.pdb" /external:W1 /Gd /TP /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /errorReport:queue  /bigobj C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\directml.cpp
   directml.cpp
 Link:
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\CMakeTmp\Release\cmTC_958f2.exe" /INCREMENTAL:NO /NOLOGO d3d12.lib dxcore.lib directml.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/CMakeTmp/Release/cmTC_958f2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/CMakeTmp/Release/cmTC_958f2.lib" /MACHINE:X64  /machine:x64 cmTC_958f2.dir\Release\directml.obj
-  cmTC_958f2.vcxproj -> C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\CMakeTmp\Release\cmTC_958f2.exe
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\CMakeTmp\Release\cmTC_e9acd.exe" /INCREMENTAL:NO /NOLOGO d3d12.lib dxcore.lib directml.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/CMakeTmp/Release/cmTC_e9acd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/CMakeTmp/Release/cmTC_e9acd.lib" /MACHINE:X64  /machine:x64 cmTC_e9acd.dir\Release\directml.obj
+  cmTC_e9acd.vcxproj -> C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\CMakeTmp\Release\cmTC_e9acd.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_958f2.dir\Release\cmTC_958f2.tlog\unsuccessfulbuild".
-  Touching "cmTC_958f2.dir\Release\cmTC_958f2.tlog\cmTC_958f2.lastbuildstate".
-Done Building Project "C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\CMakeTmp\cmTC_958f2.vcxproj" (default targets).
+  Deleting file "cmTC_e9acd.dir\Release\cmTC_e9acd.tlog\unsuccessfulbuild".
+  Touching "cmTC_e9acd.dir\Release\cmTC_e9acd.tlog\cmTC_e9acd.lastbuildstate".
+Done Building Project "C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\CMakeTmp\cmTC_e9acd.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.77
+Time Elapsed 00:00:00.84
 
 
 Threads_FOUND=TRUE
