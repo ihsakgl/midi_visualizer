@@ -5,44 +5,38 @@ from audio_player import play_audio, load_audio, pause_audio, resume_audio
 from video_processor import Video
 from utils import resize_objects
 from UI import Button, InputBox, SeekBar
-import moderngl_window as mglw
+import time as Time
 
 
 import moderngl
 import moderngl_window as mglw
 from moderngl_window import geometry
 import numpy as np
+from visualizer import Visualizer, Rect
 
 
-class ModernApp(mglw.WindowConfig):
+class VisualizerApp(mglw.WindowConfig):
     gl_version = (3, 3)
     title = "Visualizer"
     window_size = (1920, 1080)
     aspect_ratio = 16 / 9
     resizable = True
-    resource_dir = 'assets'
+    resource_dir = 'ModernGL shaders'
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
+        self.wnd.resize(1920, 1080)
+        self.title_bar_height = 32
+        self.ctx.enable(moderngl.BLEND)
+        self.ctx.enable(moderngl.PROGRAM_POINT_SIZE)
+      
 
-        # UI ve görselleştirici ölçümleri
-        self.base_screen_width = self.window_size[0]
-        self.base_screen_height = self.window_size[1]
-        self.new_screen_width = self.base_screen_width
-        self.new_screen_height = self.base_screen_height
+        self.ctx.blend_func = (moderngl.SRC_ALPHA, moderngl.ONE_MINUS_SRC_ALPHA)
 
-        self.ui_width = self.base_screen_width * 0.25
-        self.ui_height = self.base_screen_height
-        self.visualizer_width = self.base_screen_width - self.ui_width
-        self.visualizer_height = min(self.base_screen_height, self.visualizer_width / self.aspect_ratio)
-        self.visualizer_x = self.ui_width
-        self.visualizer_y = (self.base_screen_height - self.visualizer_height) / 2
+        
+     
 
-        self.visualizer_rect = [self.visualizer_x, self.visualizer_y,
-                                self.visualizer_width, self.visualizer_height]
-
-        # Yer tutucu objeler
-        self.color = (70, 72, 220)
+        self.color = (45, 43, 135)
         self.audio_has_played = False
         self.video_started = False
         self.video_start_time = 0
@@ -52,21 +46,67 @@ class ModernApp(mglw.WindowConfig):
 
         # TODO: Piano, Video, InputBox, Button, SeekBar sınıfları modernGL uyumlu hale getirilmeli
         self.screen_quad = geometry.quad_fs()
+        self.prog = self.load_program(
+            vertex_shader='rect.vert',
+            fragment_shader='rect.frag'
+        )
+        self.prog['u_resolution'].value = tuple(self.window_size)
+        vertices = np.array([
+            0.0, 0.0,
+            1.0, 0.0,
+            0.0, 1.0,
+            1.0, 1.0,
+        ], dtype='f4')
+        self.vbo = self.ctx.buffer(vertices.tobytes())
+        self.vao = self.ctx.simple_vertex_array(self.prog, self.vbo, 'in_position')
+
+        width, height = self.wnd.buffer_size
+        self.resize(width, height)
+
+        self.visualizer = Visualizer(self.visualizer_x, self.visualizer_y, self.visualizer_width, self.visualizer_height, self.ctx, self.color)
+        self.midi_file_path = 'assets/general/TSFH- Heart of Courage.mid'
+        self.midi_file = load_midi_file(self.midi_file_path)
+        self.notes = parse_midi(self.midi_file)  
+
+        self._last_time = 0
+        self._fps = 0
+        self._accumulator = 0
+     
 
     def resize(self, width: int, height: int):
-        self.new_screen_width, self.new_screen_height = width, height
+        width, height = self.wnd.buffer_size 
+        print("RESIZED ####################################################################")
+        print(f"resize() called with: {width=} {height=}")
+        print(f"self.wnd.buffer_size: {self.wnd.buffer_size}")
+        print(f"self.wnd.window_size: {self.wnd.size}")
+        # Gerçek zamanlı pencere boyutu
+        self.new_screen_width = width
+        self.new_screen_height = height
 
+        # UI boyutları
         self.ui_width = width * 0.25
         self.ui_height = height
-        self.visualizer_width = width - self.ui_width
-        self.visualizer_height = min(height, self.visualizer_width / self.aspect_ratio)
+
+        # Visualizer boyut ve konum
+        self.visualizer_width = self.new_screen_width * 0.75
+        self.visualizer_height = min(self.new_screen_height, self.visualizer_width / self.aspect_ratio)
+
         self.visualizer_x = self.ui_width
-        self.visualizer_y = (height - self.visualizer_height) / 2
+        self.visualizer_y = round((self.new_screen_height - self.visualizer_height) / 2) + 40
+ 
 
-        self.visualizer_rect = [self.visualizer_x, self.visualizer_y,
-                                self.visualizer_width, self.visualizer_height]
-
-        # TODO: resize_objects çağrıları burada yapılmalı
+        self.visualizer_rect = {
+            "x": self.visualizer_x,
+            "y": self.visualizer_y,
+            "width": self.visualizer_width,
+            "height": self.visualizer_height,
+        }
+        top_margin = self.visualizer_y
+        bottom_margin = self.new_screen_height - (self.visualizer_y + self.visualizer_height)
+        print(f"Top margin: {top_margin}")
+        print(f"Bottom margin: {bottom_margin}")
+  
+      
 
     def key_event(self, key, action, modifiers):
         if action == self.wnd.keys.ACTION_PRESS:
@@ -78,8 +118,14 @@ class ModernApp(mglw.WindowConfig):
                 pass
 
     def on_render(self, time: float, frame_time: float):
+        
+        now = Time.time()
+        self.ctx.viewport = (0, 0, self.new_screen_width, self.new_screen_height)
+        
         if not self.paused:
+            self.ctx.screen.use()
             self.ctx.clear(0.0, 0.0, 0.0, 1.0)
+            self.prog["u_resolution"].value = (self.new_screen_width, self.new_screen_height)
             self.current_time += frame_time
 
             # TODO: UI çerçevesi ve video frame render işlemleri
@@ -89,17 +135,48 @@ class ModernApp(mglw.WindowConfig):
 
             # TODO: video.get_frame() sonucu texture olarak render edilmelidir
 
+            # UI Panel (sol tarafta)
+            self.prog['u_position'].value = (0.0, 0.0)
+            self.prog['u_size'].value = (self.ui_width, self.ui_height)
+            self.prog['u_color'].value = (0.2, 0.2, 0.2)
+            self.vao.render(mode=moderngl.TRIANGLE_STRIP)
+
+            # Visualizer Panel (sağda)
+            self.prog['u_position'].value = (self.visualizer_x, self.visualizer_y)
+            self.prog['u_size'].value = (self.visualizer_width, self.visualizer_height)
+            self.prog['u_color'].value = (0.0, 0.0, 0.0)
+            self.vao.render(mode=moderngl.TRIANGLE_STRIP)
+
+
+            draw_notes(self.notes, self.current_time, self.speed, Rect(0, 0, self.new_screen_width, self.new_screen_height),
+            self.color, self.visualizer.rect, 0.016, self.prog, self.vao, self.ctx, self.visualizer)
+            self.visualizer.render(self.prog, self.vao, frame_time)
+            print(frame_time)
+
+           
+            dt = now - self._last_time
+            # Ortalama FPS hesaplamak için
+            self._fps = 0.9*self._fps + 0.1*(1.0/dt)  
+            self._last_time = now
+
+            # Yarım saniyede bir yazdır
+            self._accumulator += dt
+            if self._accumulator >= 0.0:
+                # print(f"FPS: {self._fps:.1f}")
+                self._accumulator = 0.0
+                    
+
     def close(self):
         # TODO: kaynakları serbest bırak
         pass
 
 
 if __name__ == '__main__':
-    mglw.run_window_config(ModernApp)
+    mglw.run_window_config(VisualizerApp)
 
 
 
-# PYGAME
+# PYGAME OLD
 
 
 # def main():

@@ -21,13 +21,14 @@ import time
 os.add_dll_directory(r"C:\libs\FFmpeg\bin")
 import _PyNvCodec as nvc
 import ctypes
+import moderngl
 
 
 
 
 
 class Video:
-    def __init__(self, video_file_path, screen, visualizer_rect, start_time):
+    def __init__(self, video_file_path, screen, visualizer_rect, start_time, ctx):
         self.video_file_path = video_file_path
         self.video_capture = nvc.PyNvDecoder(self.video_file_path, 0, {'pixel_format': 'rgb'})
         self.cudacodec = cv2.cudacodec.createVideoReader(video_file_path)
@@ -86,7 +87,11 @@ class Video:
         
         
        
-        
+        self.ctx = ctx
+        self.width = self.video_capture.Width()
+        self.height = self.video_capture.Height()
+        self.texture = ctx.texture((self.video_capture.Width(), self.video_capture.Height()), components=4, dtype='f1')
+        self.texture.filter = (moderngl.LINEAR, moderngl.LINEAR)
 
        
       
@@ -113,7 +118,7 @@ class Video:
                 width = self.video_capture.Width()
                 height = self.video_capture.Height()
 
-                converter = nvc.PySurfaceConverter(width, height, nvc.PixelFormat.NV12, nvc.PixelFormat.RGB, 0)
+                converter = nvc.PySurfaceConverter(width, height, nvc.PixelFormat.NV12, nvc.PixelFormat.RGBA, 0)
                 cc_ctx = nvc.ColorspaceConversionContext(nvc.ColorSpace.BT_709, nvc.ColorRange.MPEG)
                 surface = converter.Execute(surface, cc_ctx)
                 color_time = time.time() - color_time_start
@@ -121,7 +126,7 @@ class Video:
                 convert_time_start = time.time()
                 processor = nvc.VideoFrameProcessor(surface)
                 convert_time = time.time() - convert_time_start
-                
+         
 
             
            
@@ -166,23 +171,20 @@ class Video:
                     brightness_time_start = time.time()
                     processor.adjustBrightness(self.brightness, 0, self.stream)
                     brightness_time = time.time() - brightness_time_start
-                    download_time_start = time.time()
-                    frame = processor.download(self.stream)
-                    download_time = time.time() - download_time_start
+                    
+                    texture_id = processor.bindToGLTexture()
 
 
 
 
-                make_surface_start_time = time.time()
-                pygame_frame = pygame.surfarray.make_surface(frame)
-                make_surface_time = time.time() - make_surface_start_time
+                
            
 
 
 
                 if self.frame_queue.full():
                     self.frame_queue.get_nowait()
-                self.frame_queue.put(pygame_frame)
+                self.frame_queue.put(frame)
 
       
 
@@ -197,8 +199,6 @@ class Video:
                 # print(f"Crop: {crop_time}")
                 # print(f"Scale: {resize_time}")
                 # print(f"Brightness: {brightness_time}")
-                print(f"Download: {download_time}")
-                print(f"Surface_Make: {make_surface_time}")
                 
                 print(f"Final: {total_time}")
 

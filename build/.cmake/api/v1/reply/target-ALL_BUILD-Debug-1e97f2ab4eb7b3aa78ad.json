@@ -1,0 +1,46 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"3rdparty/libjpeg-turbo/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "jpeg16-static::@d8685a25aedd541ce14b"
+		},
+		{
+			"id" : "libjpeg-turbo::@d8685a25aedd541ce14b"
+		},
+		{
+			"id" : "jpeg12-static::@d8685a25aedd541ce14b"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakeTargets"
+	},
+	"id" : "ALL_BUILD::@d8685a25aedd541ce14b",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "3rdparty/libjpeg-turbo",
+		"source" : "3rdparty/libjpeg-turbo"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
