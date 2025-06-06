@@ -1,0 +1,263 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include",
+			"ocv_add_python_files_from_path"
+		],
+		"files" : 
+		[
+			"modules/python/python_loader.cmake",
+			"modules/python/common.cmake",
+			"modules/python/python3/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 169,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 148,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 191,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 236,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 5,
+			"component" : "python",
+			"destination" : "C:/Users/ihsan/AppData/Local/Programs/Python/Python312/Lib/site-packages/cv2",
+			"paths" : 
+			[
+				"modules/python/package/cv2/__init__.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "python",
+			"destination" : "C:/Users/ihsan/AppData/Local/Programs/Python/Python312/Lib/site-packages/cv2",
+			"paths" : 
+			[
+				"modules/python/package/cv2/load_config_py2.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "python",
+			"destination" : "C:/Users/ihsan/AppData/Local/Programs/Python/Python312/Lib/site-packages/cv2",
+			"paths" : 
+			[
+				"modules/python/package/cv2/load_config_py3.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "python",
+			"destination" : "C:/Users/ihsan/AppData/Local/Programs/Python/Python312/Lib/site-packages/cv2",
+			"paths" : 
+			[
+				"C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/install/python_loader//cv2/config.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "python",
+			"destination" : "C:/Users/ihsan/AppData/Local/Programs/Python/Python312/Lib/site-packages/cv2/misc",
+			"paths" : 
+			[
+				"modules/python/package/extra_modules/misc/__init__.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "python",
+			"destination" : "C:/Users/ihsan/AppData/Local/Programs/Python/Python312/Lib/site-packages/cv2/misc",
+			"paths" : 
+			[
+				"modules/python/package/extra_modules/misc/version.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "python",
+			"destination" : "C:/Users/ihsan/AppData/Local/Programs/Python/Python312/Lib/site-packages/cv2/mat_wrapper",
+			"paths" : 
+			[
+				"modules/core/misc/python/package/mat_wrapper/__init__.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "python",
+			"destination" : "C:/Users/ihsan/AppData/Local/Programs/Python/Python312/Lib/site-packages/cv2/utils",
+			"paths" : 
+			[
+				"modules/core/misc/python/package/utils/__init__.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "python",
+			"destination" : "C:/Users/ihsan/AppData/Local/Programs/Python/Python312/Lib/site-packages/cv2/gapi",
+			"paths" : 
+			[
+				"modules/gapi/misc/python/package/gapi/__init__.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "python",
+			"destination" : "C:/Users/ihsan/AppData/Local/Programs/Python/Python312/Lib/site-packages",
+			"paths" : 
+			[
+				"C:/Users/ihsan/Projects/Synthesia/build/modules/python_bindings_generator/cv2"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "python",
+			"destination" : "C:/Users/ihsan/AppData/Local/Programs/Python/Python312/Lib/site-packages/cv2/python-3.12",
+			"paths" : 
+			[
+				"lib/python3/Release/cv2.cp312-win_amd64.pyd"
+			],
+			"targetId" : "opencv_python3::@0bf1395c812e247102d0",
+			"targetIndex" : 111,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "python",
+			"destination" : "C:/Users/ihsan/AppData/Local/Programs/Python/Python312/Lib/site-packages/cv2",
+			"paths" : 
+			[
+				"C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/install/python_loader//cv2/config-3.12.py"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/python3",
+		"source" : "modules/python/python3"
+	}
+}

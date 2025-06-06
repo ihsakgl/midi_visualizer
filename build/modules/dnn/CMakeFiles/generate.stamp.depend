@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/cmake/templates/dllmain.cpp.in
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/cmake/templates/vs_version.rc.in
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/dnn/CMakeLists.txt
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/dnn/cmake/hooks/INIT_MODULE_SOURCES_opencv_dnn.cmake
+C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/dnn/cmake/plugin.cmake
+C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.props.in

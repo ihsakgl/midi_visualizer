@@ -1,0 +1,29 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeASMCompiler.cmake.in
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeASMInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeASM_NASMInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASM_NASMCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeSystem.cmake.in
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestASMCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestASM_NASMCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeASMLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeASM_NASMLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeInspectASMLinker.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeInspectASM_NASMLinker.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake
+C:/Users/ihsan/Projects/Synthesia/build/3rdparty/libjpeg-turbo/simd/CMakeFiles/CheckASM_NASM/CMakeFiles/3.31.7/CMakeASM_NASMCompiler.cmake
+C:/Users/ihsan/Projects/Synthesia/build/3rdparty/libjpeg-turbo/simd/CMakeFiles/CheckASM_NASM/CMakeFiles/3.31.7/CMakeSystem.cmake
+C:/Users/ihsan/Projects/Synthesia/build/3rdparty/libjpeg-turbo/simd/CMakeFiles/CheckASM_NASM/CMakeLists.txt
+C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.props.in

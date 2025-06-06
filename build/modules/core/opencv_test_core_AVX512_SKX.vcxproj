@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{247EB9D9-86D3-3345-9C0C-7B6B7444C4C2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_test_core_AVX512_SKX</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_test_core_AVX512_SKX.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_test_core_AVX512_SKX.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_test_core_AVX512_SKX.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_test_core_AVX512_SKX</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_test_core_AVX512_SKX.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_test_core_AVX512_SKX.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_test_core_AVX512_SKX</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\ipphal\include;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ts\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\core\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgcodecs\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgproc\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\highgui\include;C:\Users\ihsan\Projects\Synthesia\build\modules\core\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/ihsan/Projects/Synthesia/build" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4819</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions512</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CV_CPU_COMPILE_SSSE3=1;CV_CPU_COMPILE_SSE4_1=1;CV_CPU_COMPILE_POPCNT=1;CV_CPU_COMPILE_SSE4_2=1;CV_CPU_COMPILE_AVX=1;CV_CPU_COMPILE_FP16=1;CV_CPU_COMPILE_AVX2=1;CV_CPU_COMPILE_FMA3=1;CV_CPU_COMPILE_AVX_512F=1;CV_CPU_COMPILE_AVX512_COMMON=1;CV_CPU_COMPILE_AVX512_SKX=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;OPENCV_WITH_ITT=1;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;__OPENCV_BUILD=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CV_CPU_COMPILE_SSSE3=1;CV_CPU_COMPILE_SSE4_1=1;CV_CPU_COMPILE_POPCNT=1;CV_CPU_COMPILE_SSE4_2=1;CV_CPU_COMPILE_AVX=1;CV_CPU_COMPILE_FP16=1;CV_CPU_COMPILE_AVX2=1;CV_CPU_COMPILE_FMA3=1;CV_CPU_COMPILE_AVX_512F=1;CV_CPU_COMPILE_AVX512_COMMON=1;CV_CPU_COMPILE_AVX512_SKX=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;OPENCV_WITH_ITT=1;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\ipphal\include;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ts\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\core\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgcodecs\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgproc\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\highgui\include;C:\Users\ihsan\Projects\Synthesia\build\modules\core\test;C:\Users\ihsan\Projects\Synthesia\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\ipphal\include\;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\icv\include\;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\iw\include\;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ts\include\;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\core\include\;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgcodecs\include\;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\include\;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgproc\include\;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\highgui\include\;C:\Users\ihsan\Projects\Synthesia\build\modules\core\test\;C:\Users\ihsan\Projects\Synthesia\build\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/arch:AVX /arch:AVX /arch:AVX2 /arch:AVX512 /arch:AVX512 /arch:AVX512 -f</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CV_CPU_COMPILE_SSSE3=1;CV_CPU_COMPILE_SSE4_1=1;CV_CPU_COMPILE_POPCNT=1;CV_CPU_COMPILE_SSE4_2=1;CV_CPU_COMPILE_AVX=1;CV_CPU_COMPILE_FP16=1;CV_CPU_COMPILE_AVX2=1;CV_CPU_COMPILE_FMA3=1;CV_CPU_COMPILE_AVX_512F=1;CV_CPU_COMPILE_AVX512_COMMON=1;CV_CPU_COMPILE_AVX512_SKX=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;OPENCV_WITH_ITT=1;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;__OPENCV_BUILD=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\ipphal\include;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ts\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\core\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgcodecs\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgproc\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\highgui\include;C:\Users\ihsan\Projects\Synthesia\build\modules\core\test;C:\Users\ihsan\Projects\Synthesia\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\ipphal\include;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ts\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\core\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgcodecs\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgproc\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\highgui\include;C:\Users\ihsan\Projects\Synthesia\build\modules\core\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/ihsan/Projects/Synthesia/build" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4819</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions512</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;CV_CPU_COMPILE_SSSE3=1;CV_CPU_COMPILE_SSE4_1=1;CV_CPU_COMPILE_POPCNT=1;CV_CPU_COMPILE_SSE4_2=1;CV_CPU_COMPILE_AVX=1;CV_CPU_COMPILE_FP16=1;CV_CPU_COMPILE_AVX2=1;CV_CPU_COMPILE_FMA3=1;CV_CPU_COMPILE_AVX_512F=1;CV_CPU_COMPILE_AVX512_COMMON=1;CV_CPU_COMPILE_AVX512_SKX=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;OPENCV_WITH_ITT=1;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;__OPENCV_BUILD=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;CV_CPU_COMPILE_SSSE3=1;CV_CPU_COMPILE_SSE4_1=1;CV_CPU_COMPILE_POPCNT=1;CV_CPU_COMPILE_SSE4_2=1;CV_CPU_COMPILE_AVX=1;CV_CPU_COMPILE_FP16=1;CV_CPU_COMPILE_AVX2=1;CV_CPU_COMPILE_FMA3=1;CV_CPU_COMPILE_AVX_512F=1;CV_CPU_COMPILE_AVX512_COMMON=1;CV_CPU_COMPILE_AVX512_SKX=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;OPENCV_WITH_ITT=1;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\ipphal\include;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ts\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\core\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgcodecs\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgproc\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\highgui\include;C:\Users\ihsan\Projects\Synthesia\build\modules\core\test;C:\Users\ihsan\Projects\Synthesia\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\ipphal\include\;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\icv\include\;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\iw\include\;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ts\include\;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\core\include\;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgcodecs\include\;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\include\;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgproc\include\;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\highgui\include\;C:\Users\ihsan\Projects\Synthesia\build\modules\core\test\;C:\Users\ihsan\Projects\Synthesia\build\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/arch:AVX /arch:AVX /arch:AVX2 /arch:AVX512 /arch:AVX512 /arch:AVX512 -f</AdditionalOptions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;CV_CPU_COMPILE_SSSE3=1;CV_CPU_COMPILE_SSE4_1=1;CV_CPU_COMPILE_POPCNT=1;CV_CPU_COMPILE_SSE4_2=1;CV_CPU_COMPILE_AVX=1;CV_CPU_COMPILE_FP16=1;CV_CPU_COMPILE_AVX2=1;CV_CPU_COMPILE_FMA3=1;CV_CPU_COMPILE_AVX_512F=1;CV_CPU_COMPILE_AVX512_COMMON=1;CV_CPU_COMPILE_AVX512_SKX=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;OPENCV_WITH_ITT=1;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;__OPENCV_BUILD=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\ipphal\include;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\ts\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\core\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgcodecs\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgproc\include;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\highgui\include;C:\Users\ihsan\Projects\Synthesia\build\modules\core\test;C:\Users\ihsan\Projects\Synthesia\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\core\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ihsan/Projects/Synthesia/opencv/opencv -BC:/Users/ihsan/Projects/Synthesia/build --check-stamp-file C:/Users/ihsan/Projects/Synthesia/build/modules/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\vs_version.rc.in;C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ihsan\Projects\Synthesia\build\modules\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ihsan/Projects/Synthesia/opencv/opencv -BC:/Users/ihsan/Projects/Synthesia/build --check-stamp-file C:/Users/ihsan/Projects/Synthesia/build/modules/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\vs_version.rc.in;C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ihsan\Projects\Synthesia\build\modules\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\test\test_intrin128.avx512_skx.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=AVX512_SKX</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=AVX512_SKX</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\test\test_intrin256.avx512_skx.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=AVX512_SKX</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=AVX512_SKX</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\test\test_intrin512.avx512_skx.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=AVX512_SKX</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=AVX512_SKX</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\ZERO_CHECK.vcxproj">
+      <Project>{1E04A365-BD25-3573-B775-A7103AC9D2D6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

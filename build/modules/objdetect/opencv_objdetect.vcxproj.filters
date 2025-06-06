@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\build\modules\objdetect\CMakeFiles\opencv_objdetect.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\aruco\apriltag\apriltag_quad_thresh.cpp">
+      <Filter>Src\aruco\apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\aruco\apriltag\zmaxheap.cpp">
+      <Filter>Src\aruco\apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\aruco\aruco_board.cpp">
+      <Filter>Src\aruco</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\aruco\aruco_detector.cpp">
+      <Filter>Src\aruco</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\aruco\aruco_dictionary.cpp">
+      <Filter>Src\aruco</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\aruco\aruco_utils.cpp">
+      <Filter>Src\aruco</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\aruco\charuco_detector.cpp">
+      <Filter>Src\aruco</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode_decoder\abs_decoder.cpp">
+      <Filter>Src\barcode_decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode_decoder\common\hybrid_binarizer.cpp">
+      <Filter>Src\barcode_decoder\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode_decoder\common\super_scale.cpp">
+      <Filter>Src\barcode_decoder\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode_decoder\common\utils.cpp">
+      <Filter>Src\barcode_decoder\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode_decoder\ean13_decoder.cpp">
+      <Filter>Src\barcode_decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode_decoder\ean8_decoder.cpp">
+      <Filter>Src\barcode_decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode_decoder\upcean_decoder.cpp">
+      <Filter>Src\barcode_decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode_detector\bardetect.cpp">
+      <Filter>Src\barcode_detector</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\cascadedetect.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\cascadedetect_convert.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\detection_based_tracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\face_detect.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\face_recognize.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\graphical_code_detector.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\hog.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\qrcode.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\qrcode_encoder.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\build\modules\objdetect\opencl_kernels_objdetect.cpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\build\modules\objdetect\opencv_objdetect_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\include\opencv2\objdetect.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\include\opencv2\objdetect\aruco_board.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\include\opencv2\objdetect\aruco_detector.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\include\opencv2\objdetect\aruco_dictionary.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\include\opencv2\objdetect\barcode.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\include\opencv2\objdetect\charuco_detector.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\include\opencv2\objdetect\detection_based_tracker.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\include\opencv2\objdetect\face.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\include\opencv2\objdetect\graphical_code_detector.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\include\opencv2\objdetect\objdetect.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\build\modules\objdetect\opencl_kernels_objdetect.hpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\aruco\apriltag\apriltag_quad_thresh.hpp">
+      <Filter>Src\aruco\apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\aruco\apriltag\predefined_dictionaries_apriltag.hpp">
+      <Filter>Src\aruco\apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\aruco\apriltag\unionfind.hpp">
+      <Filter>Src\aruco\apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\aruco\apriltag\zarray.hpp">
+      <Filter>Src\aruco\apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\aruco\apriltag\zmaxheap.hpp">
+      <Filter>Src\aruco\apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\aruco\aruco_utils.hpp">
+      <Filter>Src\aruco</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\aruco\predefined_dictionaries.hpp">
+      <Filter>Src\aruco</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode_decoder\abs_decoder.hpp">
+      <Filter>Src\barcode_decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode_decoder\common\hybrid_binarizer.hpp">
+      <Filter>Src\barcode_decoder\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode_decoder\common\super_scale.hpp">
+      <Filter>Src\barcode_decoder\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode_decoder\common\utils.hpp">
+      <Filter>Src\barcode_decoder\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode_decoder\ean13_decoder.hpp">
+      <Filter>Src\barcode_decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode_decoder\ean8_decoder.hpp">
+      <Filter>Src\barcode_decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode_decoder\upcean_decoder.hpp">
+      <Filter>Src\barcode_decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\barcode_detector\bardetect.hpp">
+      <Filter>Src\barcode_detector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\cascadedetect.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\graphical_code_detector_impl.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\qrcode_encoder_table.inl.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\build\modules\objdetect\CMakeFiles\opencv_objdetect.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\build\modules\objdetect\CMakeFiles\opencv_objdetect.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\716772f9ca16b0120ccfe068555b990e\opencl_kernels_objdetect.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\opencl\cascadedetect.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\objdetect\src\opencl\objdetect_hog.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\ihsan\Projects\Synthesia\build\modules\objdetect\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{49630300-8C19-3A38-9B61-3D1CAE45AAC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{CBC043D9-2878-3C09-91CD-DC6AC0EC1ADD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{38C3E98E-8EA8-39CE-918F-1A88FF145E23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\objdetect">
+      <UniqueIdentifier>{A05A8B5B-9B4B-3183-B629-C126410F2D50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{CEC93324-7079-3FB8-B816-CF4F0B180228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CC17AEE5-EAC3-35DA-B859-EFD4C675EE7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{BC9B18A7-32C9-30B0-9B60-BBDA9E07C454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\aruco">
+      <UniqueIdentifier>{8FA6FA17-8B7F-3632-A4AC-2D9BB9E8DBF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\aruco\apriltag">
+      <UniqueIdentifier>{159E253E-A9DE-3CEA-8B22-F4E7511068BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\barcode_decoder">
+      <UniqueIdentifier>{8ABBFC32-353A-35D0-A01F-F0D35B0A4FE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\barcode_decoder\common">
+      <UniqueIdentifier>{1330C0F1-DD04-33D2-B571-F9B850017943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\barcode_detector">
+      <UniqueIdentifier>{1A6CAD38-3ACD-39C8-9AF5-D2F43E18B871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl">
+      <UniqueIdentifier>{0C992626-6845-3375-8741-5049DF1CD913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels">
+      <UniqueIdentifier>{B4882FAE-3C21-3189-86B0-16686A554ABB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{6B41DF1E-6C2C-3D19-BAE1-E2C4E30CF0D3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

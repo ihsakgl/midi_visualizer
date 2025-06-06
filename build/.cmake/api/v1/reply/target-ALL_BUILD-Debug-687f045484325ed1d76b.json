@@ -1,0 +1,40 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"apps/interactive-calibration/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "opencv_interactive-calibration::@7e8a7b6f484218f0f95a"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakeTargets"
+	},
+	"id" : "ALL_BUILD::@7e8a7b6f484218f0f95a",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "apps/interactive-calibration",
+		"source" : "apps/interactive-calibration"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

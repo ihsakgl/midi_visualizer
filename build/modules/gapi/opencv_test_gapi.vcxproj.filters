@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\build\modules\gapi\CMakeFiles\opencv_test_gapi.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_compoundkernel_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_core_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_imgproc_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_operators_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_render_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_stereo_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_video_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\cpu\gapi_core_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\cpu\gapi_core_tests_fluid.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\cpu\gapi_imgproc_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\cpu\gapi_imgproc_tests_fluid.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\cpu\gapi_ocv_stateful_kernel_tests.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\cpu\gapi_operators_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\cpu\gapi_operators_tests_fluid.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\cpu\gapi_ot_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\cpu\gapi_stereo_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\cpu\gapi_video_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\executor\gtbbexecutor_internal_tests.cpp">
+      <Filter>Src\executor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_array_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_async_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_basic_hetero_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_compile_args_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_desc_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_fluid_parallel_rois_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_fluid_resize_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_fluid_roi_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_fluid_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_fluid_test_kernels.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_frame_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_gcompiled_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_gcomputation_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_gpu_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_graph_meta_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_kernel_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_mat_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_opaque_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_plaidml_pipelines.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_planar_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_sample_pipelines.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_scalar_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_smoke_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_transform_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_typed_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_util_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gpu\gapi_core_tests_gpu.cpp">
+      <Filter>Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gpu\gapi_imgproc_tests_gpu.cpp">
+      <Filter>Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gpu\gapi_operators_tests_gpu.cpp">
+      <Filter>Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\infer\gapi_infer_ie_test.cpp">
+      <Filter>Src\infer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\infer\gapi_infer_onnx_test.cpp">
+      <Filter>Src\infer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\infer\gapi_infer_ov_tests.cpp">
+      <Filter>Src\infer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\infer\gapi_infer_tests.cpp">
+      <Filter>Src\infer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\internal\gapi_int_backend_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\internal\gapi_int_dynamic_graph.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\internal\gapi_int_executor_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\internal\gapi_int_garg_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\internal\gapi_int_gmetaarg_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\internal\gapi_int_gmodel_builder_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\internal\gapi_int_island_fusion_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\internal\gapi_int_island_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\internal\gapi_int_pattern_matching_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\internal\gapi_int_perform_substitution_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\internal\gapi_int_proto_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\internal\gapi_int_recompilation_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\internal\gapi_int_vectorref_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\internal\gapi_transactions_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\oak\gapi_tests_oak.cpp">
+      <Filter>Src\oak</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\own\conc_queue_tests.cpp">
+      <Filter>Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\own\gapi_types_tests.cpp">
+      <Filter>Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\own\last_written_value_tests.cpp">
+      <Filter>Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\own\mat_tests.cpp">
+      <Filter>Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\own\scalar_tests.cpp">
+      <Filter>Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\own\thread_pool_tests.cpp">
+      <Filter>Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\render\ftp_render_test.cpp">
+      <Filter>Src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\render\gapi_render_tests_ocv.cpp">
+      <Filter>Src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\rmat\rmat_integration_tests.cpp">
+      <Filter>Src\rmat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\rmat\rmat_tests.cpp">
+      <Filter>Src\rmat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\rmat\rmat_view_tests.cpp">
+      <Filter>Src\rmat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\s11n\gapi_s11n_tests.cpp">
+      <Filter>Src\s11n</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\s11n\gapi_sample_pipelines_s11n.cpp">
+      <Filter>Src\s11n</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\streaming\gapi_gstreamer_pipeline_facade_int_tests.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\streaming\gapi_gstreamersource_tests.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\streaming\gapi_streaming_queue_source_tests.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\streaming\gapi_streaming_sync_tests.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\streaming\gapi_streaming_tests.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\streaming\gapi_streaming_utils_test.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\streaming\gapi_streaming_vpl_core_test.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\streaming\gapi_streaming_vpl_data_provider.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\streaming\gapi_streaming_vpl_device_selector.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\streaming\gapi_streaming_vpp_preproc_test.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\test_main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\util\any_tests.cpp">
+      <Filter>Src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\util\optional_tests.cpp">
+      <Filter>Src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\util\variant_tests.cpp">
+      <Filter>Src\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_core_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_core_tests_common.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_core_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_imgproc_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_imgproc_tests_common.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_imgproc_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_operators_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_operators_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_parsers_tests_common.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_render_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_stereo_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_stereo_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_streaming_tests_common.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_tests_common.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_tests_helpers.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_video_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_video_tests_common.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\common\gapi_video_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\cpu\gapi_ocv_stateful_kernel_test_utils.hpp">
+      <Filter>Include\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_fluid_test_kernels.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\gapi_mock_kernels.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\opencl_kernels_test_gapi.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\rmat\rmat_test_common.hpp">
+      <Filter>Include\rmat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\test\test_precomp.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\build\modules\gapi\CMakeFiles\opencv_test_gapi.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\build\modules\gapi\CMakeFiles\opencv_test_gapi.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{CBC043D9-2878-3C09-91CD-DC6AC0EC1ADD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\common">
+      <UniqueIdentifier>{4897D0E1-788C-3F66-84D3-6E61397C01BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\cpu">
+      <UniqueIdentifier>{6B8FD010-2443-3BBD-8013-C44BA6B9D8F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\rmat">
+      <UniqueIdentifier>{6F65EDDE-97AE-3655-805D-3D8114492105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{CEC93324-7079-3FB8-B816-CF4F0B180228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CC17AEE5-EAC3-35DA-B859-EFD4C675EE7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{BC9B18A7-32C9-30B0-9B60-BBDA9E07C454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\common">
+      <UniqueIdentifier>{FEFD6B9D-85C4-322F-A860-A41D1FC0E00F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\cpu">
+      <UniqueIdentifier>{78030830-6302-38AE-A527-11BED6BB4F52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\executor">
+      <UniqueIdentifier>{E3A07894-622F-3D4A-A79B-1B39C9E51420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\gpu">
+      <UniqueIdentifier>{5C5D524C-9F4E-30C7-8079-A534B63BCDF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\infer">
+      <UniqueIdentifier>{5D70ACCD-868F-3CD3-9B4C-AA7A47B99140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\internal">
+      <UniqueIdentifier>{01F7D2A0-6EC7-386B-B1A2-9DD56E7B9582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\oak">
+      <UniqueIdentifier>{774506D9-3FBF-3E2D-AD63-FD7C48F874A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\own">
+      <UniqueIdentifier>{811471EC-EA1A-3F3B-BEF8-0ABDB66F475D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\render">
+      <UniqueIdentifier>{2214D841-40EF-3209-9243-A11A2E2AE5CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\rmat">
+      <UniqueIdentifier>{F3B22BBB-AFD6-3AEB-BF20-66DD109526C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\s11n">
+      <UniqueIdentifier>{85B5E6AF-C915-3E15-BE7E-D847C1F94422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\streaming">
+      <UniqueIdentifier>{785B568E-5C34-3F46-BB79-FDF66CE85A03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\util">
+      <UniqueIdentifier>{B12962DE-75CE-3A3A-B33F-CCDDBC52EF33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,52 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"modules/gapi/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "opencv_gapi_SSE4_1::@77f52973fba75ea81765"
+		},
+		{
+			"id" : "opencv_test_gapi::@77f52973fba75ea81765"
+		},
+		{
+			"id" : "opencv_gapi::@77f52973fba75ea81765"
+		},
+		{
+			"id" : "opencv_gapi_AVX2::@77f52973fba75ea81765"
+		},
+		{
+			"id" : "opencv_perf_gapi::@77f52973fba75ea81765"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakeTargets"
+	},
+	"id" : "ALL_BUILD::@77f52973fba75ea81765",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "modules/gapi",
+		"source" : "modules/gapi"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

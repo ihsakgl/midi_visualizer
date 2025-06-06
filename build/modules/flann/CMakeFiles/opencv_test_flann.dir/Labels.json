@@ -1,0 +1,51 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/build/modules/flann/CMakeFiles/opencv_test_flann.dir/cmake_pch.cxx"
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/flann/test/test_lshtable_badarg.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_flann",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/flann/test/test_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_flann",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/flann/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_flann",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/build/modules/flann/CMakeFiles/opencv_test_flann.dir/Debug/cmake_pch.hxx"
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/build/modules/flann/CMakeFiles/opencv_test_flann.dir/Release/cmake_pch.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_flann",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_flann"
+	}
+}

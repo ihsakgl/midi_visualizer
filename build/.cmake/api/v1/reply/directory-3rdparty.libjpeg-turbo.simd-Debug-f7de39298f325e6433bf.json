@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "3rdparty/libjpeg-turbo/simd",
+		"source" : "3rdparty/libjpeg-turbo/simd"
+	}
+}

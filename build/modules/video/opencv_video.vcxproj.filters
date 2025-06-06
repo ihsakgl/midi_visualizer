@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\build\modules\video\CMakeFiles\opencv_video.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\bgfg_KNN.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\bgfg_gaussmix2.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\camshift.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\dis_flow.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\ecc.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\kalman.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\lkpyramid.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\optflowgf.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\optical_flow_io.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\detail\tracker_feature.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\detail\tracker_feature_set.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\detail\tracker_mil_model.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\detail\tracker_mil_state.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\detail\tracker_model.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\detail\tracker_sampler.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\detail\tracker_sampler_algorithm.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\detail\tracker_state_estimator.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\detail\tracking_feature.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\detail\tracking_online_mil.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\tracker.cpp">
+      <Filter>Src\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\tracker_dasiamrpn.cpp">
+      <Filter>Src\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\tracker_goturn.cpp">
+      <Filter>Src\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\tracker_mil.cpp">
+      <Filter>Src\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\tracker_nano.cpp">
+      <Filter>Src\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\tracker_vit.cpp">
+      <Filter>Src\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\variational_refinement.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\build\modules\video\opencl_kernels_video.cpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\build\modules\video\opencv_video_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\include\opencv2\video.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\include\opencv2\video\background_segm.hpp">
+      <Filter>Include\opencv2\video</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\include\opencv2\video\legacy\constants_c.h">
+      <Filter>Include\opencv2\video\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\include\opencv2\video\tracking.hpp">
+      <Filter>Include\opencv2\video</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\include\opencv2\video\video.hpp">
+      <Filter>Include\opencv2\video</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\include\opencv2\video\detail\tracking.detail.hpp">
+      <Filter>Include\opencv2\video\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\build\modules\video\opencl_kernels_video.hpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\hal_replacement.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\lkpyramid.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\detail\tracker_feature_haar.impl.hpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\detail\tracker_mil_model.hpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\detail\tracker_mil_state.hpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\detail\tracking_feature.hpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\tracking\detail\tracking_online_mil.hpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\build\modules\video\CMakeFiles\opencv_video.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\build\modules\video\CMakeFiles\opencv_video.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\a67835ce06afddb0d273eb6c409f36bd\opencl_kernels_video.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\opencl\bgfg_knn.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\opencl\bgfg_mog2.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\opencl\dis_flow.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\opencl\optical_flow_farneback.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\video\src\opencl\pyrlk.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\ihsan\Projects\Synthesia\build\modules\video\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{49630300-8C19-3A38-9B61-3D1CAE45AAC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{CBC043D9-2878-3C09-91CD-DC6AC0EC1ADD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{38C3E98E-8EA8-39CE-918F-1A88FF145E23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\video">
+      <UniqueIdentifier>{5C32DA80-83F6-373E-8D79-2A9F52161348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\video\detail">
+      <UniqueIdentifier>{95A65337-998B-3D9F-BB12-5A6C969D7B24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\video\legacy">
+      <UniqueIdentifier>{E9A22B36-D6C7-334B-8BA6-956B2D40723C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{CEC93324-7079-3FB8-B816-CF4F0B180228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CC17AEE5-EAC3-35DA-B859-EFD4C675EE7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{BC9B18A7-32C9-30B0-9B60-BBDA9E07C454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl">
+      <UniqueIdentifier>{0C992626-6845-3375-8741-5049DF1CD913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels">
+      <UniqueIdentifier>{B4882FAE-3C21-3189-86B0-16686A554ABB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{6B41DF1E-6C2C-3D19-BAE1-E2C4E30CF0D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tracking">
+      <UniqueIdentifier>{2811A476-5029-3E47-8C55-65BB104AECA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tracking\detail">
+      <UniqueIdentifier>{11B96FED-F3EC-37B6-83FA-C946A1220ABF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

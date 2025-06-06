@@ -1,0 +1,37 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"3rdparty/ittnotify/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakeTargets"
+	},
+	"id" : "ALL_BUILD::@abb975e843186cefb1e8",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "3rdparty/ittnotify",
+		"source" : "3rdparty/ittnotify"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

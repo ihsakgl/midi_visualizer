@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BAE2F96C-8552-30C3-9EF9-F289F1E0CC2A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="C:\Users\ihsan\Projects\Synthesia\build\ALL_BUILD.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\ipphal\include;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\ihsan\Projects\Synthesia\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\ipphal\include;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\ihsan\Projects\Synthesia\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ihsan/Projects/Synthesia/opencv/opencv/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ihsan/Projects/Synthesia/opencv/opencv -BC:/Users/ihsan/Projects/Synthesia/build --check-stamp-file C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.31\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindJNI.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindJava.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeInspectCLinker.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeInspectCXXLinker.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ffmpeg\ffmpeg_version.cmake;C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\3.31.7\CMakeCCompiler.cmake;C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\3.31.7\CMakeCXXCompiler.cmake;C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\3.31.7\CMakeRCCompiler.cmake;C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\3.31.7\CMakeSystem.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\ffmpeg\ffmpeg.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\ippicv\ippicv.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVCRTLinkage.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVCompilerOptimizations.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVCompilerOptions.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectApacheAnt.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectCXXCompiler.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectDirectML.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectDirectX.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectFlatbuffers.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectOpenCL.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectPython.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectTrace.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectVTK.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDownload.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVExtraTargets.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindAVIF.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindFrameworks.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindIPP.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindIPPIW.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindLAPACK.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindLibsGUI.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindLibsGrfmt.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindLibsPerf.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindLibsVideo.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindMKL.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindOpenBLAS.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindOpenEXR.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindProtobuf.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVGenABI.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVGenAndroidMK.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVGenConfig.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVGenHeaders.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVGenSetupVars.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVInstallLayout.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVMinDepVersions.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVModule.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVPCHSupport.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVPackaging.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVUtils.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVVersion.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\cpu_avx.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\cpu_avx2.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\cpu_avx512.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\cpu_popcnt.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\cpu_sse3.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\cpu_sse41.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\cpu_sse42.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\cpu_ssse3.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\directml.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\directx.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\opencl.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\win32uitest.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\platforms\OpenCV-Windows.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\OpenCVConfig-version.cmake.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\OpenCVConfig.cmake.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\cmake_uninstall.cmake.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\custom_hal.hpp.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\cv_cpu_config.h.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\cvconfig.h.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\opencv_modules.hpp.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\setup_vars_win32.cmd.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\vars\EnableModeVars.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\core\include\opencv2\core\version.hpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\cmake\init.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\cmake\DownloadADE.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\cmake\init.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\highgui\cmake\detect_win32ui.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\highgui\cmake\init.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\cmake\detect_dshow.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\cmake\detect_ffmpeg.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\cmake\detect_gstreamer.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\cmake\detect_msmf.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\cmake\detect_obsensor.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\cmake\init.cmake;C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ihsan/Projects/Synthesia/opencv/opencv/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ihsan/Projects/Synthesia/opencv/opencv -BC:/Users/ihsan/Projects/Synthesia/build --check-stamp-file C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.31\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindJNI.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindJava.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeInspectCLinker.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeInspectCXXLinker.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ffmpeg\ffmpeg_version.cmake;C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\3.31.7\CMakeCCompiler.cmake;C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\3.31.7\CMakeCXXCompiler.cmake;C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\3.31.7\CMakeRCCompiler.cmake;C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\3.31.7\CMakeSystem.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\ffmpeg\ffmpeg.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\ippicv\ippicv.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVCRTLinkage.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVCompilerOptimizations.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVCompilerOptions.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectApacheAnt.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectCXXCompiler.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectDirectML.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectDirectX.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectFlatbuffers.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectOpenCL.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectPython.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectTrace.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDetectVTK.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVDownload.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVExtraTargets.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindAVIF.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindFrameworks.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindIPP.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindIPPIW.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindLAPACK.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindLibsGUI.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindLibsGrfmt.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindLibsPerf.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindLibsVideo.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindMKL.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindOpenBLAS.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindOpenEXR.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVFindProtobuf.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVGenABI.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVGenAndroidMK.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVGenConfig.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVGenHeaders.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVGenSetupVars.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVInstallLayout.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVMinDepVersions.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVModule.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVPCHSupport.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVPackaging.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVUtils.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\OpenCVVersion.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\cpu_avx.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\cpu_avx2.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\cpu_avx512.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\cpu_popcnt.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\cpu_sse3.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\cpu_sse41.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\cpu_sse42.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\cpu_ssse3.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\directml.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\directx.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\opencl.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\checks\win32uitest.cpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\platforms\OpenCV-Windows.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\OpenCVConfig-version.cmake.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\OpenCVConfig.cmake.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\cmake_uninstall.cmake.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\custom_hal.hpp.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\cv_cpu_config.h.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\cvconfig.h.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\opencv_modules.hpp.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\templates\setup_vars_win32.cmd.in;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\cmake\vars\EnableModeVars.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\core\include\opencv2\core\version.hpp;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\dnn\cmake\init.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\cmake\DownloadADE.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\gapi\cmake\init.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\highgui\cmake\detect_win32ui.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\highgui\cmake\init.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\cmake\detect_dshow.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\cmake\detect_ffmpeg.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\cmake\detect_gstreamer.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\cmake\detect_msmf.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\cmake\detect_obsensor.cmake;C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\cmake\init.cmake;C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\ZERO_CHECK.vcxproj">
+      <Project>{1E04A365-BD25-3573-B775-A7103AC9D2D6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\3rdparty\ipphal\ipphal.vcxproj">
+      <Project>{16E9E13F-F2BE-3171-870D-B57EEF08A0FB}</Project>
+      <Name>ipphal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\3rdparty\libjpeg-turbo\jpeg12-static.vcxproj">
+      <Project>{BCB5EFA2-FCA8-3D5B-984C-73AF36BD70CC}</Project>
+      <Name>jpeg12-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\3rdparty\libjpeg-turbo\jpeg16-static.vcxproj">
+      <Project>{ED301585-F81B-34B2-A81B-10A4990D3D1A}</Project>
+      <Name>jpeg16-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\3rdparty\libjpeg-turbo\libjpeg-turbo.vcxproj">
+      <Project>{FCDC7209-FC4F-3786-AFB8-A19EFC9E67DC}</Project>
+      <Name>libjpeg-turbo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\3rdparty\openjpeg\openjp2\libopenjp2.vcxproj">
+      <Project>{E8DB1B24-00CA-35C2-898D-B33298061E44}</Project>
+      <Name>libopenjp2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\apps\annotation\opencv_annotation.vcxproj">
+      <Project>{5E5C5147-EEA5-3D1C-83A2-475BD9F0D874}</Project>
+      <Name>opencv_annotation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\calib3d\opencv_calib3d.vcxproj">
+      <Project>{30113D2A-A112-3280-BC18-D7456500D2A3}</Project>
+      <Name>opencv_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\calib3d\opencv_calib3d_AVX2.vcxproj">
+      <Project>{43FA217D-1655-3A15-8F15-08C28668200E}</Project>
+      <Name>opencv_calib3d_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_core.vcxproj">
+      <Project>{E6F0308F-8185-3F59-88B7-1789177564EF}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_core_AVX.vcxproj">
+      <Project>{F08EE8B8-3A7A-38D8-A172-44E84F80346B}</Project>
+      <Name>opencv_core_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_core_AVX2.vcxproj">
+      <Project>{78A1AFEA-DAE3-3671-967C-D0EFF40AE8B4}</Project>
+      <Name>opencv_core_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_core_AVX512_SKX.vcxproj">
+      <Project>{3F33361D-F4C2-3D2F-A4A1-DF7F800A6B41}</Project>
+      <Name>opencv_core_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_core_SSE4_1.vcxproj">
+      <Project>{B18E422A-1D08-39B6-87DF-F03F966A221C}</Project>
+      <Name>opencv_core_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_core_SSE4_2.vcxproj">
+      <Project>{C04E92AB-F15D-3C0B-BD75-E70D88BB9ED1}</Project>
+      <Name>opencv_core_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\dnn\opencv_dnn.vcxproj">
+      <Project>{EF9BBE53-4A1E-3B8D-82EC-F8FD9CCCB85D}</Project>
+      <Name>opencv_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\dnn\opencv_dnn_AVX.vcxproj">
+      <Project>{B55047F8-A1BF-3118-B157-3EAF2B4D5C8D}</Project>
+      <Name>opencv_dnn_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\dnn\opencv_dnn_AVX2.vcxproj">
+      <Project>{678B7F97-0653-39CF-90B6-178142D2BC55}</Project>
+      <Name>opencv_dnn_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\dnn\opencv_dnn_AVX512_SKX.vcxproj">
+      <Project>{FF685FBB-2F75-3D6B-9A60-1B56C0F02CB5}</Project>
+      <Name>opencv_dnn_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\opencv_dnn_plugins.vcxproj">
+      <Project>{6EA779CC-D426-3140-8BA9-E4D10F1E8C37}</Project>
+      <Name>opencv_dnn_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\features2d\opencv_features2d.vcxproj">
+      <Project>{4BEA4E86-4333-33DE-93DF-8BF68A9FBD1D}</Project>
+      <Name>opencv_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\features2d\opencv_features2d_AVX2.vcxproj">
+      <Project>{F95A48F8-7DBB-388D-B4FF-323C15C99303}</Project>
+      <Name>opencv_features2d_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\features2d\opencv_features2d_AVX512_SKX.vcxproj">
+      <Project>{74CE762F-3D75-3AC5-8976-8DDBFB0954EF}</Project>
+      <Name>opencv_features2d_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\features2d\opencv_features2d_SSE4_1.vcxproj">
+      <Project>{60A6BC47-EB4C-333D-84DE-CB70DB19C458}</Project>
+      <Name>opencv_features2d_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\flann\opencv_flann.vcxproj">
+      <Project>{1E3280AE-AB63-3E72-91EA-334B69B97126}</Project>
+      <Name>opencv_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\gapi\opencv_gapi.vcxproj">
+      <Project>{E63E5BF1-78E1-3E9C-A983-54C55487B8A4}</Project>
+      <Name>opencv_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\gapi\opencv_gapi_AVX2.vcxproj">
+      <Project>{20CB26C8-95F1-31F4-B22B-BC25782C203E}</Project>
+      <Name>opencv_gapi_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\gapi\opencv_gapi_SSE4_1.vcxproj">
+      <Project>{8948483B-A98F-368C-891D-50653EEF5D84}</Project>
+      <Name>opencv_gapi_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\highgui\opencv_highgui.vcxproj">
+      <Project>{58218A2F-F1CA-3554-89B7-E56D2175F00B}</Project>
+      <Name>opencv_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\opencv_highgui_plugins.vcxproj">
+      <Project>{FABBED14-A3D0-3A49-A246-6C348AADA94F}</Project>
+      <Name>opencv_highgui_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\imgcodecs\opencv_imgcodecs.vcxproj">
+      <Project>{B432393C-156F-3A29-A7F7-97C2C2501C6D}</Project>
+      <Name>opencv_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{28FFD4A7-3A7D-3F5D-9D38-693A900BF0CF}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\imgproc\opencv_imgproc_AVX.vcxproj">
+      <Project>{A8AD31A8-ABF5-3827-BCD9-091B9FE5208A}</Project>
+      <Name>opencv_imgproc_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\imgproc\opencv_imgproc_AVX2.vcxproj">
+      <Project>{20310D0C-DAAE-3E3A-830D-46DF1DA53BDE}</Project>
+      <Name>opencv_imgproc_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\imgproc\opencv_imgproc_AVX512_SKX.vcxproj">
+      <Project>{68406E2F-54E1-312E-9F74-DBE7A26DD5C4}</Project>
+      <Name>opencv_imgproc_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\imgproc\opencv_imgproc_SSE4_1.vcxproj">
+      <Project>{E467B1BE-7449-35B4-901E-EF95DDBED9EF}</Project>
+      <Name>opencv_imgproc_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\apps\interactive-calibration\opencv_interactive-calibration.vcxproj">
+      <Project>{86908268-22F7-31C9-BED0-68D59A22C07F}</Project>
+      <Name>opencv_interactive-calibration</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\ml\opencv_ml.vcxproj">
+      <Project>{91A95EDF-95E1-3D8B-8DC3-87F88C1A38F7}</Project>
+      <Name>opencv_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\apps\model-diagnostics\opencv_model_diagnostics.vcxproj">
+      <Project>{DDDD99DE-DB9B-3F25-8FBB-1536F1F6C72C}</Project>
+      <Name>opencv_model_diagnostics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\objdetect\opencv_objdetect.vcxproj">
+      <Project>{BD4DF58D-E0CE-37A1-BBF9-06441774FB8C}</Project>
+      <Name>opencv_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\calib3d\opencv_perf_calib3d.vcxproj">
+      <Project>{E9850FBF-80E4-3FC8-8B94-1236ECDB7A16}</Project>
+      <Name>opencv_perf_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_perf_core.vcxproj">
+      <Project>{D225122A-1BA8-3D7C-9B66-3713ACFFDA39}</Project>
+      <Name>opencv_perf_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\dnn\opencv_perf_dnn.vcxproj">
+      <Project>{EA258B4C-7F60-3F5E-B738-98F6BA4A9C0E}</Project>
+      <Name>opencv_perf_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\features2d\opencv_perf_features2d.vcxproj">
+      <Project>{E4BB65F4-E3AB-3BF9-A9BF-47E1110B941B}</Project>
+      <Name>opencv_perf_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\gapi\opencv_perf_gapi.vcxproj">
+      <Project>{01321586-5F54-31D4-B25D-D58ECA0C0E75}</Project>
+      <Name>opencv_perf_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\imgcodecs\opencv_perf_imgcodecs.vcxproj">
+      <Project>{C2A22347-7228-3F93-98A9-E235EFB026A9}</Project>
+      <Name>opencv_perf_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\imgproc\opencv_perf_imgproc.vcxproj">
+      <Project>{4A56675B-2245-31A7-B613-5A2DA6D77F50}</Project>
+      <Name>opencv_perf_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\objdetect\opencv_perf_objdetect.vcxproj">
+      <Project>{EE4CC17F-5F49-3728-8E4F-F89F83C1072A}</Project>
+      <Name>opencv_perf_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\photo\opencv_perf_photo.vcxproj">
+      <Project>{33960AE8-446F-3CE4-8C43-E9D5CB4324AC}</Project>
+      <Name>opencv_perf_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\stitching\opencv_perf_stitching.vcxproj">
+      <Project>{EEDF6FAC-DF08-35CE-88F8-0A745500DF68}</Project>
+      <Name>opencv_perf_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\video\opencv_perf_video.vcxproj">
+      <Project>{49C1DD9F-011F-3C72-B49A-3B582583A42C}</Project>
+      <Name>opencv_perf_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\videoio\opencv_perf_videoio.vcxproj">
+      <Project>{F3378160-A612-3BF8-9AFA-C733987AD965}</Project>
+      <Name>opencv_perf_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\photo\opencv_photo.vcxproj">
+      <Project>{954F4D56-96B3-3CF7-8599-B618A06A6498}</Project>
+      <Name>opencv_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\python3\opencv_python3.vcxproj">
+      <Project>{94DE5BC3-95D9-37E4-B4E0-ED5D30489F4D}</Project>
+      <Name>opencv_python3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\stitching\opencv_stitching.vcxproj">
+      <Project>{61766A06-1AF5-37B4-A2C4-69DDF9933A22}</Project>
+      <Name>opencv_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\calib3d\opencv_test_calib3d.vcxproj">
+      <Project>{AB09A51E-EAEE-31F9-BC39-C79BB433E2C8}</Project>
+      <Name>opencv_test_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_test_core.vcxproj">
+      <Project>{79DC99BB-6B36-376E-A3BF-1E1FB14597A5}</Project>
+      <Name>opencv_test_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_test_core_AVX.vcxproj">
+      <Project>{EFC79F10-230E-3107-ACB6-29A4DF6E149F}</Project>
+      <Name>opencv_test_core_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_test_core_AVX2.vcxproj">
+      <Project>{4B528ED2-98E5-3514-B40A-35F2F4E24965}</Project>
+      <Name>opencv_test_core_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_test_core_AVX512_SKX.vcxproj">
+      <Project>{247EB9D9-86D3-3345-9C0C-7B6B7444C4C2}</Project>
+      <Name>opencv_test_core_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_test_core_FP16.vcxproj">
+      <Project>{193044AE-E399-3825-868A-11E464CB369D}</Project>
+      <Name>opencv_test_core_FP16</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_test_core_SSE2.vcxproj">
+      <Project>{26F483E2-4724-39B4-90D5-B0497EFBFF19}</Project>
+      <Name>opencv_test_core_SSE2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_test_core_SSE3.vcxproj">
+      <Project>{246E3F9E-F36E-3BCF-8E80-5FF1DC87D321}</Project>
+      <Name>opencv_test_core_SSE3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_test_core_SSE4_1.vcxproj">
+      <Project>{CCFE24C2-3B34-3BF4-8723-48945C6D5751}</Project>
+      <Name>opencv_test_core_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\core\opencv_test_core_SSE4_2.vcxproj">
+      <Project>{5B53E8FF-5738-328B-B2CB-8EE8A12C8A7B}</Project>
+      <Name>opencv_test_core_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\dnn\opencv_test_dnn.vcxproj">
+      <Project>{553E5AD0-3295-34BA-AE79-2C902515979D}</Project>
+      <Name>opencv_test_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\features2d\opencv_test_features2d.vcxproj">
+      <Project>{60522285-0DBC-3720-8DD8-D903E6D7AD7F}</Project>
+      <Name>opencv_test_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\flann\opencv_test_flann.vcxproj">
+      <Project>{C56A9B93-316F-317E-9273-BEC437A8F16A}</Project>
+      <Name>opencv_test_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\gapi\opencv_test_gapi.vcxproj">
+      <Project>{5338192D-F36D-3216-8620-ECCEAC872774}</Project>
+      <Name>opencv_test_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\highgui\opencv_test_highgui.vcxproj">
+      <Project>{41C59846-39E2-3208-A6AB-7C4CB6525A1F}</Project>
+      <Name>opencv_test_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\imgcodecs\opencv_test_imgcodecs.vcxproj">
+      <Project>{19C8FD42-C30E-391D-A29E-2E6C0A52347F}</Project>
+      <Name>opencv_test_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\imgproc\opencv_test_imgproc.vcxproj">
+      <Project>{E2E6C9E9-C2A5-381D-AC19-D434CE37B908}</Project>
+      <Name>opencv_test_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\ml\opencv_test_ml.vcxproj">
+      <Project>{9015D89E-DD2A-3B5D-928D-B145439665DD}</Project>
+      <Name>opencv_test_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\objdetect\opencv_test_objdetect.vcxproj">
+      <Project>{B7A8BA1A-EE80-3355-8FD5-DBA665AE2653}</Project>
+      <Name>opencv_test_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\photo\opencv_test_photo.vcxproj">
+      <Project>{EDC9A129-D738-3B15-85D7-CF2CE7284019}</Project>
+      <Name>opencv_test_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\stitching\opencv_test_stitching.vcxproj">
+      <Project>{DCDF6C90-20B0-3089-A8DB-B23AD810C28C}</Project>
+      <Name>opencv_test_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\video\opencv_test_video.vcxproj">
+      <Project>{3F135D13-44F4-3A00-9310-C90A4CEDEA88}</Project>
+      <Name>opencv_test_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\videoio\opencv_test_videoio.vcxproj">
+      <Project>{AAFA09BB-945E-31A0-A527-8FBDF51FAC76}</Project>
+      <Name>opencv_test_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\ts\opencv_ts.vcxproj">
+      <Project>{0E7AAFD1-D53D-3365-8EBE-EC0A7BE88C3D}</Project>
+      <Name>opencv_ts</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\apps\version\opencv_version.vcxproj">
+      <Project>{9D82533A-A3E2-379E-98FF-AFA68245E771}</Project>
+      <Name>opencv_version</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\apps\version\opencv_version_win32.vcxproj">
+      <Project>{82C6B74F-072C-3FBB-8C41-791D5B4BFD70}</Project>
+      <Name>opencv_version_win32</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\video\opencv_video.vcxproj">
+      <Project>{F61DAD7F-9780-3205-9224-10CA5CF79C4D}</Project>
+      <Name>opencv_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\videoio\opencv_videoio.vcxproj">
+      <Project>{7B7F5C6D-8505-3062-901A-A6A72500F435}</Project>
+      <Name>opencv_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\modules\.firstpass\videoio\opencv_videoio_plugins.vcxproj">
+      <Project>{18A341AD-554A-3EBE-93FD-346536BCC0D5}</Project>
+      <Name>opencv_videoio_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\apps\visualisation\opencv_visualisation.vcxproj">
+      <Project>{4E9F8852-9D62-3DAD-8CAC-6361C809EAF8}</Project>
+      <Name>opencv_visualisation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ihsan\Projects\Synthesia\build\3rdparty\libjpeg-turbo\simd\simd.vcxproj">
+      <Project>{83C69722-8BE5-32C6-B904-6C5313FF1128}</Project>
+      <Name>simd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

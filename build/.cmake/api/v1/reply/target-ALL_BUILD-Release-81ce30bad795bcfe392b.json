@@ -1,0 +1,40 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"3rdparty/ipphal/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ipphal::@824edab9c25f49c30152"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakeTargets"
+	},
+	"id" : "ALL_BUILD::@824edab9c25f49c30152",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "3rdparty/ipphal",
+		"source" : "3rdparty/ipphal"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

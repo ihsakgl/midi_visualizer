@@ -1,0 +1,37 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"modules/python/bindings/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakeTargets"
+	},
+	"id" : "ALL_BUILD::@f2e20f6f8be0942d20b2",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "modules/python_bindings_generator",
+		"source" : "modules/python/bindings"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

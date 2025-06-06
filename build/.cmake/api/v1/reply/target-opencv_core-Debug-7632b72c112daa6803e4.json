@@ -1,0 +1,3380 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/Debug/opencv_core4120d.dll"
+		},
+		{
+			"path" : "lib/Debug/opencv_core4120d.lib"
+		},
+		{
+			"path" : "bin/Debug/opencv_core4120d.pdb"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"ocv_add_library",
+			"_ocv_create_module",
+			"ocv_create_module",
+			"install",
+			"ocv_install_target",
+			"target_link_libraries",
+			"__ocv_push_target_link_libraries",
+			"ocv_target_link_libraries",
+			"add_definitions",
+			"ocv_add_module",
+			"include",
+			"include_directories",
+			"ocv_include_directories",
+			"ocv_hal_register",
+			"target_include_directories",
+			"_ocv_append_target_includes",
+			"target_precompile_headers",
+			"ocv_add_precompiled_header_to_target",
+			"_ocv_add_precompiled_headers",
+			"set_source_files_properties",
+			"ocv_append_source_file_compile_definitions"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"cmake/OpenCVModule.cmake",
+			"modules/core/CMakeLists.txt",
+			"cmake/OpenCVCompilerOptions.cmake",
+			"CMakeLists.txt",
+			"cmake/OpenCVFindLibsPerf.cmake",
+			"cmake/OpenCVPCHSupport.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 905,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 979,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1586,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 1054,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1241,
+				"parent" : 5
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 995,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 1525,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1495,
+				"parent" : 8
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 175,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 1525,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1495,
+				"parent" : 11
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 152,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 15
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 645,
+				"parent" : 17
+			},
+			{
+				"file" : 3,
+				"parent" : 18
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 486,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 498,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 923,
+				"parent" : 2
+			},
+			{
+				"command" : 14,
+				"file" : 4,
+				"line" : 1044,
+				"parent" : 17
+			},
+			{
+				"command" : 13,
+				"file" : 4,
+				"line" : 949,
+				"parent" : 23
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 319,
+				"parent" : 24
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 816,
+				"parent" : 17
+			},
+			{
+				"file" : 5,
+				"parent" : 26
+			},
+			{
+				"command" : 13,
+				"file" : 5,
+				"line" : 19,
+				"parent" : 27
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 319,
+				"parent" : 28
+			},
+			{
+				"command" : 13,
+				"file" : 5,
+				"line" : 16,
+				"parent" : 27
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 319,
+				"parent" : 30
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 1621,
+				"parent" : 3
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 1544,
+				"parent" : 32
+			},
+			{
+				"command" : 13,
+				"file" : 4,
+				"line" : 627,
+				"parent" : 17
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 315,
+				"parent" : 34
+			},
+			{
+				"command" : 19,
+				"file" : 1,
+				"line" : 1079,
+				"parent" : 2
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 1099,
+				"parent" : 36
+			},
+			{
+				"command" : 17,
+				"file" : 6,
+				"line" : 411,
+				"parent" : 37
+			},
+			{
+				"command" : 21,
+				"file" : 2,
+				"line" : 117,
+				"parent" : 0
+			},
+			{
+				"command" : 20,
+				"file" : 0,
+				"line" : 694,
+				"parent" : 39
+			},
+			{
+				"command" : 21,
+				"file" : 2,
+				"line" : 159,
+				"parent" : 0
+			},
+			{
+				"command" : 20,
+				"file" : 0,
+				"line" : 694,
+				"parent" : 41
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " /DWIN32 /D_WINDOWS  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise    /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /MP  /Ob0 /Od /RTC1  -MDd -Zi"
+				},
+				{
+					"fragment" : "/YcC:/Users/ihsan/Projects/Synthesia/build/modules/core/CMakeFiles/opencv_core.dir/Debug/cmake_pch.hxx /FpC:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core.dir/Debug/cmake_pch.pch /FIC:/Users/ihsan/Projects/Synthesia/build/modules/core/CMakeFiles/opencv_core.dir/Debug/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "OPENCV_WITH_ITT=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_VARIADIC_MAX=10"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/ipphal/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/icv/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/iw/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/src"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/include/opencl/1.2"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/ittnotify/include"
+				},
+				{
+					"backtrace" : 35,
+					"isSystem" : true,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 38,
+					"header" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/src/precomp.hpp"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " /DWIN32 /D_WINDOWS  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise    /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /MP  /Ob0 /Od /RTC1  -MDd -Zi"
+				},
+				{
+					"fragment" : "/YuC:/Users/ihsan/Projects/Synthesia/build/modules/core/CMakeFiles/opencv_core.dir/Debug/cmake_pch.hxx /FpC:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core.dir/Debug/cmake_pch.pch /FIC:/Users/ihsan/Projects/Synthesia/build/modules/core/CMakeFiles/opencv_core.dir/Debug/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "OPENCV_WITH_ITT=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_VARIADIC_MAX=10"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/ipphal/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/icv/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/iw/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/src"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/include/opencl/1.2"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/ittnotify/include"
+				},
+				{
+					"backtrace" : 35,
+					"isSystem" : true,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 38,
+					"header" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/src/precomp.hpp"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				144,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				257
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " /DWIN32 /D_WINDOWS  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise    /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /MP  /Ob0 /Od /RTC1  -MDd -Zi"
+				},
+				{
+					"fragment" : "/YuC:/Users/ihsan/Projects/Synthesia/build/modules/core/CMakeFiles/opencv_core.dir/Debug/cmake_pch.hxx /FpC:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core.dir/Debug/cmake_pch.pch /FIC:/Users/ihsan/Projects/Synthesia/build/modules/core/CMakeFiles/opencv_core.dir/Debug/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "HAVE_MALLOC_H=1"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "HAVE_WIN32_ALIGNED_MALLOC=1"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "OPENCV_WITH_ITT=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_VARIADIC_MAX=10"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/ipphal/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/icv/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/iw/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/src"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/include/opencl/1.2"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/ittnotify/include"
+				},
+				{
+					"backtrace" : 35,
+					"isSystem" : true,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 38,
+					"header" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/src/precomp.hpp"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				145
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " /DWIN32 /D_WINDOWS  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise    /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /MP  /Ob0 /Od /RTC1  -MDd -Zi"
+				},
+				{
+					"fragment" : "/YuC:/Users/ihsan/Projects/Synthesia/build/modules/core/CMakeFiles/opencv_core.dir/Debug/cmake_pch.hxx /FpC:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core.dir/Debug/cmake_pch.pch /FIC:/Users/ihsan/Projects/Synthesia/build/modules/core/CMakeFiles/opencv_core.dir/Debug/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "DEBUG_POSTFIX=d"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "OPENCV_WITH_ITT=1"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "PARALLEL_ENABLE_PLUGINS=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_VARIADIC_MAX=10"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/ipphal/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/icv/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/iw/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/src"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/include/opencl/1.2"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/ittnotify/include"
+				},
+				{
+					"backtrace" : 35,
+					"isSystem" : true,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 38,
+					"header" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/src/precomp.hpp"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				205
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DWIN32 -D_DEBUG"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "OPENCV_WITH_ITT=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_VARIADIC_MAX=10"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/ipphal/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/icv/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/iw/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/src"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/include/opencl/1.2"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/3rdparty/ittnotify/include"
+				},
+				{
+					"backtrace" : 35,
+					"isSystem" : true,
+					"path" : "C:/Users/ihsan/Projects/Synthesia/build"
+				}
+			],
+			"language" : "RC",
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 38,
+					"header" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/core/src/precomp.hpp"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				329
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 12,
+			"id" : "zlib::@a32f650fa87381c3cb1c"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "ippiw::@5f1c6d7264a9a7781a27"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "ittnotify::@abb975e843186cefb1e8"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "ipphal::@824edab9c25f49c30152"
+		},
+		{
+			"id" : "opencv_core_SSE4_1::@90e83aff1e86c0750a9d"
+		},
+		{
+			"id" : "opencv_core_AVX512_SKX::@90e83aff1e86c0750a9d"
+		},
+		{
+			"id" : "opencv_core_SSE4_2::@90e83aff1e86c0750a9d"
+		},
+		{
+			"id" : "opencv_core_AVX2::@90e83aff1e86c0750a9d"
+		},
+		{
+			"id" : "opencv_core_AVX::@90e83aff1e86c0750a9d"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "modules"
+	},
+	"id" : "opencv_core::@90e83aff1e86c0750a9d",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "x64/vc17/lib"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "x64/vc17/bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/install"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64  /debug /INCREMENTAL  /NODEFAULTLIB:libc /DEBUG",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "..\\..\\3rdparty\\lib\\Debug\\ippiwd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "..\\..\\3rdparty\\ippicv\\ippicv_win\\icv\\lib\\intel64\\ippicvmt.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "..\\..\\3rdparty\\lib\\Debug\\ipphal.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "..\\..\\3rdparty\\lib\\Debug\\zlibd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "..\\..\\3rdparty\\lib\\Debug\\ittnotifyd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "..\\..\\3rdparty\\lib\\Debug\\ipphal.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "..\\..\\3rdparty\\lib\\Debug\\ippiwd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "..\\..\\3rdparty\\ippicv\\ippicv_win\\icv\\lib\\intel64\\ippicvmt.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "opencv_core",
+	"nameOnDisk" : "opencv_core4120d.dll",
+	"paths" : 
+	{
+		"build" : "modules/core",
+		"source" : "modules/core"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Include\\opencv2\\core\\parallel\\backend",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Include\\opencv2\\core\\parallel",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		},
+		{
+			"name" : "Include\\Cuda Headers",
+			"sourceIndexes" : 
+			[
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45
+			]
+		},
+		{
+			"name" : "Include\\Cuda Headers\\Detail",
+			"sourceIndexes" : 
+			[
+				46,
+				47,
+				48,
+				49,
+				50,
+				51
+			]
+		},
+		{
+			"name" : "Include\\opencv2",
+			"sourceIndexes" : 
+			[
+				52
+			]
+		},
+		{
+			"name" : "Include\\opencv2\\core",
+			"sourceIndexes" : 
+			[
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				137,
+				138,
+				139
+			]
+		},
+		{
+			"name" : "Include\\opencv2\\core\\hal",
+			"sourceIndexes" : 
+			[
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95
+			]
+		},
+		{
+			"name" : "Include\\opencv2\\core\\utils",
+			"sourceIndexes" : 
+			[
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136
+			]
+		},
+		{
+			"name" : "Include\\opencv2\\core\\detail",
+			"sourceIndexes" : 
+			[
+				140,
+				141,
+				142
+			]
+		},
+		{
+			"name" : "Src",
+			"sourceIndexes" : 
+			[
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				201,
+				202,
+				203,
+				204,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				233,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				306,
+				329
+			]
+		},
+		{
+			"name" : "Src\\opencl\\runtime",
+			"sourceIndexes" : 
+			[
+				198,
+				199,
+				200,
+				285
+			]
+		},
+		{
+			"name" : "Src\\parallel",
+			"sourceIndexes" : 
+			[
+				205,
+				206,
+				207,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291
+			]
+		},
+		{
+			"name" : "Src\\utils",
+			"sourceIndexes" : 
+			[
+				228,
+				229,
+				230,
+				231,
+				232,
+				302,
+				303,
+				304,
+				305
+			]
+		},
+		{
+			"name" : "Src\\opencl\\kernels",
+			"sourceIndexes" : 
+			[
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256
+			]
+		},
+		{
+			"name" : "Src\\opencl\\kernels\\autogenerated",
+			"sourceIndexes" : 
+			[
+				257,
+				258
+			]
+		},
+		{
+			"name" : "Src\\opencl\\runtime\\autogenerated",
+			"sourceIndexes" : 
+			[
+				279,
+				280,
+				281,
+				282,
+				283,
+				284
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326
+			]
+		},
+		{
+			"name" : "Include",
+			"sourceIndexes" : 
+			[
+				327,
+				328
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				330,
+				331
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				332
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/CMakeFiles/opencv_core.dir/cmake_pch.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/parallel/backend/parallel_for.openmp.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/parallel/backend/parallel_for.tbb.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/parallel/parallel_backend.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/ocl_defs.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/opencl_info.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/opencl_svm.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_clblas.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_clfft.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_core.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_core_wrappers.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_gl.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_gl_wrappers.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/runtime/opencl_clblas.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/runtime/opencl_clfft.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/runtime/opencl_core.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/runtime/opencl_core_wrappers.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/runtime/opencl_gl.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/runtime/opencl_gl_wrappers.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/runtime/opencl_svm_20.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/runtime/opencl_svm_definitions.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opencl/runtime/opencl_svm_hsa_extension.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/block.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/border_interpolate.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/color.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/common.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/datamov_utils.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/dynamic_smem.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/emulation.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/filters.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/funcattrib.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/functional.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/limits.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/reduce.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/saturate_cast.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/scan.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/simd_functions.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/transform.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/type_traits.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/utility.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/vec_distance.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/vec_math.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/vec_traits.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/warp.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/warp_reduce.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/warp_shuffle.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/detail/color_detail.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/detail/reduce.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/detail/reduce_key_val.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/detail/transform_detail.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/detail/type_traits_detail.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda/detail/vec_distance_detail.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/affine.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/async.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/base.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/bindings_utils.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/bufferpool.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/check.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/core.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/core_c.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda.inl.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda_stream_accessor.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cuda_types.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cv_cpu_dispatch.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cv_cpu_helper.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cvdef.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cvstd.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cvstd.inl.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/cvstd_wrapper.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/directx.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/dualquaternion.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/dualquaternion.inl.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/eigen.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/fast_math.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/hal.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/interface.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/intrin.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/intrin_avx.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/intrin_avx512.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/intrin_cpp.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/intrin_forward.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/intrin_lasx.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/intrin_lsx.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/intrin_math.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/intrin_msa.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/intrin_neon.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/intrin_rvv071.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/intrin_rvv_scalable.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/intrin_sse.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/intrin_sse_em.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/intrin_vsx.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/intrin_wasm.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/msa_macros.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/hal/simd_utils.impl.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/mat.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/mat.inl.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/matx.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/matx.inl.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/neon_utils.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/ocl.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/ocl_genbase.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/opengl.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/operations.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/optim.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/ovx.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/persistence.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/private.cuda.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/private.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/quaternion.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/quaternion.inl.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/saturate.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/simd_intrinsics.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/softfloat.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/sse_utils.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/traits.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/types.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/types_c.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utility.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/allocator_stats.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/allocator_stats.impl.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/buffer_area.private.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/configuration.private.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/filesystem.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/filesystem.private.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/fp_control.private.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/fp_control_utils.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/instrumentation.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/lock.private.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/logger.defines.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/logger.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/logtag.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/plugin_loader.private.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/tls.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/trace.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/utils/trace.private.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/va_intel.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/version.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/vsx_utils.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/detail/async_promise.hpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/detail/dispatch_helper.impl.hpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/include/opencv2/core/detail/exception_ptr.hpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 4,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/version_string.inc",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/algorithm.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 2,
+			"path" : "modules/core/src/alloc.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/arithm.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/arithm.dispatch.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/array.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/async.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/batch_distance.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/bindings_utils.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/buffer_area.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/channels.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/check.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/command_line_parser.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/conjugate_gradient.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/convert.dispatch.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/convert_c.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/convert_scale.dispatch.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/copy.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/count_non_zero.dispatch.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/cuda_gpu_mat.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/cuda_gpu_mat_nd.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/cuda_host_mem.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/cuda_info.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/cuda_stream.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/datastructs.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/directx.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/downhill_simplex.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/dxt.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/gl_core_3_1.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/glob.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/hal_internal.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/has_non_zero.dispatch.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/kmeans.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/lapack.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/lda.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/logger.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/lpsolver.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/lut.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/mathfuncs.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/mathfuncs_core.dispatch.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/matmul.dispatch.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/matrix.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/matrix_c.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/matrix_decomp.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/matrix_expressions.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/matrix_iterator.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/matrix_operations.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/matrix_sparse.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/matrix_transform.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/matrix_wrap.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/mean.dispatch.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/merge.dispatch.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/minmax.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/norm.dispatch.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/ocl.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/opencl/runtime/opencl_clblas.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/opencl/runtime/opencl_clfft.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/opencl/runtime/opencl_core.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/opengl.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/out.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/ovx.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/parallel.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 3,
+			"path" : "modules/core/src/parallel/parallel.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/parallel/parallel_openmp.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/parallel/parallel_tbb.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/parallel_impl.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/pca.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/persistence.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/persistence_base64_encoding.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/persistence_json.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/persistence_types.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/persistence_xml.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/persistence_yml.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/rand.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/softfloat.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/split.dispatch.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/stat.dispatch.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/stat_c.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/stl.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/sum.dispatch.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/system.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/tables.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/trace.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/types.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/umatrix.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/utils/datafile.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/utils/filesystem.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/utils/logtagconfigparser.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/utils/logtagmanager.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/utils/samples.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/core/src/va_intel.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/arithm.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/convert.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/copymakeborder.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/copyset.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/cvtclr_dx.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/fft.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/flip.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/gemm.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/halfconvert.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/inrange.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/intel_gemm.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/lut.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/meanstddev.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/minmaxloc.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/mixchannels.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/mulspectrums.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/normalize.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/reduce.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/reduce2.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/repeat.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/set_identity.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/split_merge.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/transpose.cl",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencl_kernels_core.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencl_kernels_core.hpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/arithm.simd.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/arithm_ipp.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/bufferpool.impl.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/convert.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/convert.simd.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/convert_scale.simd.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/count_non_zero.simd.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/directx.inc.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/gl_core_3_1.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/hal_internal.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/hal_replacement.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/has_non_zero.simd.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/intel_gpu_gemm.inl.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/mathfuncs.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/mathfuncs_core.simd.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/matmul.simd.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/mean.simd.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/merge.simd.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/norm.simd.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/ocl_disabled.impl.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/runtime/autogenerated/opencl_clblas_impl.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/runtime/autogenerated/opencl_clfft_impl.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/runtime/autogenerated/opencl_core_impl.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/runtime/autogenerated/opencl_core_static_impl.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/runtime/autogenerated/opencl_gl_impl.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/runtime/autogenerated/opencl_gl_static_impl.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/opencl/runtime/runtime_common.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/parallel/factory_parallel.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/parallel/parallel.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/parallel/plugin_parallel_api.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/parallel/plugin_parallel_wrapper.impl.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/parallel/registry_parallel.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/parallel/registry_parallel.impl.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/parallel_impl.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/persistence.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/persistence_base64_encoding.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/persistence_impl.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/precomp.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/split.simd.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/stat.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/stat.simd.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/sum.simd.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/umatrix.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/utils/logtagconfig.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/utils/logtagconfigparser.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/utils/logtagmanager.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/utils/plugin_loader.impl.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/core/src/va_wrapper.impl.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_SSE4_1.dir/$(Configuration)/arithm.sse4_1.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_SSE4_1.dir/$(Configuration)/matmul.sse4_1.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_SSE4_1.dir/$(Configuration)/norm.sse4_1.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_SSE4_2.dir/$(Configuration)/stat.sse4_2.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_AVX.dir/$(Configuration)/mathfuncs_core.avx.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_AVX.dir/$(Configuration)/norm.avx.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_AVX2.dir/$(Configuration)/mathfuncs_core.avx2.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_AVX2.dir/$(Configuration)/stat.avx2.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_AVX2.dir/$(Configuration)/arithm.avx2.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_AVX2.dir/$(Configuration)/convert.avx2.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_AVX2.dir/$(Configuration)/convert_scale.avx2.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_AVX2.dir/$(Configuration)/count_non_zero.avx2.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_AVX2.dir/$(Configuration)/has_non_zero.avx2.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_AVX2.dir/$(Configuration)/matmul.avx2.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_AVX2.dir/$(Configuration)/mean.avx2.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_AVX2.dir/$(Configuration)/merge.avx2.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_AVX2.dir/$(Configuration)/split.avx2.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_AVX2.dir/$(Configuration)/sum.avx2.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_AVX2.dir/$(Configuration)/norm.avx2.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/opencv_core_AVX512_SKX.dir/$(Configuration)/matmul.avx512_skx.obj",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/cvconfig.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 4,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/opencv2/opencv_modules.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 4,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/vs_version.rc",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 0,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/CMakeFiles/opencv_core.dir/Debug/cmake_pch.hxx",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 0,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/modules/core/CMakeFiles/opencv_core.dir/Release/cmake_pch.hxx",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/d7a733633234f078ebe8b04e183972b9/opencl_kernels_core.cpp.rule",
+			"sourceGroupIndex" : 21
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

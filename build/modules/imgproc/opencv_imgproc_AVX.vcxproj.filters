@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgproc\src\corner.avx.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\build\modules\imgproc\accum.avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\imgproc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CC17AEE5-EAC3-35DA-B859-EFD4C675EE7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{BC9B18A7-32C9-30B0-9B60-BBDA9E07C454}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

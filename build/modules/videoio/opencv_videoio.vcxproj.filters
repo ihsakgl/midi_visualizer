@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\build\modules\videoio\CMakeFiles\opencv_videoio.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\videoio_registry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\videoio_c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\cap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\cap_images.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\cap_mjpeg_encoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\cap_mjpeg_decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\backend_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\backend_static.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\container_avi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\cap_dshow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\cap_msmf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\cap_obsensor_capture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\cap_obsensor\obsensor_uvc_stream_channel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\cap_obsensor\obsensor_stream_channel_msmf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ihsan\Projects\Synthesia\build\modules\videoio\opencv_videoio_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\include\opencv2\videoio.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\include\opencv2\videoio\container_avi.private.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\include\opencv2\videoio\legacy\constants_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\include\opencv2\videoio\registry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\include\opencv2\videoio\utils.private.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\include\opencv2\videoio\videoio.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\include\opencv2\videoio\videoio_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\precomp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\cap_dshow.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\cap_obsensor_capture.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\cap_obsensor\obsensor_stream_channel_interface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\cap_obsensor\obsensor_uvc_stream_channel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\cap_obsensor\obsensor_stream_channel_msmf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\src\cap_msmf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\build\modules\videoio\CMakeFiles\opencv_videoio.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ihsan\Projects\Synthesia\build\modules\videoio\CMakeFiles\opencv_videoio.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\modules\videoio\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\ihsan\Projects\Synthesia\build\modules\videoio\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FB5DA674-82D3-3DEF-9049-0ECD2D7035FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{CBC043D9-2878-3C09-91CD-DC6AC0EC1ADD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{CEC93324-7079-3FB8-B816-CF4F0B180228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CC17AEE5-EAC3-35DA-B859-EFD4C675EE7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{BC9B18A7-32C9-30B0-9B60-BBDA9E07C454}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

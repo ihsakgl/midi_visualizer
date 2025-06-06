@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jccolor-avx2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jccolor-sse2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jcgray-avx2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jcgray-sse2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jchuff-sse2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jcphuff-sse2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jcsample-avx2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jcsample-sse2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jdcolor-avx2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jdcolor-sse2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jdmerge-avx2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jdmerge-sse2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jdsample-avx2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jdsample-sse2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jfdctflt-sse.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jfdctfst-sse2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jfdctint-avx2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jfdctint-sse2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jidctflt-sse2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jidctfst-sse2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jidctint-avx2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jidctint-sse2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jidctred-sse2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jquantf-sse2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jquanti-avx2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jquanti-sse2.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\4c72ae6d485a2d087c007104591cd26d\jsimdcpu.asm.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\build\CMakeFiles\59070d494e21ee1a09dcee118d899805\simd-objs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ihsan\Projects\Synthesia\opencv\opencv\3rdparty\libjpeg-turbo\simd\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ihsan\Projects\Synthesia\build\3rdparty\libjpeg-turbo\simd\CMakeFiles\simd-objs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{49630300-8C19-3A38-9B61-3D1CAE45AAC2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

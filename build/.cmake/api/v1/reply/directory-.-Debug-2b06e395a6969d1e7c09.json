@@ -1,0 +1,670 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ocv_install_3rdparty_licenses",
+			"include",
+			"ippiw_done",
+			"ippiw_setup",
+			"_add_modules_1",
+			"ocv_glob_modules",
+			"ocv_register_modules",
+			"add_backend",
+			"ocv_gen_config"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"cmake/OpenCVFindIPP.cmake",
+			"cmake/OpenCVFindLibsPerf.cmake",
+			"CMakeLists.txt",
+			"cmake/OpenCVFindIPPIW.cmake",
+			"cmake/OpenCVDetectFlatbuffers.cmake",
+			"cmake/OpenCVDetectOpenCL.cmake",
+			"modules/gapi/cmake/DownloadADE.cmake",
+			"modules/gapi/cmake/init.cmake",
+			"cmake/OpenCVModule.cmake",
+			"3rdparty/ffmpeg/ffmpeg.cmake",
+			"modules/videoio/cmake/detect_ffmpeg.cmake",
+			"modules/videoio/cmake/init.cmake",
+			"cmake/OpenCVGenHeaders.cmake",
+			"cmake/OpenCVGenConfig.cmake",
+			"cmake/OpenCVGenSetupVars.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 816,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 12,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 277,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1352,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 279,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1352,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 283,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1352,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 14,
+				"parent" : 2
+			},
+			{
+				"file" : 4,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 170,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 94,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 36,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1352,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 36,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1352,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 36,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1352,
+				"parent" : 19
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 819,
+				"parent" : 0
+			},
+			{
+				"file" : 5,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 4,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1352,
+				"parent" : 23
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 883,
+				"parent" : 0
+			},
+			{
+				"file" : 6,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 8,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1352,
+				"parent" : 27
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 1096,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 9,
+				"line" : 408,
+				"parent" : 29
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 361,
+				"parent" : 30
+			},
+			{
+				"command" : 2,
+				"file" : 9,
+				"line" : 298,
+				"parent" : 31
+			},
+			{
+				"file" : 8,
+				"parent" : 32
+			},
+			{
+				"command" : 2,
+				"file" : 8,
+				"line" : 20,
+				"parent" : 33
+			},
+			{
+				"file" : 7,
+				"parent" : 34
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 51,
+				"parent" : 35
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1352,
+				"parent" : 36
+			},
+			{
+				"command" : 2,
+				"file" : 9,
+				"line" : 298,
+				"parent" : 31
+			},
+			{
+				"file" : 12,
+				"parent" : 38
+			},
+			{
+				"command" : 8,
+				"file" : 12,
+				"line" : 11,
+				"parent" : 39
+			},
+			{
+				"command" : 2,
+				"file" : 12,
+				"line" : 7,
+				"parent" : 40
+			},
+			{
+				"file" : 11,
+				"parent" : 41
+			},
+			{
+				"command" : 2,
+				"file" : 11,
+				"line" : 16,
+				"parent" : 42
+			},
+			{
+				"file" : 10,
+				"parent" : 43
+			},
+			{
+				"command" : 1,
+				"file" : 10,
+				"line" : 44,
+				"parent" : 44
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1352,
+				"parent" : 45
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1352,
+				"parent" : 45
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1121,
+				"parent" : 0
+			},
+			{
+				"file" : 13,
+				"parent" : 48
+			},
+			{
+				"command" : 0,
+				"file" : 13,
+				"line" : 4,
+				"parent" : 49
+			},
+			{
+				"command" : 0,
+				"file" : 13,
+				"line" : 32,
+				"parent" : 49
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1132,
+				"parent" : 0
+			},
+			{
+				"file" : 14,
+				"parent" : 52
+			},
+			{
+				"command" : 9,
+				"file" : 14,
+				"line" : 134,
+				"parent" : 53
+			},
+			{
+				"command" : 0,
+				"file" : 14,
+				"line" : 105,
+				"parent" : 54
+			},
+			{
+				"command" : 0,
+				"file" : 14,
+				"line" : 106,
+				"parent" : 54
+			},
+			{
+				"command" : 0,
+				"file" : 14,
+				"line" : 114,
+				"parent" : 54
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 1175,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1200,
+				"parent" : 0
+			},
+			{
+				"file" : 15,
+				"parent" : 59
+			},
+			{
+				"command" : 0,
+				"file" : 15,
+				"line" : 66,
+				"parent" : 60
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 6,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/icv/readme.htm",
+					"to" : "ippicv-readme.htm"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/EULA.rtf",
+					"to" : "ippicv-EULA.rtf"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/third-party-programs.txt",
+					"to" : "ippicv-third-party-programs.txt"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/icv/../iw/../support.txt",
+					"to" : "ippiw-support.txt"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/icv/../iw/../third-party-programs.txt",
+					"to" : "ippiw-third-party-programs.txt"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ippicv/ippicv_win/icv/../iw/../EULA.rtf",
+					"to" : "ippiw-EULA.rtf"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "3rdparty/flatbuffers/LICENSE.txt",
+					"to" : "flatbuffers-LICENSE.txt"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "3rdparty/include/opencl/LICENSE.txt",
+					"to" : "opencl-headers-LICENSE.txt"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/ade/ade-0.1.2e/LICENSE",
+					"to" : "ade-LICENSE"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "3rdparty/ffmpeg/license.txt",
+					"to" : "ffmpeg-license.txt"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "3rdparty/ffmpeg/readme.txt",
+					"to" : "ffmpeg-readme.txt"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 50,
+			"component" : "dev",
+			"destination" : "include/opencv2",
+			"paths" : 
+			[
+				"C:/Users/ihsan/Projects/Synthesia/build/cvconfig.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 51,
+			"component" : "dev",
+			"destination" : "include/opencv2",
+			"paths" : 
+			[
+				"C:/Users/ihsan/Projects/Synthesia/build/opencv2/opencv_modules.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 55,
+			"component" : "dev",
+			"destination" : "x64/vc17/lib",
+			"exportName" : "OpenCVModules",
+			"exportTargets" : 
+			[
+				{
+					"id" : "opencv_core::@90e83aff1e86c0750a9d",
+					"index" : 65
+				},
+				{
+					"id" : "opencv_flann::@b7c07563ccf30005c216",
+					"index" : 80
+				},
+				{
+					"id" : "opencv_imgproc::@46089d46ac6964f10538",
+					"index" : 87
+				},
+				{
+					"id" : "opencv_ml::@b79385d0caec563eb03e",
+					"index" : 93
+				},
+				{
+					"id" : "opencv_photo::@7fc8438b288b9566f339",
+					"index" : 110
+				},
+				{
+					"id" : "opencv_dnn::@9bfb28f21a1ab2b0c462",
+					"index" : 71
+				},
+				{
+					"id" : "opencv_features2d::@4f2b1ecb2cf869bde395",
+					"index" : 76
+				},
+				{
+					"id" : "opencv_imgcodecs::@e5f64ca75d8a3efadfa0",
+					"index" : 86
+				},
+				{
+					"id" : "opencv_videoio::@368e281a2b3422cd0411",
+					"index" : 141
+				},
+				{
+					"id" : "opencv_calib3d::@e8558e004ddb3d41eff9",
+					"index" : 63
+				},
+				{
+					"id" : "opencv_highgui::@eec24f45586c5b1a2074",
+					"index" : 84
+				},
+				{
+					"id" : "opencv_objdetect::@7f5df5b9e7e68549eda2",
+					"index" : 96
+				},
+				{
+					"id" : "opencv_stitching::@c90dc6396798f553fb2f",
+					"index" : 112
+				},
+				{
+					"id" : "opencv_video::@08df6c0062966df3c8f9",
+					"index" : 140
+				},
+				{
+					"id" : "opencv_gapi::@77f52973fba75ea81765",
+					"index" : 81
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/d30778e0ac7619fb773456bd811156bf/OpenCVModules.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 56,
+			"component" : "dev",
+			"destination" : "x64/vc17/lib",
+			"paths" : 
+			[
+				"C:/Users/ihsan/Projects/Synthesia/build/win-install/OpenCVConfig-version.cmake",
+				"C:/Users/ihsan/Projects/Synthesia/build/win-install/x64/vc17/lib/OpenCVConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 57,
+			"component" : "dev",
+			"destination" : ".",
+			"paths" : 
+			[
+				"C:/Users/ihsan/Projects/Synthesia/build/win-install/OpenCVConfig-version.cmake",
+				"C:/Users/ihsan/Projects/Synthesia/build/win-install/OpenCVConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 58,
+			"component" : "libs",
+			"destination" : ".",
+			"paths" : 
+			[
+				"LICENSE"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 61,
+			"component" : "scripts",
+			"destination" : ".",
+			"paths" : 
+			[
+				"C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/install/setup_vars_opencv4.cmd"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

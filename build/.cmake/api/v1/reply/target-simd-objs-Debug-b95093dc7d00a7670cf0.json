@@ -1,0 +1,265 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"3rdparty/libjpeg-turbo/simd/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 212,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "3rdparty/jpeg"
+	},
+	"id" : "simd-objs::@013cb08bbf6d3fc6f755",
+	"name" : "simd-objs",
+	"paths" : 
+	{
+		"build" : "3rdparty/libjpeg-turbo/simd",
+		"source" : "3rdparty/libjpeg-turbo/simd"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/3rdparty/libjpeg-turbo/simd/CMakeFiles/simd-objs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/59070d494e21ee1a09dcee118d899805/simd-objs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jccolor-avx2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jccolor-sse2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jcgray-avx2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jcgray-sse2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jchuff-sse2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jcphuff-sse2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jcsample-avx2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jcsample-sse2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jdcolor-avx2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jdcolor-sse2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jdmerge-avx2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jdmerge-sse2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jdsample-avx2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jdsample-sse2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jfdctflt-sse.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jfdctfst-sse2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jfdctint-avx2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jfdctint-sse2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jidctflt-sse2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jidctfst-sse2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jidctint-avx2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jidctint-sse2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jidctred-sse2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jquantf-sse2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jquanti-avx2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jquanti-sse2.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/ihsan/Projects/Synthesia/build/CMakeFiles/4c72ae6d485a2d087c007104591cd26d/jsimdcpu.asm.obj.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

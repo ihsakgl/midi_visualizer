@@ -1,0 +1,64 @@
+{
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include"
+		],
+		"files" : 
+		[
+			"modules/python/python_loader.cmake",
+			"modules/python/common.cmake",
+			"modules/python/python3/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 169,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 135,
+				"parent" : 4
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "copy_opencv_typing_stubs::@0bf1395c812e247102d0",
+	"name" : "copy_opencv_typing_stubs",
+	"paths" : 
+	{
+		"build" : "modules/python3",
+		"source" : "modules/python/python3"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

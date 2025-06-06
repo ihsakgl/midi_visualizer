@@ -1,0 +1,87 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/build/modules/stitching/CMakeFiles/opencv_perf_stitching.dir/cmake_pch.cxx"
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/stitching/perf/opencl/perf_stitch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/stitching/perf/opencl/perf_warpers.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/stitching/perf/perf_estimators.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/stitching/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/stitching/perf/perf_matchers.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/stitching/perf/perf_stich.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/opencv/opencv/modules/stitching/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/build/modules/stitching/CMakeFiles/opencv_perf_stitching.dir/Debug/cmake_pch.hxx"
+		},
+		{
+			"file" : "C:/Users/ihsan/Projects/Synthesia/build/modules/stitching/CMakeFiles/opencv_perf_stitching.dir/Release/cmake_pch.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_stitching",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_stitching"
+	}
+}
