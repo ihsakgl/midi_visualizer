@@ -25,11 +25,11 @@
 	ProcessorClockFrequency="2496"
 	>
 	<Testing>
-		<StartDateTime>May 20 19:33 Bat[NON-UTF-8-BYTE-0xFD] Avrupa Yaz Saati</StartDateTime>
-		<StartTestTime>1747762413</StartTestTime>
+		<StartDateTime>May 20 21:57 Bat[NON-UTF-8-BYTE-0xFD] Avrupa Yaz Saati</StartDateTime>
+		<StartTestTime>1747771051</StartTestTime>
 		<TestList/>
-		<EndDateTime>May 20 19:33 Bat[NON-UTF-8-BYTE-0xFD] Avrupa Yaz Saati</EndDateTime>
-		<EndTestTime>1747762413</EndTestTime>
+		<EndDateTime>May 20 21:57 Bat[NON-UTF-8-BYTE-0xFD] Avrupa Yaz Saati</EndDateTime>
+		<EndTestTime>1747771051</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

@@ -1,13 +1,16 @@
 import random, pygame, math, numpy as np, moderngl
 from moderngl_window import geometry
+import copy
+
 
 class ParticleSystem:
-    def __init__(self, ctx, max_particles=1000):
+    def __init__(self, ctx, visualizer_rect, max_particles=1000):
         self.ctx = ctx
+        self.visualizer_rect = visualizer_rect
         self.max_particles = max_particles
         self.particles = []
 
-        # Boş veri ile buffer'ları oluştur
+        # Empty data
         self.positions = np.zeros((self.max_particles, 2), dtype='f4')
         self.colors = np.zeros((self.max_particles, 3), dtype='f4')
         self.sizes = np.zeros((self.max_particles,), dtype='f4')
@@ -18,7 +21,7 @@ class ParticleSystem:
         self.size_buffer = self.ctx.buffer(self.sizes.tobytes())
 
 
-        # Shader programını yükle
+        # Shaders
         with open("ModernGL shaders/particle.vert", "r", encoding="utf-8") as f:
             vertex_shader = f.read()
         with open("ModernGL shaders/particle.frag", "r", encoding="utf-8") as f:
@@ -29,7 +32,6 @@ class ParticleSystem:
             fragment_shader=fragment_shader
         )
 
-        # VAO tanımla
         self.vao = self.ctx.vertex_array(
             self.prog,
             [
@@ -41,20 +43,29 @@ class ParticleSystem:
         )
 
 
-    def add_particle(self, particle, count):
-        for _ in range(count):
-            self.particles.append(particle)
-        # print(f"added particle at positions {particle.x_position, particle.y_position}")
+    def add_particle(self, particle):
+    
+        self.particles.append(particle)
+        #print(f"added particle at positions {particle.x, particle.y}")
+
 
     def update(self):
+        #print(len(self.particles))
+
+        # Update all particles
         for p in self.particles:
             p.update()
-            if p.radius < p.initial_radius * 0.15:
-                self.particles.remove(p)
+      
+
+        # Delete them if they are too small
+        
+        self.particles = [
+            p for p in self.particles 
+            if p.radius >= p.initial_radius * 0.15 
+        ]
 
         if len(self.particles) > self.max_particles:
             print("TOO MANY PARTICLES!")
-            return
             
 
         
@@ -69,7 +80,7 @@ class ParticleSystem:
 
 
         for p in self.particles:
-            positions.append([p.x_position, p.y_position])
+            positions.append([p.x, p.y])
             colors.append([c / 255.0 for c in p.color])
             sizes.append(p.radius)
        
@@ -88,23 +99,21 @@ class ParticleSystem:
         self.prog['screen_height'].value = 1080
 
         self.vao.render(mode=moderngl.POINTS, vertices=len(self.particles))
-   
-
 
 
 class Particle:
     def __init__(self, x, y, color, vx, vy, visualizer_rect, hit_particle: bool, note_width):
-        self.x_position = x + random.uniform(-note_width / 6, note_width / 6) 
-        self.y_position = y
+        self.x = x + random.uniform(-note_width / 6, note_width / 6) 
+        self.y = y
         
        
         self.visualizer_rect = visualizer_rect
         self.scale_mulitplier = (visualizer_rect.width / 600 + visualizer_rect.height / 337.5) / 2
-        self.initial_radius = 1.2 * self.scale_mulitplier
+        self.initial_radius = (1.2 + random.uniform(-0.5, 0.3))* self.scale_mulitplier
         self.radius = self.initial_radius
         self.color = (255, 255, 255)
         
-        if self.x_position < x:
+        if self.x < x:
             self.x_speed = vx + random.uniform(-0.1, 0) * self.scale_mulitplier 
         else:
             self.x_speed = vx + random.uniform(0, 0.1) * self.scale_mulitplier 
@@ -123,8 +132,9 @@ class Particle:
  
 
     def update(self):
-       
+        
         self.radius *= 0.993
+  
 
         if self.is_hit_particle:
             if self.x_speed < self.max_x_speed: self.x_speed += self.x_acceleration
@@ -133,8 +143,8 @@ class Particle:
 
      
 
-        self.y_position += self.y_speed
-        self.x_position += self.x_speed
+        self.y += self.y_speed
+        self.x += self.x_speed
         
   
 class Background:
@@ -165,7 +175,7 @@ class Background:
 
         vbo = self.ctx.buffer(vertices)
         self.quad_screen = self.ctx.vertex_array(
-            self.screen_program,  # Or self.screen_program, both should have 'in_vert'
+            self.screen_program, 
             [(vbo, '2f', 'in_vert')]
         )
         self.quad_fade = self.ctx.vertex_array(
@@ -176,9 +186,7 @@ class Background:
             self.smoke_program,
             [(vbo, "2f", "in_vert")]
         )
-        self.background_fbo_a.clear(0.0, 0.0, 0.0, 0.0)
-        self.background_fbo_b.clear(0.0, 0.0, 0.0, 0.0)
-
+  
     
 
     def load_program(self, name):
@@ -195,7 +203,7 @@ class Background:
         self.ctx.blend_func = moderngl.ONE, moderngl.ZERO
         self.background_texture_a.use(location=0)
         #self.fade_program['alpha'].value = 0.03
-        self.fade_program['decayK'].value = 0.05
+        self.fade_program['decayK'].value = 0.055
         self.quad_fade.render(moderngl.TRIANGLE_STRIP)
 
         self.ctx.enable(moderngl.BLEND)
@@ -216,8 +224,6 @@ class Background:
         self.ctx.screen.use()
         self.ctx.blend_func = moderngl.SRC_ALPHA, moderngl.ONE_MINUS_SRC_ALPHA
 
-        # Burada sahneyi *yeniden* clear ETMEYİN, çünkü sahne zaten üstte çizildi!
-        # Sadece duman+particles katmanını bindirin:
         self.background_texture_b.use(location=0)
         self.quad_screen.render(moderngl.TRIANGLE_STRIP)
 

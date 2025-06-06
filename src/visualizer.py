@@ -1,5 +1,3 @@
-import pygame
-import pygame.gfxdraw
 import random
 import math
 from particles import Particle, ParticleSystem, Background
@@ -50,7 +48,7 @@ class Visualizer:
         self.ctx = ctx
         self.rect = Rect(self.x, self.y, self.width, self.height)
         self.piano = Piano(self.rect)
-        self.particle_system = ParticleSystem(self.ctx, 1000)
+        self.particle_system = ParticleSystem(self.ctx, self.rect, 1000)
         self.background = Background(self.ctx, self.width, self.height, self.particle_system, bg_color)
 
 
@@ -71,41 +69,41 @@ class PianoKey:
         self.height = visualizer_rect.height * 0.2
 
         if white_key_indices.__contains__(self.index):
-            self.x_position = white_key_indices.index(self.index) * self.width + self.visualizer_rect.x 
+            self.x = white_key_indices.index(self.index) * self.width + self.visualizer_rect.x 
         elif black_key_indices.__contains__(self.index):
             nearest_white_key_index_left = max([i for i in white_key_indices if i < self.index], default=0)
             nearest_white_key_index_right = min([i for i in white_key_indices if i > self.index], default=0)
-            x_position_left = self.visualizer_rect.x + (self.visualizer_rect.width / NUM_WHITE_KEYS) * white_key_indices.index(nearest_white_key_index_left)
-            x_position_right = self.visualizer_rect.x + (self.visualizer_rect.width / NUM_WHITE_KEYS) * white_key_indices.index(nearest_white_key_index_right)
-            self.x_position = (x_position_left + x_position_right) / 2 
+            x_left = self.visualizer_rect.x + (self.visualizer_rect.width / NUM_WHITE_KEYS) * white_key_indices.index(nearest_white_key_index_left)
+            x_right = self.visualizer_rect.x + (self.visualizer_rect.width / NUM_WHITE_KEYS) * white_key_indices.index(nearest_white_key_index_right)
+            self.x = (x_left + x_right) / 2 
             self.height *= 0.6
-        self.y_position = self.visualizer_rect.height * 0.65 + visualizer_rect.y
+        self.y = self.visualizer_rect.height * 0.65 + visualizer_rect.y
         
     def draw(self, prog, vao):
 
         if self.index in white_key_indices:
-            prog['u_position'].value = (self.x_position, self.y_position)
+            prog['u_position'].value = (self.x, self.y)
             prog['u_size'].value = (self.width, self.height)
             prog['u_color'].value = (self.color[0] / 255, self.color[1] / 255, self.color[2] / 255)
             vao.render(mode=moderngl.TRIANGLE_STRIP)
 
-            prog['u_position'].value = (self.x_position, self.y_position)
+            prog['u_position'].value = (self.x, self.y)
             prog['u_size'].value = (4, self.height)
             prog['u_color'].value = (0.0, 0.0, 0.0)
             vao.render(mode=moderngl.TRIANGLE_STRIP)
     
         elif self.index in black_key_indices:
             
-            prog['u_position'].value = (self.x_position + 5, self.y_position)
+            prog['u_position'].value = (self.x + 5, self.y)
             prog['u_size'].value = (self.width * 0.8, self.height)
             prog['u_color'].value = (self.color[0] / 255, self.color[1] / 255, self.color[2] / 255)
             vao.render(mode=moderngl.TRIANGLE_STRIP)
 
-            # pygame.draw.rect(self.screen, self.color, (self.x_position + 5, self.y_position, self.width * 0.8, self.height * 0.6))
+            # pygame.draw.rect(self.screen, self.color, (self.x + 5, self.y, self.width * 0.8, self.height * 0.6))
 
         # if (self.index - 3) % 12 == 0:
         
-        #     pygame.draw.line(self.screen, "white", (self.x_position, self.y_position), (self.x_position, self.visualizer_rect.y), 1)
+        #     pygame.draw.line(self.screen, "white", (self.x, self.y), (self.x, self.visualizer_rect.y), 1)
     
 class Piano:
     def __init__(self, visualizer_rect):
@@ -137,13 +135,14 @@ class Note:
         self.is_white = True if self.key_index in white_key_indices else False
         self.width = screen_rect.width / NUM_WHITE_KEYS if self.is_white else screen_rect.width / NUM_WHITE_KEYS * 0.6 
         self.height = duration * speed * (self.visualizer_rect.height / 337.5)
-        self.x_position = self.key_index * self.width + self.visualizer_rect.x
-        self.y_position = self.visualizer_rect.y - self.height
+        self.x = self.key_index * self.width + self.visualizer_rect.x
+        self.y = self.visualizer_rect.y - self.height
         self.on_screen = True
 
-        self.max_glow = int(20 * (self.visualizer_rect.height / 337.5))
+        self.glow_radius = 50.0 + random.uniform(-10.0, 10.0)
+        self.glow_strength = 2.0 + random.uniform(-0.3, 0.3)
         self.intensity = 120
-        self.blend_power = 4
+        self.blend_power = 9
         self.border_radius = 8
 
         self.ctx = ctx
@@ -168,7 +167,6 @@ class Note:
         self.prog = self.ctx.program(vertex_shader=vertex_shader, fragment_shader=fragment_shader)
        
     def _setup_geometry(self):
-        # Quad UV’leri [0,0]→[1,1]
         vertices = np.array([
             0.0, 0.0,
             1.0, 0.0,
@@ -178,33 +176,36 @@ class Note:
         vbo = self.ctx.buffer(vertices.tobytes())
         self.vao = self.ctx.simple_vertex_array(
             self.prog, vbo, 
-            'in_uv'  # vertex shader’daki adıyla eşleşmeli
+            'in_uv' 
 )
 
 
     def update(self, current_time, delta_time):
         elapsed_time = current_time - self.start_time
-        self.y_position = self.visualizer_rect.y - self.height + (self.visualizer_rect.height / 337.5) * self.speed * elapsed_time
+        self.y = self.visualizer_rect.y - self.height + (self.visualizer_rect.height / 337.5) * self.speed * elapsed_time
         self.particle_timer += delta_time
+
+            
 
         if self.index == 0: 
             global first_note_object
             first_note_object = self
+      
         
-        if self.y_position + self.height > keys[0].y_position and self.on_screen:
+        if self.y + self.height > keys[0].y and self.on_screen:
             key = keys[next((i for i, obj in enumerate(keys) if obj.index == self.key_index), None)]
             key.color = self.color   
           
 
-            if self.particle_timer >= 0.40 + random.uniform(-0.1, 0.1):
-                self.visualizer.particle_system.add_particle(Particle(self.x_position + self.width / 2, keys[0].y_position, self.color, 0.1, -5.00, self.visualizer_rect, True, self.width), 1)
-                self.visualizer.particle_system.add_particle(Particle(self.x_position + self.width / 2, keys[0].y_position, self.color, -0.1, -5.00, self.visualizer_rect, True, self.width), 1)
+            if self.particle_timer >= 0.20 + random.uniform(-0.1, 0.1):
+                self.visualizer.particle_system.add_particle(Particle(self.x + self.width / 2, keys[0].y, self.color, 0.1, -5.00, self.visualizer_rect, True, self.width))
+                self.visualizer.particle_system.add_particle(Particle(self.x + self.width / 2, keys[0].y, self.color, -0.1, -5.00, self.visualizer_rect, True, self.width))
                 self.particle_timer = 0
 
-        if random.uniform(0, 1) < 0.01 and self.x_position is not None:
-            self.visualizer.particle_system.add_particle(Particle(self.x_position, self.y_position, self.color, random.uniform(-0.2, 0.2), random.uniform(-0.4, 0.4), self.visualizer_rect, False, self.width), 3)
+        if random.uniform(0, 1) < 0.005 and self.x is not None and self.on_screen:
+            self.visualizer.particle_system.add_particle(Particle(self.x, self.y, self.color, random.uniform(-0.2, 0.2), random.uniform(-0.4, 0.4), self.visualizer_rect, False, self.width))
         
-        if self.y_position > keys[0].y_position and self.on_screen:
+        if self.y > keys[0].y and self.on_screen:
             key = keys[next((i for i, obj in enumerate(keys) if obj.index == self.key_index), None)]
             key.color = key.INITIAL_COLOR
             self.on_screen = False
@@ -221,30 +222,30 @@ class Note:
     def draw(self, current_time):
         if self.is_white:
             self.width = self.visualizer_rect.width / NUM_WHITE_KEYS
-            self.x_position = self.width * white_key_indices.index(self.key_index) + self.visualizer_rect.x
+            self.x = self.width * white_key_indices.index(self.key_index) + self.visualizer_rect.x
         else:
             self.width = self.visualizer_rect.width / NUM_WHITE_KEYS * 0.6 
             # Find the nearest two white keys (left and right) surrounding the black key
             nearest_white_key_index_left = max([i for i in white_key_indices if i < self.key_index], default=0)
             nearest_white_key_index_right = min([i for i in white_key_indices if i > self.key_index], default=0)
 
-            # Get their x_positions
-            x_position_left = self.visualizer_rect.x + (self.visualizer_rect.width / NUM_WHITE_KEYS) * white_key_indices.index(nearest_white_key_index_left)
-            x_position_right = self.visualizer_rect.x + (self.visualizer_rect.width / NUM_WHITE_KEYS) * white_key_indices.index(nearest_white_key_index_right)
+            # Get their x coordinates
+            x_left = self.visualizer_rect.x + (self.visualizer_rect.width / NUM_WHITE_KEYS) * white_key_indices.index(nearest_white_key_index_left)
+            x_right = self.visualizer_rect.x + (self.visualizer_rect.width / NUM_WHITE_KEYS) * white_key_indices.index(nearest_white_key_index_right)
 
             # Position black key at the center between the left and right white keys
-            self.x_position = (x_position_left + x_position_right) / 2 + 5
+            self.x = (x_left + x_right) / 2 + 5
 
-        self.prog['notePosition'].value     = (self.x_position, self.y_position)
+        self.prog['notePosition'].value     = (self.x, self.y)
         self.prog['noteSize'].value         = (self.width, self.height)
         self.prog['screenResolution'].value = (self.screen_rect.width, self.screen_rect.height)
         
         self.prog['noteColor'].value        = (self.color[0] / 255, self.color[1] / 255, self.color[2] / 255, 1.0)
-        self.prog['blendPower'].value       = float(9)
-        self.prog['borderRadius'].value     = float(8)
+        self.prog['blendPower'].value       = self.blend_power
+        self.prog['borderRadius'].value     = self.border_radius
 
-        self.prog['glowRadius'].value     = float(50.0)
-        self.prog['glowStrength'].value     = float(2.0)
+        self.prog['glowRadius'].value     = self.glow_radius
+        self.prog['glowStrength'].value   = self.glow_strength
 
         self.prog['time'].value = float(current_time)
         self.prog['phase'].value = float(self.phase)
@@ -258,223 +259,7 @@ class Note:
 
 
 
-# class Note:
-#     def __init__(self, note, start_time, velocity, screen_width, duration, speed, index, color, visualizer_rect):
-#         self.note = note
-#         self.key_index = self.note - 21
-#         self.start_time = start_time
-#         self.velocity = velocity
 
-#         self.index = index
-#         self.color = color
-#         self.INITIAL_COLOR = self.color
-#         if self.key_index in white_key_indices: 
-#             self.is_white = True
-#         else:
-#             self.is_white = False
-#         self.visualizer_rect = visualizer_rect ###
-        
-        
-#         self.width = screen_width / NUM_WHITE_KEYS if self.is_white else screen_width / NUM_WHITE_KEYS * 0.6 
-#         self.height = duration * speed * (self.visualizer_rect.height / 337.5)
-#         self.x_position = self.key_index * self.width + self.visualizer_rect.x
-#         self.y_position = self.visualizer_rect.y - self.height
-#         self.border_radius = 0
-        
-        
-#         self.particles = []
-#         self.particle_timer = 0
-     
-#         self.on_screen = True
-
-#         # glowing
-        
-#         self.max_glow_layers = round(20 * (self.visualizer_rect.height / 337.5))
-#         self.glow_intensity = 120
-#         self.blend_power = 4
-        
-#         self.note_image = self.create_radial_glow_surface(self.width, self.height, self.color, self.max_glow_layers, self.glow_intensity, self.blend_power)
-    
-        
-       
-        
-#     def update(self, speed, current_time, delta_time):
-       
-#         elapsed_time = current_time - self.start_time
-#         self.y_position = self.visualizer_rect.y - self.height + (self.visualizer_rect.height / 337.5) * speed * elapsed_time
-#         self.particle_timer += delta_time
-       
-
-#         if self.index == 0: 
-#             global first_note_object
-#             first_note_object = self
-            
-        
-#         if self.y_position + self.height > keys[0].y_position and self.on_screen:
-            
-           
-#             key = keys[next((i for i, obj in enumerate(keys) if obj.index == self.key_index), None)]
-#             key.color = self.color    
-
-#             if self.particle_timer >= 0.06:
-#                 self.particles.append(Particle(self.x_position + self.width / 2, keys[0].y_position, self.screen, (255, 255, 255), 0.2, -3.25, self.visualizer_rect, True))
-#                 self.particles.append(Particle(self.x_position + self.width / 2, keys[0].y_position, self.screen, (255, 255, 255), -0.2, -3.25, self.visualizer_rect, True))
-#                 self.particle_timer = 0
-            
-            
-        
-           
-        
-                                             
-
-
-#         if random.uniform(0, 1) < 0.01 and self.x_position is not None:
-#             self.particles.append(Particle(self.x_position, self.y_position, self.screen, self.color, random.uniform(-1, 1), random.uniform(-2, 2), self.visualizer_rect, False))
-
-
-
-#         if self.y_position > keys[0].y_position and self.on_screen:
-         
-#             key = keys[next((i for i, obj in enumerate(keys) if obj.index == self.key_index), None)]
-#             key.color = key.INITIAL_COLOR
-#             self.on_screen = False
-       
-                     
-#     def update_particles(self, current_time, speed):
-#         particles_to_remove = []
-#         for particle in self.particles:
-#             particle.update((current_time - self.start_time) / 1000)
-#             particle.draw()
-            
-            
-#             if particle.y_position < 0 or particle.radius <= particle.initial_radius * 0.01:
-#                 particles_to_remove.append(particle)
-             
-                
-#         for particle in particles_to_remove:
-#             self.particles.remove(particle)
-    
-#     def draw(self, prog, vao):
-        
-#         if self.is_white:
-#             self.width = self.visualizer_rect.width / NUM_WHITE_KEYS
-#             self.x_position = self.width * white_key_indices.index(self.key_index) + self.visualizer_rect.x
-#         else:
-#             self.width = self.visualizer_rect.width / NUM_WHITE_KEYS * 0.6 
-#             # Find the nearest two white keys (left and right) surrounding the black key
-#             nearest_white_key_index_left = max([i for i in white_key_indices if i < self.key_index], default=0)
-#             nearest_white_key_index_right = min([i for i in white_key_indices if i > self.key_index], default=0)
-
-#             # Get their x_positions
-#             x_position_left = self.visualizer_rect.x + (self.visualizer_rect.width / NUM_WHITE_KEYS) * white_key_indices.index(nearest_white_key_index_left)
-#             x_position_right = self.visualizer_rect.x + (self.visualizer_rect.width / NUM_WHITE_KEYS) * white_key_indices.index(nearest_white_key_index_right)
-
-#             # Position black key at the center between the left and right white keys
-#             self.x_position = (x_position_left + x_position_right) / 2 + 5
-
-            
-
-
-            
-#         # note_rect = pygame.Rect(self.x_position, self.y_position, self.width, self.height)
-      
-#         prog['u_position'].value = (self.x_position, self.y_position)
-#         prog['u_size'].value = (self.width, self.height)
-#         prog['u_color'].value = (self.color[0] / 255, self.color[1] / 255 , self.color[2] / 255)
-#         vao.render(mode=moderngl.TRIANGLE_STRIP)
-
-        
-       
-                                                   
-#         # screen.blit(self.note_image, (
-#         #     self.x_position - self.note_image.get_width() / 2 + self.width / 2,
-#         #     self.y_position - self.note_image.get_height() / 2 + self.height / 2))
-
-       
-
-   
-    
-    def create_radial_glow_surface(self, note_width, note_height, color, max_glow, intensity, blend_power):
-        # a surface twice as big so the glow can spread outside the note
-        glow_surface = pygame.Surface((int(note_width*2), int(note_height*2)), pygame.SRCALPHA)
-        cx, cy = glow_surface.get_width()//2, glow_surface.get_height()//2
-
-        base = pygame.Rect(
-            cx - note_width / 2,
-            cy - note_height / 2,
-            note_width, note_height
-        )
-
-
-        # Outer glow — colored
-        for i in range(max_glow, 0, -1):
-            fade = (1 - (i / max_glow)) ** (blend_power / 2)
-            alpha = int(intensity * fade)
-            col = (*color, alpha)
-
-            growth = (i / max_glow) ** 2
-            inflate_amount = growth * max_glow * 2
-            r = base.inflate(inflate_amount, inflate_amount)
-
-            if r.width > 0 and r.height > 0:
-                radius = self.border_radius + int(inflate_amount // 2)
-                pygame.draw.rect(glow_surface, col, r, border_radius=radius)
-
-
-
-        
-        # Inner Glow
-        pixel_step = min(base.width, base.height) / (2 * max_glow)
-        last_r, last_g, last_b = color[0], color[1], color[2]
-        white_start = 1
-        white_end = 0.85
-        core_start = 0.475
-        core_end = 0.4
-        for i in range(max_glow, 0, -1):
-            scale = (i / max_glow)  # 1 → 0
-            t = scale ** blend_power  # Apply blend curve
-
-           
-            # White → Note Color
-            if white_start >= scale > white_end:   # white border
-                r, g, b = 255, 255, 255
-            elif white_end >= scale > core_start:
-                r = int(255 * t + color[0] * (1 - t))
-                g = int(255 * t + color[1] * (1 - t))      # blending from white to note color
-                b = int(255 * t + color[2] * (1 - t))
-            elif core_start >= scale > core_end:
-                r = round(last_r * 0.95)
-                g = round(last_g * 0.95)                       # blending from note color to darker note color
-                b = round(last_b * 0.95)
-                last_r, last_g, last_b = r, g, b
-            elif core_end >= scale:
-                r, g, b = last_r, last_g, last_b        # filling the core with darker note color
-          
-                
-                
-           
-            alpha = 255
-    
-        
-            blended_color = (r, g, b, alpha)
-            
-            inset = (max_glow - i) * pixel_step
-
-            new_x = round(base.x + inset)
-            new_y = round(base.y + inset)
-            new_width = round(base.width - inset * 2)
-            new_height = round(base.height - inset * 2)
-            
-
-            pygame.draw.rect(
-                glow_surface,
-                blended_color,
-                pygame.Rect(new_x, new_y, new_width, new_height),
-                border_radius=int(self.border_radius + scale)
-            )
-        
-
-        return glow_surface
 
 
 
@@ -493,7 +278,7 @@ def draw_notes(notes, current_time, speed, screen_rect, color, visualizer_rect, 
             visible_notes_indices.add(index)
     
 
-    piano_y_position = keys[0].y_position
+    piano_y = keys[0].y
     notes_to_remove = []
 
     for note_object in visible_notes:
@@ -501,9 +286,8 @@ def draw_notes(notes, current_time, speed, screen_rect, color, visualizer_rect, 
        
         note_object.update(current_time, delta_time)
         note_object.draw(current_time)
-        # note_object.update_particles(current_time, speed)
 
-        if note_object.y_position >= piano_y_position and len(visualizer.particle_system.particles) == 0: #and not note_object.particles:
+        if note_object.y >= piano_y:
             notes_to_remove.append(note_object)
         
     for note in notes_to_remove:
@@ -514,4 +298,3 @@ def draw_notes(notes, current_time, speed, screen_rect, color, visualizer_rect, 
     
 
 
- 

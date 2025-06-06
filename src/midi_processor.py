@@ -1,5 +1,6 @@
 import mido
 
+# Built with help of ChatGPT
 def load_midi_file(file_path):
     
     midi_file = mido.MidiFile(file_path)
