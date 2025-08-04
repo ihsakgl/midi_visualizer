@@ -35,3 +35,7 @@ Users can easily adjust video settings, colors, and visual styles to suit their 
 - ModernGL and ModernGL Window  
 - PyCUDA (with OpenGL interop enabled), NumPy, Pygame, etc.  
 - FFmpeg
+
+## Getting Started
+
+- Move the .hpp and .cpp files under VPF OpenCV folders into VideoProcessingFramework's respective folders
