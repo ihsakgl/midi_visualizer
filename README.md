@@ -39,6 +39,7 @@ Users can easily adjust video settings, colors, and visual styles to suit their 
 ## Getting Started
 
 - Move the .hpp and .cpp files under VPF OpenCV folders into VideoProcessingFramework's respective folders
+- You might need to run this command in Command Prompt: `mklink "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin\cudart64_120.dll" "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin\cudart64_12.dll"`
 
 ## Current state of the project
 
