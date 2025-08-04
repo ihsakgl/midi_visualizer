@@ -20,7 +20,7 @@ Users can easily adjust video settings, colors, and visual styles to suit their 
 
 - `assets/` – Video, audio, and MIDI files  
 - `settings/` – Color and video configuration files  
-- `VideoProcessingFramework/` – Custom-modified VPF backend  
+- `VPF OpenCV Interop/` – Custom-modified VPF backend for OpenCV and ModernGL
 - `ModernGL shaders/` – Vertex and fragment shader files  
 - `src/` – Main application (Python code)  
 
