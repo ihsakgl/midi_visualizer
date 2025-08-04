@@ -39,3 +39,8 @@ Users can easily adjust video settings, colors, and visual styles to suit their 
 ## Getting Started
 
 - Move the .hpp and .cpp files under VPF OpenCV folders into VideoProcessingFramework's respective folders
+
+## Current state of the project
+
+- Needs further optimization and customization
+- The project will be updated in the future
