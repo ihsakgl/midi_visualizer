@@ -134,7 +134,8 @@ class Particle:
 
     def update(self, delta_time):
         
-        self.radius *= 0.988
+        decay = 0.1 ** delta_time
+        self.radius *= decay
   
 
         if self.is_hit_particle:

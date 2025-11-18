@@ -15,7 +15,7 @@ class GpuRecorder:
         self.buffer_size = width * height * 4
         self.output_path = output_path
         self.fps = 60.0
-        self.frame_interval = 1 / self.fps
+        self.frame_interval = 1.0 / self.fps
 
         # ARGB + GPU input buffer modu
         self.encoder = nvc.CreateEncoder(

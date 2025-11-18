@@ -3,10 +3,12 @@ from PIL import Image, ImageDraw, ImageFont
 import moderngl
 import json
 import os
+import unicodedata
 
 from utils import is_colliding
 import time
 from color_picker import ColorPicker, ColorSelector
+
 
 class UI:
     def __init__(self, ctx, width, height, video, app, font_path="arial.ttf"):
@@ -15,75 +17,105 @@ class UI:
         self.height = height
         self.app = app
         self.is_active = True
+
+        self.inputs = []
+        
+
         self.fps_counter = Text(ctx, width, height, font_path=font_path, font_size=11)
         self.video_seeker = SeekBar(self.ctx, self.app.visualizer.rect.x + 50, self.app.visualizer.rect.y + self.app.visualizer.rect.height + 75, self.app.visualizer.rect.width - 100, 50, video, self.app)
         self.current_time_text = Text(ctx, width, height, font_path=font_path, font_size=11)
 
-       
-        self.video_x_offset_input = InputField(self.ctx, 50, 50, 100, 25, "number", str(video.x_offset), "X offset")
-        self.video_x_offset_input.action = lambda input_field: setattr(video, "x_offset", float(input_field.current_text))
+        if video.is_valid:
+            self.video_x_offset_input = InputField(self.ctx, 50, 50, 100, 25, "number", str(video.x_offset), "X offset")
+            self.video_x_offset_input.action = lambda input_field: setattr(video, "x_offset", float(input_field.current_text))
 
-        self.rotation_angle_input = InputField(self.ctx, 50, 100, 100, 25, "number", str(video.rotation_angle), "Rotation angle")
-        self.rotation_angle_input.action = lambda input_field: setattr(video, "rotation_angle", float(input_field.current_text))
+            self.rotation_angle_input = InputField(self.ctx, 50, 100, 100, 25, "number", str(video.rotation_angle), "Rotation angle")
+            self.rotation_angle_input.action = lambda input_field: setattr(video, "rotation_angle", float(input_field.current_text))
 
-        self.scale_factor_input = InputField(self.ctx, 50, 150, 100, 25, "number", str(video.scale_factor), "Scale factor")
-        self.scale_factor_input.action = lambda input_field: (setattr(video, "scale_factor", float(input_field.current_text)), video._update_texture(True))
+            self.scale_factor_input = InputField(self.ctx, 50, 150, 100, 25, "number", str(video.scale_factor), "Scale factor")
+            self.scale_factor_input.action = lambda input_field: (setattr(video, "scale_factor", float(input_field.current_text)), video._update_texture(True))
 
-        self.crop_top_input = InputField(self.ctx, 200, 50, 100, 25, "number", str(video.crop_top), "Crop from top")
-        self.crop_top_input.action = lambda input_field: setattr(video, "crop_top", float(input_field.current_text))
+            self.crop_top_input = InputField(self.ctx, 200, 50, 100, 25, "number", str(video.crop_top), "Crop from top")
+            self.crop_top_input.action = lambda input_field: setattr(video, "crop_top", float(input_field.current_text))
 
-        self.brightness_input = InputField(self.ctx, 200, 100, 100, 25, "number", str(video.brightness), "Brightness")
-        self.brightness_input.action = lambda input_field: setattr(video, "brightness", float(input_field.current_text))
+            self.brightness_input = InputField(self.ctx, 200, 100, 100, 25, "number", str(video.brightness), "Brightness")
+            self.brightness_input.action = lambda input_field: setattr(video, "brightness", float(input_field.current_text))
 
-        self.inputs = [
-            self.video_x_offset_input, 
-            self.rotation_angle_input,
-            self.scale_factor_input,
-            self.crop_top_input,
-            self.brightness_input
-        ]
+            self.inputs = [
+                self.video_x_offset_input, 
+                self.rotation_angle_input,
+                self.scale_factor_input,
+                self.crop_top_input,
+                self.brightness_input
+            ]
+
+            self.video_timestamp_text = Text(self.ctx, width, height, font_path=font_path, font_size=11)
+            
 
         self.color_picker = ColorPicker(self.ctx, 50, 200, 300, 300)
         self.color_selector = ColorSelector(self.ctx, 50, 550, 300, 30, 5, self)
 
         self.load_input_settings()
 
-        self.video_timestamp_text = Text(self.ctx, width, height, font_path=font_path, font_size=11)
+       
+
+        ## Menu items
+        self.menu_is_active = False
+        self.midi_input = InputField(self.ctx, 40, 80, 1200, 40, input_type="mixed", initial_text="", label_text="MIDI file path", background_color=(0.5, 0.5, 0.5))
+        self.midi_input.action = lambda input_field: setattr(self.app, "midi_file_path", input_field.current_text)
+
+        if self.menu_is_active:
+            self.inputs = [
+                self.midi_input
+            ]
+
+
+        
+
 
     def update(self, fps):
         if not self.is_active: return
         self.fps_counter.update_text(f"FPS: {fps:.2f}")
         self.current_time_text.update_text(f"Current time: {self.app.current_time:.4f}")
-        self.video_timestamp_text.update_text(f"Video timestamp: {self.app.video.timestamp:.4f}")
+        if hasattr(self, "video_timestamp_text"): self.video_timestamp_text.update_text(f"Video timestamp: {self.app.video.timestamp:.4f}")
 
     def render(self):
         if not self.is_active: return
         self.fps_counter.render(20, 1000)
         self.current_time_text.render(120, 1000)
-        self.video_timestamp_text.render(270, 1000)
+        if hasattr(self, "video_timestamp_text"): self.video_timestamp_text.render(270, 1000)
 
-        self.video_seeker.render()
+        if hasattr(self, "video_seeker"): self.video_seeker.render()
         self.color_picker.render()
         self.color_selector.render()
 
         for input in self.inputs:
             input.render()
 
+    def render_menu(self):
+        if not self.is_active: return
+        for input in self.inputs:
+            input.render()
+
     def press_event(self, x, y):
         if not self.is_active: return
-        if is_colliding(self.video_seeker, x, y): self.video_seeker.mouse_press(x, y)
+
+
+        if hasattr(self, 'video_seeker') and is_colliding(self.video_seeker, x, y): self.video_seeker.mouse_press(x, y)
 
         for input in self.inputs:
             if is_colliding(input, x, y):
                 input.mouse_press(x, y)
             else:
                 input.deactivate()
+        
 
         if is_colliding(self.color_picker, x, y):
             color = self.color_picker.get_color_at_pixel(x, y)
             self.color_selector.set_selected_color(color)
             self.app.visualizer.colors[self.color_selector.get_active_selection_index()] = color
             self.app.visualizer.update_colors(self.color_selector.get_selected_color(0), self.color_selector.get_selected_color(1))
+ 
 
 
         selected_index = self.color_selector.contains_point_for_selection(x, y)
@@ -105,12 +137,12 @@ class UI:
 
     def resize(self, width, height):
         if not self.is_active: return
-        self.video_seeker.update_window_size(width, height)
+        if hasattr(self, "video_seeker"): self.video_seeker.update_window_size(width, height)
 
-    def keyboard_event(self, key, action, wnd):
+    def keyboard_event(self, key, action, wnd, modifiers, char_key):
         if not self.is_active: return
         for input in filter(lambda input: input.active, self.inputs):
-            input.keyboard_input(key, action, wnd)
+            input.keyboard_input(key, action, wnd, modifiers, char_key)
 
     def load_input_settings(self, path="settings/settings.json"):
         if os.path.exists(path):
@@ -132,22 +164,46 @@ class UI:
                             self.app.visualizer.update_colors(color_list[0], color_list[1])
                             self.color_selector.selected_colors = [color_list[0], color_list[1]]
 
+            
+
                 except json.JSONDecodeError:
                     print("Ayarlar dosyası okunamadı. Biçimi bozulmuş olabilir.")
 
-    def save_input_settings(self, path="settings/settings.json"):
-        settings = {}
-        for input_field in self.inputs:
-            label = input_field.label.current_text
-            settings[label] = input_field.get_text()
+    def save_settings(self, path="settings/settings.json"):
+        # Mevcut ayarları oku (varsa)
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
+                try:
+                    existing_settings = json.load(f)
+                except json.JSONDecodeError:
+                    existing_settings = {}
+        else:
+            existing_settings = {}
 
-        settings["colors"] = [
-            list(self.app.visualizer.colors[0]), 
+        # Yalnızca değişen değerleri güncelle
+        new_settings = existing_settings.copy()
+
+        # Eğer self.inputs boş değilse, sadece bu alanları güncelle
+        if getattr(self, "inputs", None):
+            for input_field in self.inputs:
+                label = input_field.label.current_text
+                new_settings[label] = input_field.get_text()
+
+        # Renkler her zaman güncellenir
+        new_settings["colors"] = [
+            list(self.app.visualizer.colors[0]),
             list(self.app.visualizer.colors[1]),
         ]
 
-        with open(path, "w") as f:
-            json.dump(settings, f, indent=4)
+        # Diğer dosya yollarını da güncelle
+        new_settings["midi file path"] = self.app.midi_file_path
+        new_settings["audio file path"] = self.app.audio_file_path
+        new_settings["video file path"] = self.app.video_file_path
+
+        # Dosyayı güvenli şekilde yeniden yaz
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(new_settings, f, indent=4, ensure_ascii=False)
+
 
   
 
@@ -199,7 +255,7 @@ class Text:
             """
         )
 
-        self.quad_buffer = self.ctx.buffer(reserve=4 * 4 * 4)  # 4 vertex * (2+2) float32
+        self.quad_buffer = self.ctx.buffer(reserve=4 * 4 * 4)  # 4 vertex * (2+2) float32 
         self.vao = self.ctx.vertex_array(
             self.prog,
             [(self.quad_buffer, "2f 2f", "in_position", "in_texcoord")]
@@ -279,6 +335,7 @@ class SeekBar:
         self.progress = 0.0
         self.video = video
         self.app = app
+        
        
 
 
@@ -333,15 +390,22 @@ class SeekBar:
 
     def set_position(self, pos_sec):
         # Clamp to duration
-        self.position = max(0.0, min(pos_sec, self.video.duration))
+        if self.video.is_valid:
+            self.position = max(0.0, min(pos_sec, self.video.duration))
+        else:
+            self.position = max(0.0, min(pos_sec, self.app.midi_duration))
 
     def get_position(self):
         return self.position
 
     def render(self):
         if not self.dragging:
-            self.position = self.video.timestamp
-            self.progress = self.position / self.video.duration
+            if self.video.is_valid:
+                self.position = self.video.timestamp
+                self.progress = self.position / self.video.duration
+            else:
+                self.position = self.app.current_time
+                self.progress = self.position / self.app.midi_duration
 
         self.prog['u_position'].value = (self.x, self.y + self.height / 3)
         self.prog['u_size'].value = (self.width, self.height / 3)
@@ -350,7 +414,8 @@ class SeekBar:
         self.vao.render(moderngl.TRIANGLE_STRIP)
 
         # Draw filled bar 
-        fill_width = (self.position / self.video.duration) * self.width
+        if self.video.is_valid: fill_width = (self.position / self.video.duration) * self.width
+        else: fill_width = (self.position / self.app.midi_duration) * self.width
         self.prog['u_position'].value = (self.x, self.y + self.height / 3)
         self.prog['u_size'].value = (fill_width, self.height / 3)
         self.prog['u_color'].value = self.fill_color
@@ -383,19 +448,26 @@ class SeekBar:
         self.dragging = False
 
 
+        if self.video.is_valid:
+            desired_time = self.progress * self.video.duration
+        else:
+            desired_time = self.progress * self.app.midi_duration
 
-        desired_time = self.progress * self.video.duration
+        if self.video.is_valid:
+            old_ts = self.video.timestamp
+            self.video.seek(desired_time)
+            new_ts = self.video.timestamp
 
+            delta = new_ts - old_ts
 
-        old_ts = self.video.timestamp
-        seeking_took = self.video.seek(desired_time)
-        new_ts = self.video.timestamp
+            self.app.navigated_time += delta
+        
+            self.audio_player.seek_relative(delta)
+        else:
+            delta = desired_time - self.app.current_time
+            self.app.navigated_time += delta
+            self.audio_player.seek_relative(delta)
 
-        delta = new_ts - old_ts
-
-        self.app.navigated_time += delta
-    
-        self.audio_player.seek_relative(delta)
 
         
 
@@ -413,7 +485,8 @@ class SeekBar:
         return False
 
     def _point_in_thumb(self, px, py):
-        fill_width = (self.position / self.video.duration) * self.width
+        if self.video.is_valid: fill_width = (self.position / self.video.duration) * self.width
+        else: fill_width = (self.position / self.app.midi_duration) * self.width
         thumb_size = self.height
         thumb_x = self.x + fill_width - thumb_size / 2
         thumb_y = self.y
@@ -425,7 +498,8 @@ class SeekBar:
     def _update_position_from_x(self, px):
         relative_x = px - self.x
         relative_x = max(0, min(relative_x, self.width))
-        self.position = (relative_x / self.width) * self.video.duration
+        if self.video.is_valid: self.position = (relative_x / self.width) * self.video.duration
+        else: self.position = (relative_x / self.width) * self.app.midi_duration
         self.progress = relative_x / self.width
                                             
 class InputField:
@@ -491,6 +565,8 @@ class InputField:
         self.rect_vao = self.ctx.simple_vertex_array(self.prog_rect, self.rect_vbo, 'in_position')
         self._update_rendered_text()
 
+
+
     def activate(self):
         self.active = True
         self.cursor_visible = True
@@ -516,10 +592,14 @@ class InputField:
             display_text = display_text[:self.cursor_position] + "|" + display_text[self.cursor_position:]
         self.text_renderer.update_text(display_text)
 
-    def keyboard_input(self, key, action, wnd):
+    def keyboard_input(self, key, action, wnd, modifiers, char_key):
+        
 
         # Key press events
         if action == wnd.keys.ACTION_PRESS:
+
+        
+
             if key == wnd.keys.BACKSPACE: 
                 if self.cursor_position > 0:
                     self.current_text = self.current_text[:self.cursor_position - 1] + self.current_text[self.cursor_position:]
@@ -534,15 +614,21 @@ class InputField:
             elif key == wnd.keys.ENTER: 
                 if len(self.current_text) > 0: self.action(self)
             else:
-                char_key = chr(key)
+             
+
+
+             
+                
                 if self.input_type == "text" and char_key.isalpha():
                     pass
                 elif self.input_type == "number" and (char_key.isdigit() or (char_key == "-" and self.cursor_position == 0) or (char_key == "." and not self.current_text.__contains__("."))):
                     pass
+                elif self.input_type == "mixed":
+                    pass
                 else: 
                     char_key = ""
-                    
-                    
+
+
                 self.current_text = self.current_text[:self.cursor_position] + char_key + self.current_text[self.cursor_position:]
                 if char_key != "": self.cursor_position += 1
             
@@ -557,7 +643,7 @@ class InputField:
             # You could add logic here to set the cursor position based on click x
             # For simplicity, cursor goes to end of text on click for now.
             self.cursor_position = len(self.current_text)
-            self._update_rendered_text()
+            self._update_rendered_text() 
             return True
         return False
 
@@ -576,7 +662,7 @@ class InputField:
         self.prog_rect['u_window_size'].value = (self.ctx.screen.width, self.ctx.screen.height)
         self.rect_vao.render(moderngl.TRIANGLE_STRIP)
 
-        
+    
         # Draw border if active
         if self.active:
             border_thickness = 2

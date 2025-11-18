@@ -1,8 +1,11 @@
 import time
 import io
 from pydub import AudioSegment
+from pydub.utils import which
 from pygame import mixer
 import threading
+
+AudioSegment.converter = which("ffmpeg2")
 
 class AudioPlayer:
     def __init__(self, buffer, visualizer_rect, speed, key_y, key_height):

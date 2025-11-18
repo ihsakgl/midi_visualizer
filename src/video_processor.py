@@ -29,6 +29,9 @@ from collections import deque
 
 class Video:
     def __init__(self, ctx, video_file_path, visualizer_rect, start_time: float):
+        if os.path.exists(video_file_path) == False:
+            self.is_valid = False
+            return
         self.video_file_path = video_file_path
         self.ctx = ctx
         self.visualizer_rect = visualizer_rect
@@ -39,6 +42,7 @@ class Video:
         self.max_len_recent_frames = 120
         self.recent_frames = deque(maxlen=self.max_len_recent_frames)
         self.frame_index = 0
+        self.rendered_frames = 0
 
         # Thread safe locks
         self.decoder_lock = threading.Lock()
@@ -306,10 +310,12 @@ class Video:
             print("Queue is empty, returning None")
             return None
 
-    def render(self, frame_time, current_time):
+    def render(self, delta_time, current_time):
         #print(f"Queue size: {self.frame_queue.qsize()}")
         #print(f"Frame index: {self.frame_index} at timestamp {self.timestamp} at current time: {current_time}")
- 
+
+        if not self.is_valid:
+            return
         
         if self.render_timer >= self.frame_interval:
             self.pending_frame = self.get_frame()
@@ -317,6 +323,8 @@ class Video:
             self.frame_index += 1
             exceeded_time = self.render_timer - self.frame_interval
             self.render_timer = exceeded_time
+            self.rendered_frames += 1
+            print(f"Rendered frames: {self.rendered_frames} at time {current_time:.3f}s")  ### Output: 59,9801, 59,9749  -> fps zaman gectikce artiyor
 
 
         if self.recording and self.timestamp + self.start_time < current_time:
@@ -338,8 +346,8 @@ class Video:
         self.vao.render(moderngl.TRIANGLE_STRIP)
 
         if self.playing:
-            self.timestamp += frame_time
-            self.render_timer += frame_time
+            self.timestamp += delta_time 
+            self.render_timer += delta_time 
 
 
 

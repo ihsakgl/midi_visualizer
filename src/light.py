@@ -8,6 +8,7 @@ class Light:
         self.intensity = intensity * scale_multiplier
         self.radius_px = radius_px * scale_multiplier
         self.key_index = key_index
+     
 
 class LightManager:
     MAX_LIGHTS = 88

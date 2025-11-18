@@ -74,5 +74,5 @@ def parse_midi(midi_file):
     # Sort notes by start time
     notes = sorted(notes, key=lambda x: x['start_time'])
 
-    return notes
+    return notes, notes[-1]['end_time']
 
