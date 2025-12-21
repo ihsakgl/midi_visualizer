@@ -30,6 +30,7 @@ class VisualizerApp(mglw.WindowConfig):
     fullscreen = False
     resource_dir = 'ModernGL shaders'
     vsync = False
+    
 
    
 
@@ -90,7 +91,7 @@ class VisualizerApp(mglw.WindowConfig):
     def _init_screen_quad(self):
         self.flag1 = False
         self.current_time = 0.0
-        self.speed = 200
+        self.speed = 150
         self.paused = False
         self.visual_mode = False
 
@@ -142,10 +143,11 @@ class VisualizerApp(mglw.WindowConfig):
         self.notes, self.midi_duration = parse_midi(self.midi_file)
 
         self.video_has_started = False
-        self.video_start_time = -17.9548#-17.9852
+        self.video_start_time = -17.9548
         
         self.video = Video(self.ctx, self.video_file_path, self.visualizer_rect, self.video_start_time)
-        self.note_start_time_buffer = abs(self.video_start_time) % self.video.frame_interval
+        if self.video.is_valid: self.note_start_time_buffer = abs(self.video_start_time) % self.video.frame_interval
+        else : self.note_start_time_buffer = 0.0
         for note in self.notes:
             note['start_time'] -= self.note_start_time_buffer
             note['end_time'] -= self.note_start_time_buffer
@@ -156,7 +158,7 @@ class VisualizerApp(mglw.WindowConfig):
         self.recording_frame_index = 0
 
     def _init_ui_and_visualizer(self):
-        self.normalized_piano_y = 0.53
+        self.normalized_piano_y = 0.60
         self.visualizer = Visualizer(
             self, self.visualizer_x, self.visualizer_y,
             self.visualizer_width, self.visualizer_height,

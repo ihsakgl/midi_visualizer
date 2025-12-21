@@ -12,6 +12,7 @@ void main() {
     color.rgb *= decayK;
     color.a *= decayK;
 
+   
     if (color.a < 0.03) {
         fragColor = vec4(0.0);
     } else {

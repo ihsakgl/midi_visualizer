@@ -62,7 +62,7 @@ class Visualizer:
         self.left_cutoff = 0.2
         self.right_cutoff = 0.8
 
-        self.particle_radius = 3.0
+        self.particle_radius = 5.0
 
         self.rect = Rect(self.x, self.y, self.width, self.height)
         self.piano = Piano(self.ctx, self.rect, self.normalized_piano_y)
@@ -89,6 +89,7 @@ class Visualizer:
 
         self.lighting_fbo.use()
         self.light_manager.render(self.offscreen_fbo.color_attachments[0])
+       
         
     
     def reload_classes(self, old_visualizer_width, old_visualizer_height, visual_mode):
@@ -170,13 +171,16 @@ class PianoKey:
             nearest_right = min([i for i in white_key_indices if i > index], default=0)
             x_left = visualizer_rect.x + (visualizer_rect.width / NUM_WHITE_KEYS) * white_key_indices.index(nearest_left)
             x_right = visualizer_rect.x + (visualizer_rect.width / NUM_WHITE_KEYS) * white_key_indices.index(nearest_right)
-            self.x = (x_left + x_right) / 2
+            self.x = (x_left + x_right) / 2 + 5
             self.height *= 0.6
             self.width *= 0.8
-            self.x += 5
+            
 
         self.y = visualizer_rect.height * normalized_piano_y + visualizer_rect.y
         self.lines_activated = False
+
+
+   
 
 
 class Piano:
@@ -229,162 +233,10 @@ class Piano:
 
             vao.render(mode=moderngl.TRIANGLE_STRIP)
 
-# class Note: 
-#     def __init__(self, note, start_time, velocity, screen_rect, duration, speed, index, visualizer_rect, ctx, visualizer, scale_multiplier):
-#         self.note = note
-#         self.key_index = self.note - 21
-#         self.start_time = start_time
-#         self.velocity = velocity
-#         self.screen_rect = screen_rect
-#         self.duration = duration
-#         self.speed = speed
-#         self.index = index
-
-#         self.visualizer_rect = visualizer_rect
-
-        
-#         self.is_white = True if self.key_index in white_key_indices else False
-#         self.width = screen_rect.width / NUM_WHITE_KEYS if self.is_white else screen_rect.width / NUM_WHITE_KEYS * 0.6 
-#         self.height = duration * speed 
-#         self.x = self.key_index * self.width + self.visualizer_rect.x
-#         self.y = self.visualizer_rect.y - self.height
-#         self.on_screen = True
-
-#         self.glow_radius = 30.0 + random.uniform(-3.0, 3.0)
-#         self.glow_strength = 1.5 + random.uniform(-0.3, 0.3)
-#         self.intensity = 80
-#         self.blend_power = 4
-#         self.border_radius = 12
-
-#         self.ctx = ctx
-#         self.visualizer = visualizer
-
-#         self.color1 = self.visualizer.colors[0]
-#         self.color2 = self.visualizer.colors[1]
-
-#         self._setup_shader()
-#         self._setup_geometry()
-
-#         self.phase = random.uniform(0, math.pi * 2)
-#         self.seed = random.uniform(0, 100)
-
-
-       
-#         self.particle_timer = 0
-#         self.has_light = None
-
-#         self.scale_multiplier = scale_multiplier
-
-#         self.particle_radius = self.visualizer.particle_radius
-
-    
-
-      
-
-
-#     def _setup_shader(self):
-#         self.shader_name = "note"
-#         with open(f"ModernGL shaders/{self.shader_name}.vert", "r", encoding="utf-8") as f:
-#             vertex_shader = f.read()
-#         with open(f"ModernGL shaders/{self.shader_name}.frag", "r", encoding="utf-8") as f:
-#             fragment_shader = f.read()
-#         self.prog = self.ctx.program(vertex_shader=vertex_shader, fragment_shader=fragment_shader)
-       
-#     def _setup_geometry(self):
-#         vertices = np.array([
-#             0.0, 0.0,
-#             1.0, 0.0,
-#             0.0, 1.0,
-#             1.0, 1.0,
-#         ], dtype='f4')
-#         vbo = self.ctx.buffer(vertices.tobytes())
-#         self.vao = self.ctx.simple_vertex_array(
-#             self.prog, vbo, 
-#             'in_uv' 
-# )
-
-
-#     def update(self, current_time, delta_time):
-#         elapsed_time = current_time - self.start_time
- 
-#         self.y = self.visualizer_rect.y - self.height + self.speed * elapsed_time
-#         self.particle_timer += delta_time
-
-
-#         if self.y + self.height > keys[0].y and self.on_screen:
-#             if not self.has_light:
-               
-#                 self.visualizer.light_manager.add_light(Light((self.x + self.width / 2, keys[0].y), (1.0, 1.0, 1.0), 1.0, 150.0, self.key_index, self.scale_multiplier))
-#                 self.has_light = True
-
-#             key = keys[next((i for i, obj in enumerate(keys) if obj.index == self.key_index), None)]
-#             key.color1 = self.color1   
-#             key.color2 = self.color2
-          
-
-#             if self.particle_timer >= (0.19 + random.uniform(-0.1, 0.1)) * self.scale_multiplier:
-#                 self.visualizer.particle_system.add_particle(Particle(self.x + self.width / 2, keys[0].y, 20.0, -500.0, self.particle_radius, True, self.width, self.scale_multiplier))
-#                 self.visualizer.particle_system.add_particle(Particle(self.x + self.width / 2, keys[0].y, -20.0, -500.0, self.particle_radius, True, self.width, self.scale_multiplier))
-#                 self.particle_timer = 0
-
-#         if random.uniform(0, 1) < 0.005 * self.scale_multiplier and self.x is not None and self.on_screen:
-#             self.visualizer.particle_system.add_particle(Particle(self.x + self.width / 2, self.y + self.height / 2, 50.0, 300.0, self.particle_radius + 1.0, False, self.width, self.scale_multiplier))
-        
-#         if self.y > keys[0].y and self.on_screen:
-#             key = keys[next((i for i, obj in enumerate(keys) if obj.index == self.key_index), None)]
-#             key.color1 = key.INITIAL_COLOR
-#             key.color2 = key.INITIAL_COLOR
-#             self.on_screen = False
-#             self.visualizer.light_manager.lights = [light for light in self.visualizer.light_manager.lights if light.key_index != self.key_index]
-#             self.has_light = False
-          
-#     def draw(self, current_time, left_cutoff, right_cutoff):
-#         if self.is_white:
-#             self.width = self.visualizer_rect.width / NUM_WHITE_KEYS
-#             self.x = self.width * white_key_indices.index(self.key_index) + self.visualizer_rect.x
-#         else:
-#             self.width = self.visualizer_rect.width / NUM_WHITE_KEYS * 0.6 
-#             # Find the nearest two white keys (left and right) surrounding the black key
-#             nearest_white_key_index_left = max([i for i in white_key_indices if i < self.key_index], default=0)
-#             nearest_white_key_index_right = min([i for i in white_key_indices if i > self.key_index], default=0)
-
-#             # Get their x coordinates
-#             x_left = self.visualizer_rect.x + (self.visualizer_rect.width / NUM_WHITE_KEYS) * white_key_indices.index(nearest_white_key_index_left)
-#             x_right = self.visualizer_rect.x + (self.visualizer_rect.width / NUM_WHITE_KEYS) * white_key_indices.index(nearest_white_key_index_right)
-
-#             # Position black key at the center between the left and right white keys
-#             self.x = (x_left + x_right) / 2 + 5
-
-#         if self.shader_name == "note":
-         
-#             self.prog['notePosition'].value     = (self.x, self.y)
-#             self.prog['noteSize'].value         = (self.width, self.height)
-#             self.prog['screenResolution'].value = (self.screen_rect.width, self.screen_rect.height)
-#             self.prog['noteColor1'].value        = (self.color1[0], self.color1[1], self.color1[2], 1.0)
-#             self.prog['noteColor2'].value        = (self.color2[0], self.color2[1], self.color2[2], 1.0)
-#             self.prog['leftCutoff'].value = left_cutoff * self.screen_rect.width
-#             self.prog['rightCutoff'].value = right_cutoff * self.screen_rect.width
-            
-#             self.prog['borderRadius'].value     = self.border_radius
-            
-#             self.prog['glowRadius'].value     = self.glow_radius
-#             self.prog['glowStrength'].value   = self.glow_strength
-#             self.prog['blendPower'].value   = self.blend_power
-#             self.prog['time'].value = float(current_time * 0.3)
-#             self.prog['phase'].value = float(self.phase)
-#             self.prog['noteSeed'].value = float(self.seed)
-
-#             self.vao.render(mode=moderngl.TRIANGLE_STRIP)
-#         elif self.shader_name == "electric_note":
-#             self.prog["iTime"].value = current_time
-#             self.prog["iResolution"].value = (self.screen_rect.width, self.screen_rect.height)
-
-#             self.vao.render(mode=moderngl.TRIANGLE_STRIP)
-    
 
 
 class Note:
-    """Sadece veri tutuyor. GPU kaynakları yok."""
+    """Stores GPU data for a single falling note rectangle."""
     def __init__(self, note, start_time, velocity, duration, speed, key_index, visualizer_rect, colors, visualizer, scale_multiplier):
         self.note = note
         self.key_index = key_index
@@ -429,6 +281,8 @@ class Note:
 
         self.has_light = False
 
+        self.counter = 0
+
     def update(self, current_time, delta_time):
         elapsed = current_time - self.start_time
         self.y = self.visualizer_rect.y - self.height + self.speed * elapsed
@@ -452,10 +306,13 @@ class Note:
 
      
             if self.particle_timer >= (0.19 + random.uniform(-0.1, 0.1)) * self.scale_multiplier:
-                self.visualizer.particle_system.add_particle(Particle(self.x + self.width / 2, keys[0].y, 20.0, -500.0, self.particle_radius, True, self.width, self.scale_multiplier))
-                self.visualizer.particle_system.add_particle(Particle(self.x + self.width / 2, keys[0].y, -20.0, -500.0, self.particle_radius, True, self.width, self.scale_multiplier))
+            
+                self.visualizer.particle_system.add_particle(Particle(self.x + self.width / 2, keys[0].y, 20.0, -700.0, self.particle_radius, True, self.width, self.scale_multiplier))
+                self.visualizer.particle_system.add_particle(Particle(self.x + self.width / 2, keys[0].y, -20.0, -700.0, self.particle_radius, True, self.width, self.scale_multiplier))
                 self.particle_timer = 0
-        if random.uniform(0, 1) < 0.005 * self.scale_multiplier and self.x is not None and self.on_screen:
+        if random.uniform(0, 1) < 0.005 * self.scale_multiplier * delta_time * 140 and self.x is not None and self.on_screen:
+            self.counter += 1
+           
             self.visualizer.particle_system.add_particle(Particle(self.x + self.width / 2, self.y + self.height / 2, 50.0, 300.0, self.particle_radius + 1.0, False, self.width, self.scale_multiplier))
         if self.y > keys[0].y and self.on_screen:
             key = keys[next((i for i, obj in enumerate(keys) if obj.index == self.key_index), None)]
@@ -466,6 +323,9 @@ class Note:
             self.has_light = False
 
 
+          
+
+ 
  #     def update(self, current_time, delta_time):
 #         elapsed_time = current_time - self.start_time
  

@@ -469,7 +469,6 @@ class SeekBar:
             self.audio_player.seek_relative(delta)
 
 
-        
 
     
 

@@ -46,7 +46,7 @@ class ParticleSystem:
     def add_particle(self, particle):
     
         self.particles.append(particle)
-        #print(f"added particle at positions {particle.x, particle.y}")
+        
 
 
     def update(self, delta_time):
@@ -66,6 +66,7 @@ class ParticleSystem:
 
         if len(self.particles) > self.max_particles:
             print("TOO MANY PARTICLES!")
+         
             
 
         
@@ -108,7 +109,7 @@ class Particle:
         
         
         
-        self.initial_radius = (radius + random.uniform(-0.2, 0.2) * radius) * scale_multiplier
+        self.initial_radius = (radius + random.uniform(-0.2, 0.2) * radius ) * scale_multiplier
         self.radius = self.initial_radius
         self.color = (255, 255, 255)
         
@@ -124,18 +125,21 @@ class Particle:
  
 
         self.is_hit_particle = hit_particle
-       
+        
         self.x_acceleration = 50.0 * scale_multiplier 
         if self.x_speed < 0: self.x_acceleration *= -1
      
         self.y_acceleration = 300.0 * scale_multiplier
 
+        self.life_time = 0.0
+
  
 
     def update(self, delta_time):
         
-        decay = 0.1 ** delta_time
-        self.radius *= decay
+        decay = 1.2
+        self.radius *= math.exp(-decay * delta_time) 
+        self.life_time += delta_time
   
 
         if self.is_hit_particle:
@@ -147,10 +151,10 @@ class Particle:
 
         self.y += self.y_speed * delta_time
         self.x += self.x_speed * delta_time
-        
-  
+
 class Background:
-    def __init__(self, ctx, offscreen_fbo, width, height, particle_system, smoke_color1, smoke_color2, left_cutoff, right_cutoff, particle_radius):
+    def __init__(self, ctx, offscreen_fbo, width, height, particle_system,
+                 smoke_color1, smoke_color2, left_cutoff, right_cutoff, particle_radius):
         self.ctx = ctx
         self.offscreen_fbo = offscreen_fbo
         self.width = int(width)
@@ -162,81 +166,195 @@ class Background:
         self.right_cutoff = right_cutoff
         self.particle_radius = particle_radius
 
-        self.background_texture_a = self.ctx.texture((width, height), 4, dtype='f4')
-        self.background_texture_b = self.ctx.texture((width, height), 4, dtype='f4')
-        self.background_fbo_a = self.ctx.framebuffer(color_attachments=[self.background_texture_a])
-        self.background_fbo_b = self.ctx.framebuffer(color_attachments=[self.background_texture_b])
-        self.current_texture = self.background_texture_a
-        self.current_fbo = self.background_fbo_a
+        # --- Fixed timestep simulation ---
+        self.SIM_DT = 1.0 / 300.0
+        self.time_accumulator = 0.0
 
-        self.fade_program = self.load_program("fade")
-        self.screen_program = self.load_program("screen")
-        self.smoke_program = self.load_program("smoke")
+        # --- Ping-pong textures ---
+        self.tex_a = self.ctx.texture((self.width, self.height), 4, dtype="f4")
+        self.tex_b = self.ctx.texture((self.width, self.height), 4, dtype="f4")
 
+        self.fbo_a = self.ctx.framebuffer(color_attachments=[self.tex_a])
+        self.fbo_b = self.ctx.framebuffer(color_attachments=[self.tex_b])
+
+        self.sim_tex = self.tex_a
+        self.sim_fbo = self.fbo_a
+        self.next_fbo = self.fbo_b
+
+        # --- Shaders ---
+        self.sim_program = self.load_program("smoke_sim")
+        self.screen_program = self.load_program("smoke_screen")
+        self.particle_program = particle_system.prog  # use existing particle shader
+
+        # --- Fullscreen quad ---
         vertices = np.array([
             -1.0, -1.0,
-            1.0, -1.0,
+             1.0, -1.0,
             -1.0,  1.0,
-            1.0,  1.0,
-        ], dtype='f4')
-
+             1.0,  1.0,
+        ], dtype="f4")
         vbo = self.ctx.buffer(vertices)
+
+        self.quad_sim = self.ctx.vertex_array(
+            self.sim_program,
+            [(vbo, "2f", "in_vert")]
+        )
         self.quad_screen = self.ctx.vertex_array(
-            self.screen_program, 
-            [(vbo, '2f', 'in_vert')]
-        )
-        self.quad_fade = self.ctx.vertex_array(
-            self.fade_program,
+            self.screen_program,
             [(vbo, "2f", "in_vert")]
         )
-        self.quad_smoke = self.ctx.vertex_array(
-            self.smoke_program,
-            [(vbo, "2f", "in_vert")]
-        )
+    def load_program(self, name):
+        with open(f"ModernGL shaders/{name}.vert") as v, \
+             open(f"ModernGL shaders/{name}.frag") as f:
+            return self.ctx.program(
+                vertex_shader=v.read(),
+                fragment_shader=f.read()
+            )
+
+    def step_simulation(self):
+        # Run one fixed timestep simulation
+        self.next_fbo.use()
+        self.ctx.disable(moderngl.BLEND)
+        self.sim_tex.use(location=0)
+        self.sim_program["texelSize"].value = (1.0 / self.width, 1.0 / self.height)
+        self.sim_program["dt"].value = self.SIM_DT
+        self.sim_program["decay"].value = 15.0
+        self.sim_program["diffusion"].value = 1.2
+        self.quad_sim.render(moderngl.TRIANGLE_STRIP)
+
+        # Swap
+        self.sim_tex, self.tex_b = self.tex_b, self.sim_tex
+        self.sim_fbo, self.next_fbo = self.next_fbo, self.sim_fbo
+
+    def render(self, delta_time):
+        # --- Fixed timestep simulation loop ---
+        self.time_accumulator += delta_time
+        while self.time_accumulator >= self.SIM_DT:
+        
+            self.step_simulation()
+            self.time_accumulator -= self.SIM_DT
+
+        # TODO: Particles need to be rendered on top of the smoke simulation
+        
+        self.ctx.enable(moderngl.BLEND)
+        self.ctx.blend_func = moderngl.SRC_ALPHA, moderngl.ONE
+        self.sim_fbo.use()
+        
+        self.particle_system.render()        
+    
+        
+
+       
+        self.offscreen_fbo.use()
+        self.ctx.blend_func = moderngl.SRC_ALPHA, moderngl.ONE_MINUS_SRC_ALPHA
+        self.sim_tex.use(location=0)
+        self.screen_program["smokeColor1"].value = self.smoke_color1
+        self.screen_program["smokeColor2"].value = self.smoke_color2
+        self.screen_program["leftCutoff"].value = self.left_cutoff
+        self.screen_program["rightCutoff"].value = self.right_cutoff
+        self.quad_screen.render(moderngl.TRIANGLE_STRIP)
+
+
+
+
+
+
+
+        
+  
+# class Background:
+#     def __init__(self, ctx, offscreen_fbo, width, height, particle_system, smoke_color1, smoke_color2, left_cutoff, right_cutoff, particle_radius):
+#         self.ctx = ctx
+#         self.offscreen_fbo = offscreen_fbo
+#         self.width = int(width)
+#         self.height = int(height)
+#         self.particle_system = particle_system
+#         self.smoke_color1 = smoke_color1
+#         self.smoke_color2 = smoke_color2
+#         self.left_cutoff = left_cutoff
+#         self.right_cutoff = right_cutoff
+#         self.particle_radius = particle_radius
+
+#         self.background_texture_a = self.ctx.texture((width, height), 4, dtype='f4')
+#         self.background_texture_b = self.ctx.texture((width, height), 4, dtype='f4')
+#         self.background_fbo_a = self.ctx.framebuffer(color_attachments=[self.background_texture_a])
+#         self.background_fbo_b = self.ctx.framebuffer(color_attachments=[self.background_texture_b])
+#         self.current_texture = self.background_texture_a
+#         self.current_fbo = self.background_fbo_a
+
+#         self.fade_program = self.load_program("fade")
+#         self.screen_program = self.load_program("screen")
+#         self.smoke_program = self.load_program("smoke")
+
+#         vertices = np.array([
+#             -1.0, -1.0,
+#             1.0, -1.0,
+#             -1.0,  1.0,
+#             1.0,  1.0,
+#         ], dtype='f4')
+
+#         vbo = self.ctx.buffer(vertices)
+#         self.quad_screen = self.ctx.vertex_array(
+#             self.screen_program, 
+#             [(vbo, '2f', 'in_vert')]
+#         )
+#         self.quad_fade = self.ctx.vertex_array(
+#             self.fade_program,
+#             [(vbo, "2f", "in_vert")]
+#         )
+#         self.quad_smoke = self.ctx.vertex_array(
+#             self.smoke_program,
+#             [(vbo, "2f", "in_vert")]
+#         )
   
     
 
-    def load_program(self, name):
-        with open(f"ModernGL shaders/{name}.vert") as vfile, open(f"ModernGL shaders/{name}.frag") as ffile:
-            return self.ctx.program(vertex_shader=vfile.read(), fragment_shader=ffile.read())
+#     def load_program(self, name):
+#         with open(f"ModernGL shaders/{name}.vert") as vfile, open(f"ModernGL shaders/{name}.frag") as ffile:
+#             return self.ctx.program(vertex_shader=vfile.read(), fragment_shader=ffile.read())
         
-    def render(self, delta_time):
-        self.background_fbo_b.use()
+#     def render(self, delta_time):
+#         self.background_fbo_b.use()
+
+#         REF_FPS = 900
+#         # TODO: Adjust delta time to match reference FPS
+    
+#         # Fade pass (A to B)
+#         self.ctx.disable(moderngl.BLEND)
+#         self.ctx.blend_func = moderngl.ONE, moderngl.ZERO
+#         self.background_texture_a.use(location=0)
+#         #self.fade_program['alpha'].value = 0.03
+#         r = 0.055 - (3.0 / self.particle_radius) * 0.02
+
+        
+
+#         self.fade_program['decayK'].value = math.exp(-100.7 * delta_time)
+#         self.quad_fade.render(moderngl.TRIANGLE_STRIP)
+
+#         self.ctx.enable(moderngl.BLEND)
+
+#         # Particle pass (on B)
+#         self.ctx.blend_func = moderngl.SRC_ALPHA, moderngl.ONE
+#         self.particle_system.render()
+
+#         # Smoke pass (on B)
+#         self.ctx.blend_func = moderngl.ONE, moderngl.ONE_MINUS_SRC_ALPHA
+#         self.smoke_program['smokeColor1'].value = (c  for c in self.smoke_color1)
+#         self.smoke_program['smokeColor2'].value = (c  for c in self.smoke_color2)
+#         self.smoke_program['leftCutoff'].value = self.left_cutoff
+#         self.smoke_program['rightCutoff'].value = self.right_cutoff
+#         self.smoke_program['alpha'].value = math.exp(-20.0 * delta_time)
+#         self.smoke_program['texelSize'].value = (1.0 / self.width, 1.0 / self.height)
+#         self.quad_smoke.render(moderngl.TRIANGLE_STRIP)
 
 
- 
-        # Fade pass (A to B)
-        self.ctx.disable(moderngl.BLEND)
-        self.ctx.blend_func = moderngl.ONE, moderngl.ZERO
-        self.background_texture_a.use(location=0)
-        #self.fade_program['alpha'].value = 0.03
-        self.fade_program['decayK'].value = 0.055 - (3.0 / self.particle_radius) * 0.02
-        self.quad_fade.render(moderngl.TRIANGLE_STRIP)
+#         # Composite to screen
+#         self.offscreen_fbo.use()
+#         self.ctx.blend_func = moderngl.SRC_ALPHA, moderngl.ONE_MINUS_SRC_ALPHA
 
-        self.ctx.enable(moderngl.BLEND)
+#         self.background_texture_b.use(location=0)
+#         self.quad_screen.render(moderngl.TRIANGLE_STRIP)
 
-        # Particle pass (on B)
-        self.ctx.blend_func = moderngl.SRC_ALPHA, moderngl.ONE
-        self.particle_system.render()
-
-        # Smoke pass (on B)
-        self.ctx.blend_func = moderngl.ONE, moderngl.ONE_MINUS_SRC_ALPHA
-        self.smoke_program['smokeColor1'].value = (c  for c in self.smoke_color1)
-        self.smoke_program['smokeColor2'].value = (c  for c in self.smoke_color2)
-        self.smoke_program['leftCutoff'].value = self.left_cutoff
-        self.smoke_program['rightCutoff'].value = self.right_cutoff
-        self.smoke_program['alpha'].value = 0.98
-        self.smoke_program['texelSize'].value = (1.0 / self.width, 1.0 / self.height)
-        self.quad_smoke.render(moderngl.TRIANGLE_STRIP)
-
-
-        # Composite to screen
-        self.offscreen_fbo.use()
-        self.ctx.blend_func = moderngl.SRC_ALPHA, moderngl.ONE_MINUS_SRC_ALPHA
-
-        self.background_texture_b.use(location=0)
-        self.quad_screen.render(moderngl.TRIANGLE_STRIP)
-
-        # Ping pong swap
-        self.background_fbo_a, self.background_fbo_b         = self.background_fbo_b, self.background_fbo_a
-        self.background_texture_a, self.background_texture_b = self.background_texture_b,     self.background_texture_a
+#         # Ping pong swap
+#         self.background_fbo_a, self.background_fbo_b         = self.background_fbo_b, self.background_fbo_a
+#         self.background_texture_a, self.background_texture_b = self.background_texture_b,     self.background_texture_a
