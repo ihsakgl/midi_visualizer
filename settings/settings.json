@@ -1,22 +1,22 @@
 {
-    "X offset": "-88",
-    "Rotation angle": "179.4",
+    "X offset": "-95",
+    "Rotation angle": "180.1",
     "Scale factor": "1.12",
-    "Crop from top": "163",
-    "Brightness": "0.5",
+    "Crop from top": "120",
+    "Brightness": "0.45",
     "colors": [
         [
-            0.37254901960784315,
-            0.9333333333333333,
-            0.6549019607843137
+            0.5490196078431373,
+            0.6039215686274509,
+            0.6666666666666666
         ],
         [
-            0.32941176470588235,
-            0.5058823529411764,
-            0.8352941176470589
+            0.8,
+            0.5411764705882353,
+            0.5647058823529412
         ]
     ],
-    "midi file path": "assets/never Give Up On Your Dreams/Never Give Up On Your Dreams.mid",
-    "audio file path": "assets/never Give Up On Your Dreams/Never Give Up On Your Dreams.wav",
-    "video file path": "assets/never Give Up On Your Dreams/Never Give Up On Your Dreams.mp4"
+    "midi file path": "assets/The ultimate price/The ultimate price.mid",
+    "audio file path": "assets/The ultimate price/The ultimate price.wav",
+    "video file path": "assets/The ultimate price/The ultimate price.mp4"
 }

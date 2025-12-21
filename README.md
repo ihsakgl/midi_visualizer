@@ -12,7 +12,7 @@ Users can easily adjust video settings, colors, and visual styles to suit their 
 - 🎹 Real-time piano and note visualizations with dynamic lighting and particle effects  
 - 🎬 OpenGL-based rendering using ModernGL  
 - 🎧 Audio and video synchronization with millisecond-level precision  
-- 📽️ Real-time recording support  
+- 📽️ Real-time/offline recording support  
 
 ---
 

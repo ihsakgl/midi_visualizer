@@ -314,6 +314,8 @@ class Video:
         #print(f"Queue size: {self.frame_queue.qsize()}")
         #print(f"Frame index: {self.frame_index} at timestamp {self.timestamp} at current time: {current_time}")
 
+        ## NOTE: Hizli encode modunda video 30 fps e düsüyor. Nedenini bul.
+
         if not self.is_valid:
             return
         
@@ -324,7 +326,7 @@ class Video:
             exceeded_time = self.render_timer - self.frame_interval
             self.render_timer = exceeded_time
             self.rendered_frames += 1
-            print(f"Rendered frames: {self.rendered_frames} at time {current_time:.3f}s")  ### Output: 59,9801, 59,9749  -> fps zaman gectikce artiyor
+            # print(f"Rendered frames: {self.rendered_frames} at time {current_time:.3f}s")  
 
 
         if self.recording and self.timestamp + self.start_time < current_time:

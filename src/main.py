@@ -8,7 +8,7 @@ import os
 import json
 settings.WINDOW['class'] = 'moderngl_window.context.pyglet.Window'
 
-from visualizer import Visualizer, Rect, draw_notes, keys, visible_notes, visible_notes_indices
+from visualizer import Visualizer, Rect, draw_notes, keys
 from midi_processor import load_midi_file, parse_midi
 from audio_player import AudioPlayer
 from video_processor import Video
@@ -70,6 +70,7 @@ class VisualizerApp(mglw.WindowConfig):
         self._init_runtime_state()
 
     def _init_constants(self):
+        self.screen_rect = Rect(0, 0, self.wnd.width, self.wnd.height)
         self.normalized_visualizer_width = 0.70
         self.normalized_ui_width = 1.0 - self.normalized_visualizer_width
 
@@ -141,10 +142,15 @@ class VisualizerApp(mglw.WindowConfig):
         self.notes, self.midi_duration = parse_midi(self.midi_file)
 
         self.video_has_started = False
-        self.video_start_time = -4.36
+        self.video_start_time = -17.9548#-17.9852
+        
         self.video = Video(self.ctx, self.video_file_path, self.visualizer_rect, self.video_start_time)
+        self.note_start_time_buffer = abs(self.video_start_time) % self.video.frame_interval
+        for note in self.notes:
+            note['start_time'] -= self.note_start_time_buffer
+            note['end_time'] -= self.note_start_time_buffer
         self.video_writer = GpuRecorder(self.lighting_fbo, self.new_screen_width, self.new_screen_height,
-                                        'denemeler/Kara Main Theme 5')
+                                        'denemeler/The ultimate price')
 
         self.encoding = False
         self.recording_frame_index = 0
@@ -161,7 +167,6 @@ class VisualizerApp(mglw.WindowConfig):
 
     def _init_audio(self):
         self.audio_player = AudioPlayer(0.1, self.visualizer.rect, self.speed, keys[0].y, keys[0].height)
-        print(self.audio_file_path)
         self.audio_player.load_audio(self.audio_file_path)
         self.UI.video_seeker.audio_player = self.audio_player
 
@@ -207,7 +212,7 @@ class VisualizerApp(mglw.WindowConfig):
 
         if self.dimenstions_init:
             resize_objects(self.visualizer, self.base_width, self.base_height, self.new_screen_width, self.new_screen_height, self.visualizer_rect, self.base_visualizer_rect, True)
-            for note in visible_notes:
+            for note in self.visualizer.note_manager.notes:
                 resize_objects(note, self.base_width, self.base_height, self.new_screen_width, self.new_screen_height, self.visualizer_rect, self.base_visualizer_rect, True)
             for key in keys:
                 resize_objects(key, self.base_width, self.base_height, self.new_screen_width, self.new_screen_height, self.visualizer_rect, self.base_visualizer_rect, True)
@@ -308,6 +313,9 @@ class VisualizerApp(mglw.WindowConfig):
         else: self._fps = 1.0*self._fps
         self._last_time = now
 
+
+         
+
         if self._accumulator >= 0.1:
             self.UI.update(self._fps)
             self._accumulator = 0.0
@@ -329,8 +337,8 @@ class VisualizerApp(mglw.WindowConfig):
         self.prog['u_color'].value = (0.0, 0.0, 0.0)
         self.vao.render(mode=moderngl.TRIANGLE_STRIP)  
 
-        if self.recording:
-            frame_time = 1.0 / 60.06
+        # if self.recording:
+        #     frame_time = 1.0 / 60.06
        
         draw_notes(self.notes, self.current_time, self.speed, Rect(0, 0, self.new_screen_width, self.new_screen_height),
                 self.visualizer.rect, frame_time, self.prog, self.vao, self.ctx, self.visualizer, self.scale_multiplier, self.visualizer.left_cutoff, self.visualizer.right_cutoff)
@@ -359,9 +367,9 @@ class VisualizerApp(mglw.WindowConfig):
             if not self.recording:
                 self.current_time = Time.perf_counter() - self.start_time - self.paused_time + self.navigated_time 
             else:
-                # self.current_time = Time.perf_counter() - self.start_time - self.paused_time + self.navigated_time 
+                self.current_time = Time.perf_counter() - self.start_time - self.paused_time + self.navigated_time 
                 
-                self.current_time += frame_time
+                #self.current_time += frame_time
        
           
                 
@@ -446,7 +454,7 @@ class VisualizerApp(mglw.WindowConfig):
                 key.y = self.visualizer.rect.height * self.normalized_piano_y + self.visualizer.rect.y       
                 key.height *= self.visualizer.rect.height / self.base_visualizer_height
             
-            for note in visible_notes:
+            for note in self.visualizer.note_manager.notes:
                 note.x -= self.base_ui_width
                 note.x *= self.visualizer.rect.width / self.base_visualizer_width
                 note.width *= self.visualizer.rect.width / self.base_visualizer_width
@@ -493,7 +501,7 @@ class VisualizerApp(mglw.WindowConfig):
                 key.y = self.visualizer.rect.height * self.normalized_piano_y + self.visualizer.rect.y       
                 key.height *= self.visualizer.rect.height / self.base_visualizer_height
             
-            for note in visible_notes:
+            for note in self.visualizer.note_manager.notes:
                 
                 note.x *= self.visualizer.rect.width / self.base_visualizer_width
                 note.x += self.ui_width

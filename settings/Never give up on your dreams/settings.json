@@ -1,0 +1,22 @@
+{
+    "X offset": "-88",
+    "Rotation angle": "179.4",
+    "Scale factor": "1.12",
+    "Crop from top": "163",
+    "Brightness": "0.5",
+    "colors": [
+        [
+            0.5058823529411764,
+            0.9490196078431372,
+            0.5215686274509804
+        ],
+        [
+            0.30196078431372547,
+            0.7607843137254902,
+            0.7686274509803922
+        ]
+    ],
+    "midi file path": "assets/never Give Up On Your Dreams/Never Give Up On Your Dreams.mid",
+    "audio file path": "assets/never Give Up On Your Dreams/Never Give Up On Your Dreams.wav",
+    "video file path": "assets/never Give Up On Your Dreams/Never Give Up On Your Dreams.mp4"
+}
