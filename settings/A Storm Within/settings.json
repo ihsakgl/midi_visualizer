@@ -1,0 +1,22 @@
+{
+    "X offset": "-95",
+    "Rotation angle": "180.1",
+    "Scale factor": "1.12",
+    "Crop from top": "120",
+    "Brightness": "0.45",
+    "colors": [
+        [
+            0.792156862745098,
+            0.32941176470588235,
+            0.7411764705882353
+        ],
+        [
+            0.21568627450980393,
+            0.2901960784313726,
+            0.9372549019607843
+        ]
+    ],
+    "midi file path": "assets/Mayday/Mayday.mid",
+    "audio file path": "assets/Mayday/Mayday.wav",
+    "video file path": "assets/Mayday/Mayday.mp4"
+}

@@ -1,0 +1,22 @@
+{
+    "X offset": "-95",
+    "Rotation angle": "180.1",
+    "Scale factor": "1.12",
+    "Crop from top": "120",
+    "Brightness": "0.45",
+    "colors": [
+        [
+            0.9019607843137255,
+            0.34901960784313724,
+            0.6862745098039216
+        ],
+        [
+            0.050980392156862744,
+            0.3568627450980392,
+            0.9803921568627451
+        ]
+    ],
+    "midi file path": "assets/The Guardian of Angels/The Guardian of Angels.mid",
+    "audio file path": "assets/The Guardian of Angels/The Guardian of Angels.wav",
+    "video file path": "assets/The Guardian of Angels/The Guardian of Angels.mp4"
+}

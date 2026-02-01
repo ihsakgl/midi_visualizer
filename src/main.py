@@ -29,7 +29,7 @@ class VisualizerApp(mglw.WindowConfig):
     resizable = False
     fullscreen = False
     resource_dir = 'ModernGL shaders'
-    vsync = False
+    vsync = True
     
 
    
