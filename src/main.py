@@ -17,7 +17,6 @@ from utils import resize_objects, FullscreenQuad
 from video_writer import GpuRecorder
 
 
-   
 
 
 
@@ -143,7 +142,14 @@ class VisualizerApp(mglw.WindowConfig):
         self.notes, self.midi_duration = parse_midi(self.midi_file)
 
         self.video_has_started = False
-        self.video_start_time = -17.9548
+        self.video_start_time = 0.0
+        if os.path.exists(self.settings_path):
+            with open(self.settings_path, "r") as f:
+                try:
+                    settings = json.load(f)
+                    self.video_start_time = settings.get("video start time", 0.0)
+                except json.JSONDecodeError:
+                    print("Settings file is corrupted or unreadable.")   
         
         self.video = Video(self.ctx, self.video_file_path, self.visualizer_rect, self.video_start_time)
         if self.video.is_valid: self.note_start_time_buffer = abs(self.video_start_time) % self.video.frame_interval
@@ -259,7 +265,11 @@ class VisualizerApp(mglw.WindowConfig):
             elif key == self.wnd.keys.F:
                 self.switch_fullscreen()
             elif key == self.wnd.keys.T: # test 
-                pass
+                VisualizerApp.vsync = not VisualizerApp.vsync
+                self.wnd.vsync = VisualizerApp.vsync
+                print("Vsync:", "ON" if VisualizerApp.vsync else "OFF")
+
+        
             elif key == self.wnd.keys.Z: # test
                 pass     
             elif key == self.wnd.keys.E: # starts video encoding
@@ -396,7 +406,7 @@ class VisualizerApp(mglw.WindowConfig):
             from visualizer import first_note_object
             self.audio_player.update(first_note_object, self.current_time)
 
-            # pause when first note hits the keyboard (for testing purposes)
+            # # pause when first note hits the keyboard (for testing purposes)
             # if first_note_object.y + first_note_object.height >= keys[0].y and not self.flag1: 
             #     self.paused = True
             #     self.audio_player.pause_or_resume_audio()

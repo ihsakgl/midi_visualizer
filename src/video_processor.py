@@ -233,12 +233,14 @@ class Video:
                             self._process_nvcodec_frame(self.pending_surface)
                     else:
                         with self.demuxer_lock:
-                            if not self.demuxer.DemuxSinglePacket(pkt):
+                            if not self.demuxer.DemuxSinglePacket(pkt):   
+                                print("Demuxer reached end of stream or error,  continuing.")
                                 continue
                         try:
                             with self.decoder_lock:
+                               
                                 surface = self.video_capture.DecodeSurfaceFromPacket(pkt)
-                                
+
                                 
                         except Exception as decode_err:
                             with self.decoder_lock:
@@ -249,7 +251,8 @@ class Video:
                             continue
 
                         if surface.Empty() or self.updating_texture:
-                            #print("Surface empty")
+                            if surface.Empty(): print("Decoded empty surface, continuing.")
+                            elif self.updating_texture: print("Updating texture, continuing.")
                             continue
 
                         surface = self.converter.Execute(surface, self.cc_ctx)
@@ -307,21 +310,20 @@ class Video:
         except:
             self.render_timer += self.frame_interval
             self.timestamp += self.frame_interval
-            print("Queue is empty, returning None")
+           
             return None
 
     def render(self, delta_time, current_time):
         #print(f"Queue size: {self.frame_queue.qsize()}")
-        #print(f"Frame index: {self.frame_index} at timestamp {self.timestamp} at current time: {current_time}")
+        #print(f"Frame index: {self.frame_index} at timestamp {self.timestamp} at current time: {current_time}")  
 
-        ## NOTE: Hizli encode modunda video 30 fps e düsüyor. Nedenini bul.
+        ## NOTE: Fast encoding mode causes the video being rendered at 30 fps.
 
         if not self.is_valid:
             return
         
         if self.render_timer >= self.frame_interval:
             self.pending_frame = self.get_frame()
-            if self.pending_frame.Empty(): print("Frame is empty")
             self.frame_index += 1
             exceeded_time = self.render_timer - self.frame_interval
             self.render_timer = exceeded_time
@@ -336,15 +338,15 @@ class Video:
 
         if self.pending_frame is not None and self.is_valid:
             self.processing_done.wait()
-            self.video_frame_processor.copy_to_texture() 
+            self.video_frame_processor.copy_to_texture()
 
      
         self.texture.use(location=0)
         self.prog['screen_size'].value = (1920, 1080)
         self.prog['position'].value = (self.visualizer_rect.x + self.x_offset, keys[0].y)
         self.prog['size'].value = (self.texture_width, self.texture_height)
-        self.prog['frame_pos'].value = (self.visualizer_rect.x, keys[0].y)
-        self.prog['frame_size'].value = (self.texture_width, keys[0].y - self.visualizer_rect.y)
+        self.prog['frame_pos'].value = (self.visualizer_rect.x, keys[0].y) 
+        self.prog['frame_size'].value = (self.texture_width, keys[0].y - self.visualizer_rect.y - 100)
         self.vao.render(moderngl.TRIANGLE_STRIP)
 
         if self.playing:

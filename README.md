@@ -46,3 +46,7 @@ Users can easily adjust video settings, colors, and visual styles to suit their 
 
 - Needs further optimization and customization
 - The project will be updated in the future
+
+![screenshot_1](images/screenshot1.png)
+![screenshot_2](images/screenshot2.png)
+![screenshot_3](images/screenshot3.png)

@@ -1,0 +1,23 @@
+{
+    "X offset": "-70",
+    "Rotation angle": "180.4",
+    "Scale factor": "1.12",
+    "Crop from top": "150",
+    "Brightness": "0.5",
+    "colors": [
+        [
+            0.2235294117647059,
+            0.792156862745098,
+            0.8235294117647058
+        ],
+        [
+            0.6078431372549019,
+            0.8431372549019608,
+            0.48627450980392156
+        ]
+    ],
+    "midi file path": "assets/Moog City/Moog City.mid",
+    "audio file path": "assets/Moog City/Moog City.wav",
+    "video file path": "assets/Moog City/Moog City.mp4",
+    "video start time": -1.045
+}
