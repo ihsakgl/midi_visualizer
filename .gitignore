@@ -30,7 +30,7 @@ Makefile
 *.avi
 *.mkv   
 *.h265
-*.png
+
 *.jpg
 *.mid
 *.pyd
