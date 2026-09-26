@@ -360,7 +360,7 @@ class Background:
         delta_variance = 1000 * delta_time
         sigma = math.sqrt(delta_variance)
         if sigma == 0:
-            print("Warning: Sigma is zero")
+           # print("Warning: Sigma is zero")
             sigma = 1.0
      
  

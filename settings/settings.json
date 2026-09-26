@@ -1,23 +1,23 @@
 {
-    "X offset": "-95",
-    "Rotation angle": "180.1",
+    "X offset": "-98",
+    "Rotation angle": "181",
     "Scale factor": "1.12",
-    "Crop from top": "120",
+    "Crop from top": "168",
     "Brightness": "0.45",
     "colors": [
         [
             0.792156862745098,
-            0.32941176470588235,
-            0.7411764705882353
+            0.22745098039215686,
+            0.9098039215686274
         ],
         [
-            0.21568627450980393,
-            0.2901960784313726,
-            0.9372549019607843
+            0.984313725490196,
+            0.1568627450980392,
+            0.10980392156862745
         ]
     ],
-    "midi file path": "assets/Mayday/Mayday.mid",
-    "audio file path": "assets/Mayday/Mayday.wav",
-    "video file path": "assets/Mayday/Mayday.mp4",
-    "video start time": -0.5
+    "midi file path": "assets/Made of Fire/Made of Fire.mid",
+    "audio file path": "assets/Made of Fire/Made of Fire.wav",
+    "video file path": "assets/Made of Fire/Made of Fire.mp4",
+    "video start time": -2.238
 }

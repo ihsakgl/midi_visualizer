@@ -26,6 +26,7 @@ class Saber:
         )
 
 
+
         self.prog['color1'].value = self.color1
         self.prog['color2'].value = self.color2
         self.prog['leftCutoff'].value = self.left_cutoff
@@ -38,6 +39,9 @@ class Saber:
         x_left_ndc, y_top_ndc = to_ndc(self.x, self.y)
         x_right_ndc, _ = to_ndc(self.x + self.width, self.y)
         _, y_bottom_ndc = to_ndc(self.x, self.y + self.height)
+
+        self.prog['x_left'] = x_left_ndc
+        self.prog['x_right'] = x_right_ndc
 
        
 

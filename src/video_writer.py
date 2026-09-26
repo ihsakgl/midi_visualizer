@@ -1,3 +1,5 @@
+import time
+
 import PyNvVideoCodec as nvc
 import torch
 import OpenGL.GL as gl
@@ -60,7 +62,7 @@ class GpuRecorder:
             # if self.interval[0] <= current_time < self.interval[1]:
             #     self.frames_encoded_in_a_second += 1
             # else:
-            #     #print(self.frames_encoded_in_a_second)
+            #     print(f"Frames encoded in a second: {self.frames_encoded_in_a_second}")
             #     self.frames_encoded_in_a_second = 0
             #     self.interval[0] += 1.0
             #     self.interval[1] += 1.0
@@ -73,6 +75,7 @@ class GpuRecorder:
       
 
     def encode_frame(self):
+        start = time.perf_counter()
 
       
 
@@ -106,6 +109,9 @@ class GpuRecorder:
             self.output_file.write(bytearray(packet))
 
         mapped.unmap()
+
+        end = time.perf_counter()
+        # print(f"Encoding time: {end - start:.4f} seconds")
      
     
 

@@ -25,6 +25,7 @@ class UI:
         self.video_seeker = SeekBar(self.ctx, self.app.visualizer.rect.x + 50, self.app.visualizer.rect.y + self.app.visualizer.rect.height + 75, self.app.visualizer.rect.width - 100, 50, video, self.app)
         self.current_time_text = Text(ctx, width, height, font_path=font_path, font_size=11)
 
+
         if video.is_valid:
             self.video_x_offset_input = InputField(self.ctx, 50, 50, 100, 25, "number", str(video.x_offset), "X offset")
             self.video_x_offset_input.action = lambda input_field: setattr(video, "x_offset", float(input_field.current_text))
@@ -50,10 +51,11 @@ class UI:
             ]
 
             self.video_timestamp_text = Text(self.ctx, width, height, font_path=font_path, font_size=11)
+            self.video_start_time_text = Text(ctx, width, height, font_path=font_path, font_size=11)
             
 
-        self.color_picker = ColorPicker(self.ctx, 50, 200, 300, 300)
-        self.color_selector = ColorSelector(self.ctx, 50, 550, 300, 30, 5, self)
+        self.color_picker = ColorPicker(self.ctx, 50, 200, 400, 400)
+        self.color_selector = ColorSelector(self.ctx, 50, 650, 400, 30, 5, self)
 
         self.load_input_settings()
 
@@ -78,13 +80,17 @@ class UI:
         self.fps_counter.update_text(f"FPS: {fps:.2f}")
         self.current_time_text.update_text(f"Current time: {self.app.current_time:.4f}")
         if hasattr(self, "video_timestamp_text"): self.video_timestamp_text.update_text(f"Video timestamp: {self.app.video.timestamp:.4f}")
+        if hasattr(self, "video_start_time_text"): self.video_start_time_text.update_text(f"Video start time: {self.app.current_time - self.app.video.timestamp - self.app.note_start_time_buffer:.4f}")
+        # print(f"Current time: {self.app.current_time:.4f}")
+        # print(f"Video timestamp: {self.app.video.timestamp:.4f}")
+
 
     def render(self):
         if not self.is_active: return
         self.fps_counter.render(20, 1000)
         self.current_time_text.render(120, 1000)
         if hasattr(self, "video_timestamp_text"): self.video_timestamp_text.render(270, 1000)
-
+        if hasattr(self, "video_start_time_text"): self.video_start_time_text.render(420, 1000)
         if hasattr(self, "video_seeker"): self.video_seeker.render()
         self.color_picker.render()
         self.color_selector.render()
@@ -460,7 +466,8 @@ class SeekBar:
 
             delta = new_ts - old_ts
 
-            self.app.navigated_time += delta
+            # self.app.navigated_time += delta
+            self.app.current_time += delta
         
             self.audio_player.seek_relative(delta)
         else:

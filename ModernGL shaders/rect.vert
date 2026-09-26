@@ -9,7 +9,7 @@ uniform vec2 u_resolution;
 out vec2 uv;  // <-- eklendi
 
 void main() {
-    // Hesaplanmış ekran pozisyonu
+  
     vec2 pixel = in_position * u_size + u_position;
     float x = (pixel.x / u_resolution.x) * 2.0 - 1.0;
     float y = ((u_resolution.y - pixel.y) / u_resolution.y) * 2.0 - 1.0;

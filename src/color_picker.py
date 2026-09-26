@@ -43,11 +43,22 @@ class ColorPicker:
             ''',
             fragment_shader='''
                 #version 330
+
                 in vec2 uv;
                 out vec4 color;
 
-                void main() {
-                    color = vec4(uv.x, uv.y, 1.0 - uv.x * uv.y, 1.0);
+                void main()
+                {
+                    vec3 topLeft     = vec3(1.0, 0.0, 0.0); // red
+                    vec3 topRight    = vec3(1.0, 0.0, 1.0); // magenta
+
+                    vec3 bottomLeft  = vec3(1.0, 1.0, 0.0); // yellow
+                    vec3 bottomRight = vec3(0.0, 1.0, 1.0); // cyan
+
+                    vec3 top    = mix(topLeft, topRight, uv.x);
+                    vec3 bottom = mix(bottomLeft, bottomRight, uv.x);
+
+                    color = vec4(mix(bottom, top, uv.y), 1.0);
                 }
             '''
         )

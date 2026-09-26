@@ -28,7 +28,7 @@ class VisualizerApp(mglw.WindowConfig):
     resizable = False
     fullscreen = False
     resource_dir = 'ModernGL shaders'
-    vsync = True
+    vsync = False
     
 
    
@@ -126,7 +126,7 @@ class VisualizerApp(mglw.WindowConfig):
         self.video_file_path = ""
 
         if os.path.exists(self.settings_path):
-            print(self.settings_path)
+     
             with open(self.settings_path, "r") as f:
                 try:
                     settings = json.load(f)
@@ -152,13 +152,15 @@ class VisualizerApp(mglw.WindowConfig):
                     print("Settings file is corrupted or unreadable.")   
         
         self.video = Video(self.ctx, self.video_file_path, self.visualizer_rect, self.video_start_time)
-        if self.video.is_valid: self.note_start_time_buffer = abs(self.video_start_time) % self.video.frame_interval
+        if self.video.is_valid: 
+            self.note_start_time_buffer = self.video.diff
+            print(f"Note start time buffer: {self.note_start_time_buffer:.4f} seconds")
         else : self.note_start_time_buffer = 0.0
         for note in self.notes:
-            note['start_time'] -= self.note_start_time_buffer
-            note['end_time'] -= self.note_start_time_buffer
+            note['start_time'] += self.note_start_time_buffer
+            note['end_time'] += self.note_start_time_buffer
         self.video_writer = GpuRecorder(self.lighting_fbo, self.new_screen_width, self.new_screen_height,
-                                        'denemeler/The ultimate price')
+                                        'denemeler/speed up render 2')
 
         self.encoding = False
         self.recording_frame_index = 0
@@ -284,10 +286,16 @@ class VisualizerApp(mglw.WindowConfig):
                 self.recording_frame_index = round(self.current_time * 60)
                 self.audio_player.pause_or_resume_audio()
                 self.switch_fullscreen()
-                self.video.recording = not self.video.recording
+                self.video.recording = self.recording
+     
+                # with self.video.frame_queue.mutex:
+                #     self.video.frame_queue.queue.clear()
              
                 print("Recording mode:", "ON" if self.recording else "OFF")
-            
+            elif key == self.wnd.keys.N:
+                self.current_time -= 0.01
+            elif key == self.wnd.keys.M:
+                self.current_time += 0.01
         
            
 
@@ -314,7 +322,7 @@ class VisualizerApp(mglw.WindowConfig):
         if self.UI.menu_is_active:
             self.UI.render_menu()
             return
-
+   
  
 
 
@@ -349,8 +357,8 @@ class VisualizerApp(mglw.WindowConfig):
         self.prog['u_color'].value = (0.0, 0.0, 0.0)
         self.vao.render(mode=moderngl.TRIANGLE_STRIP)  
 
-        # if self.recording:
-        #     frame_time = 1.0 / 60.06
+        if self.recording:
+            frame_time = 1.0 / 60.00
        
         draw_notes(self.notes, self.current_time, self.speed, Rect(0, 0, self.new_screen_width, self.new_screen_height),
                 self.visualizer.rect, frame_time, self.prog, self.vao, self.ctx, self.visualizer, self.scale_multiplier, self.visualizer.left_cutoff, self.visualizer.right_cutoff)
@@ -375,18 +383,20 @@ class VisualizerApp(mglw.WindowConfig):
             
         
 
-          
+            
             if not self.recording:
-                self.current_time = Time.perf_counter() - self.start_time - self.paused_time + self.navigated_time 
+                # self.current_time = Time.perf_counter() - self.start_time - self.paused_time + self.navigated_time 
+                self.current_time += frame_time
+          
             else:
-                self.current_time = Time.perf_counter() - self.start_time - self.paused_time + self.navigated_time 
+                #self.current_time = Time.perf_counter() - self.start_time - self.paused_time + self.navigated_time 
                 
-                #self.current_time += frame_time
+                self.current_time += frame_time
        
           
                 
-                # self.recording_frame_index += 1 
-                # Will come back to this later
+                self.recording_frame_index += 1 
+    
 
 
             self.UI.render()
@@ -395,7 +405,7 @@ class VisualizerApp(mglw.WindowConfig):
             self.ctx.screen.use()
             self.fullscreen_quad.render(self.lighting_fbo.color_attachments[0])
 
-           
+    
             if self.recording:
                 self.video_writer.try_encoding_frame(frame_time, self.current_time)
 
@@ -407,11 +417,11 @@ class VisualizerApp(mglw.WindowConfig):
             self.audio_player.update(first_note_object, self.current_time)
 
             # # pause when first note hits the keyboard (for testing purposes)
-            # if first_note_object.y + first_note_object.height >= keys[0].y and not self.flag1: 
-            #     self.paused = True
-            #     self.audio_player.pause_or_resume_audio()
-            #     self.video.playing = False
-            #     self.flag1 = True
+            if first_note_object.y + first_note_object.height >= keys[0].y and not self.flag1: 
+                self.paused = True
+                self.audio_player.pause_or_resume_audio()
+                self.video.playing = False
+                self.flag1 = True
             
         # Debugging
         # print(self.video.timestamp, self.current_time)

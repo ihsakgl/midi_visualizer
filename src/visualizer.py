@@ -81,6 +81,7 @@ class Visualizer:
         
         if self.video.is_valid and current_time > -self.video.start_time:
             self.video.render(delta_time, current_time)
+  
         self.particle_system.update(delta_time)
         self.saber.render()
         self.background.render(delta_time if not paused else 0, current_time)

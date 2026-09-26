@@ -8,7 +8,7 @@ sys.path.insert(0, r"C:\Users\ihsan\Projects\Synthesia\opencv\build\python_loade
 # Type in cmd: 
 # mklink "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin\cudart64_120.dll" "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin\cudart64_12.dll"
 
-os.environ["CUDA_LAUNCH_BLOCKING"] = "1" # for seeing error messages
+# os.environ["CUDA_LAUNCH_BLOCKING"] = "1" # for seeing error messages
 
 import cv2
 import cv2.cuda
@@ -25,6 +25,7 @@ import moderngl
 import gc
 from collections import deque
 
+print(nvc.__file__)
 
 
 class Video:
@@ -98,12 +99,19 @@ class Video:
 
     
         # Buffer seek after initializing the program 
+        self.diff = 0.0
+        self.diff_initialized = False
         if self.start_time > 0: self.seek(abs(self.start_time))
+
         
 
         self.frames_rendered_in_a_second = 0
         self.last_surface_index = 0
         self.interval = [0, 1]
+        self.step_forward_counter = 0
+        self.flag1 = False
+
+
 
         if self.start_time > 0:
             self.start_video()
@@ -112,6 +120,13 @@ class Video:
             timer.start()
 
         self.recording = False
+
+        self.decoded_frames = 0
+        self.rendered_frames = 0
+        self.processor_lock = threading.Lock()
+
+        self.processor_generation = 0
+ 
         
 
     def _init_cuda(self):
@@ -227,6 +242,7 @@ class Video:
                 else:
                     if 0 <= self.current_frame_index < len(self.recent_frames) - 1:
                         surface = self.recent_frames[self.current_frame_index]
+                        print("Using recent frame at index:", self.current_frame_index)
                        
                         with self.decoder_lock:
                             self.pending_surface = surface
@@ -240,6 +256,7 @@ class Video:
                             with self.decoder_lock:
                                
                                 surface = self.video_capture.DecodeSurfaceFromPacket(pkt)
+                                self.decoded_frames += 1
 
                                 
                         except Exception as decode_err:
@@ -259,12 +276,18 @@ class Video:
                         self.recent_frames.append(surface.Clone())
                         with self.decoder_lock:
                             self.pending_surface = surface
-                            self._process_nvcodec_frame(self.pending_surface)
+                        
+                            self._process_nvcodec_frame(surface)
 
                 self.current_frame_index = min(self.current_frame_index + 1, self.max_len_recent_frames - 1)
                 if self.frame_queue.full():
                     print("Surface getting nowait, queue is full")
                     self.frame_queue.get_nowait()
+
+                # print(
+                #     f"surface={id(self.pending_surface)} "
+                #     f"recent={len(self.recent_frames)}"
+                # )
                
                 self.frame_queue.put(self.pending_surface)
                 self.processing_done.set()
@@ -302,45 +325,81 @@ class Video:
                 self.video_frame_processor.scale(self.scale_factor, self.stream)
                 self.video_frame_processor.adjustBrightness(self.brightness, 0, self.stream)
                 self.video_frame_processor.convertColor(cv2.COLOR_RGB2RGBA, self.stream)
+                self.processor_generation += 1
+                #print(f"Processor updated {self.processor_generation}")
        
     def get_frame(self):
         try:
            # print(f"Getting surface: {self.current_frame_index}" )
-            return self.frame_queue.get_nowait()
+            return self.frame_queue.get() 
         except:
             self.render_timer += self.frame_interval
             self.timestamp += self.frame_interval
+            print("Get Frame exception")
            
             return None
 
     def render(self, delta_time, current_time):
-        #print(f"Queue size: {self.frame_queue.qsize()}")
-        #print(f"Frame index: {self.frame_index} at timestamp {self.timestamp} at current time: {current_time}")  
-
-        ## NOTE: Fast encoding mode causes the video being rendered at 30 fps.
-
         if not self.is_valid:
             return
-        
-        if self.render_timer >= self.frame_interval:
+        # print(f"Queue size: {self.frame_queue.qsize()}")
+        # print(f"Frame index: {self.frame_index} at timestamp {self.timestamp} at current time: {current_time}")  
+
+ 
+    
+        a = 0
+        while self.render_timer >= self.frame_interval:
+      
+  
+
+
+
+            a += 1
             self.pending_frame = self.get_frame()
+            #print(f"dequeued {id(self.pending_frame)}")
+            # print(
+            #     f"rendering surface={id(self.pending_frame)}"
+            # )
             self.frame_index += 1
-            exceeded_time = self.render_timer - self.frame_interval
-            self.render_timer = exceeded_time
+            self.render_timer -= self.frame_interval
             self.rendered_frames += 1
-            # print(f"Rendered frames: {self.rendered_frames} at time {current_time:.3f}s")  
+
+            if not self.flag1:
+                self.interval[0] = time.perf_counter()
+                self.interval[1] = time.perf_counter() + 1.0
+                self.flag1 = True
+
+            if self.interval[0] <= time.perf_counter() < self.interval[1]:
+                self.step_forward_counter += 1
+            else:
+                # print(f"Frames decoded in a second: {self.step_forward_counter}")
+                self.step_forward_counter = 0
+                self.interval[0] += 1.0
+                self.interval[1] += 1.0
+                # print(
+                #     f"decoded={self.decoded_frames} "
+                #     f"rendered={self.rendered_frames} "
+                #     f"queue={self.frame_queue.qsize()}"
+                # )
+            # if a > 1: 
+            #     print(f"While loop iterated {a} times, render_timer: {self.render_timer:.3f}s, timestamp: {self.timestamp:.3f}s, current_time: {current_time:.3f}s")
+            
 
 
-        if self.recording and self.timestamp + self.start_time < current_time:
+        if self.recording and self.timestamp - self.start_time < current_time:
             self.step_forward()
             print("Stepping forward")
 
 
         if self.pending_frame is not None and self.is_valid:
-            self.processing_done.wait()
-            self.video_frame_processor.copy_to_texture()
+            #self.processing_done.wait()
+            with self.processor_lock:
+        
+               
+                self.video_frame_processor.copy_to_texture()
 
-     
+
+        
         self.texture.use(location=0)
         self.prog['screen_size'].value = (1920, 1080)
         self.prog['position'].value = (self.visualizer_rect.x + self.x_offset, keys[0].y)
@@ -359,12 +418,14 @@ class Video:
     def start_video(self):
         self.process_thread = threading.Thread(target=self._process_video, daemon=True)
         self.process_thread.start()
+
   
 
     def seek(self, seconds: float):
         "Seek to timestamp"
         
         start = time.perf_counter()
+        seconds = float(seconds)
 
         self.recent_frames.clear()
         self.current_frame_index = -1
@@ -389,6 +450,7 @@ class Video:
             self.playing = True
             self.seek_in_progress.clear()
             self.seek_done.set()
+            print(f"[seek] Seek failed for timestamp {seconds:.3f}s, staying at {self.timestamp:.3f}s")
             return
         with self.decoder_lock:
             if self.video_capture is not None:
@@ -453,6 +515,9 @@ class Video:
         end = time.perf_counter()
         delta = end - start
       
+        print(f"Seeking took {delta:.3f} seconds, landed at timestamp {self.timestamp:.4f}s for requested {seconds:.4f}s")
+        if not self.diff_initialized:
+            self.diff = seconds - self.timestamp
 
         return delta
      
@@ -503,6 +568,8 @@ class Video:
             self.frame_queue.get_nowait()
         self.frame_queue.put(surface)
         self.timestamp += self.frame_interval
+
+
 
 
         
